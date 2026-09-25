@@ -443,8 +443,8 @@ See `README.SCOT` Section 9 for full context.
 
 If you use this code or data, please cite:
 
-McMeekin, P., Radakrishnan, R., Steer, M., & Wildman, J. (2026).
-[Paper title to be confirmed].
+Radhakrishnan, R. & McMeekin, P. (2026). (2026).
+[A Harmonised Longitudinal Panel of Local Authority Well-being in the United Kingdom, 2011-2023: Dataset Construction and Trajectory Analysis].
 
 And the underlying data sources as listed in the Data Sources section.
 
