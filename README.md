@@ -443,7 +443,7 @@ See `README.SCOT` Section 9 for full context.
 
 If you use this code or data, please cite:
 
-Radhakrishnan, R. & McMeekin, P. (2026). (2026).
+Radhakrishnan, R. & McMeekin, P. (2026).
 [A Harmonised Longitudinal Panel of Local Authority Well-being in the United Kingdom, 2011-2023: Dataset Construction and Trajectory Analysis].
 
 And the underlying data sources as listed in the Data Sources section.
@@ -463,3 +463,6 @@ And the underlying data sources as listed in the Data Sources section.
 
 Peter McMeekin — peter.mcmeekin@northumbria.ac.uk  
 Northumbria University, Department of Nursing, Midwifery and Health
+
+Ramakrishnan Radhakrishnan — ramakrishnan.r@northumbria.ac.uk
+Administrative Data Research (ADR) UK, Economic and Social Research Council (ESRC), UK Research and Innovation (UKRI) funded PhD Student at Northumbria University, Newcastle Upon Tyne, United Kingdom.
