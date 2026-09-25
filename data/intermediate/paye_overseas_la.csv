@@ -1,0 +1,2889 @@
+la_code,la_name,region,year,overseas_share
+E06000001,Hartlepool,North East,2016,0.0537
+E06000001,Hartlepool,North East,2017,0.0563
+E06000001,Hartlepool,North East,2018,0.0584
+E06000001,Hartlepool,North East,2019,0.0606
+E06000001,Hartlepool,North East,2020,0.064
+E06000001,Hartlepool,North East,2021,0.0701
+E06000001,Hartlepool,North East,2022,0.0859
+E06000001,Hartlepool,North East,2023,0.1166
+E06000002,Middlesbrough,North East,2016,0.0537
+E06000002,Middlesbrough,North East,2017,0.0563
+E06000002,Middlesbrough,North East,2018,0.0584
+E06000002,Middlesbrough,North East,2019,0.0606
+E06000002,Middlesbrough,North East,2020,0.064
+E06000002,Middlesbrough,North East,2021,0.0701
+E06000002,Middlesbrough,North East,2022,0.0859
+E06000002,Middlesbrough,North East,2023,0.1166
+E06000003,Redcar and Cleveland,North East,2016,0.0537
+E06000003,Redcar and Cleveland,North East,2017,0.0563
+E06000003,Redcar and Cleveland,North East,2018,0.0584
+E06000003,Redcar and Cleveland,North East,2019,0.0606
+E06000003,Redcar and Cleveland,North East,2020,0.064
+E06000003,Redcar and Cleveland,North East,2021,0.0701
+E06000003,Redcar and Cleveland,North East,2022,0.0859
+E06000003,Redcar and Cleveland,North East,2023,0.1166
+E06000004,Stockton-on-Tees,North East,2016,0.0537
+E06000004,Stockton-on-Tees,North East,2017,0.0563
+E06000004,Stockton-on-Tees,North East,2018,0.0584
+E06000004,Stockton-on-Tees,North East,2019,0.0606
+E06000004,Stockton-on-Tees,North East,2020,0.064
+E06000004,Stockton-on-Tees,North East,2021,0.0701
+E06000004,Stockton-on-Tees,North East,2022,0.0859
+E06000004,Stockton-on-Tees,North East,2023,0.1166
+E06000005,Darlington,North East,2016,0.0537
+E06000005,Darlington,North East,2017,0.0563
+E06000005,Darlington,North East,2018,0.0584
+E06000005,Darlington,North East,2019,0.0606
+E06000005,Darlington,North East,2020,0.064
+E06000005,Darlington,North East,2021,0.0701
+E06000005,Darlington,North East,2022,0.0859
+E06000005,Darlington,North East,2023,0.1166
+E06000006,Halton,North West,2016,0.0819
+E06000006,Halton,North West,2017,0.0846
+E06000006,Halton,North West,2018,0.0869
+E06000006,Halton,North West,2019,0.0916
+E06000006,Halton,North West,2020,0.0971
+E06000006,Halton,North West,2021,0.1057
+E06000006,Halton,North West,2022,0.1229
+E06000006,Halton,North West,2023,0.1554
+E06000007,Warrington,North West,2016,0.0819
+E06000007,Warrington,North West,2017,0.0846
+E06000007,Warrington,North West,2018,0.0869
+E06000007,Warrington,North West,2019,0.0916
+E06000007,Warrington,North West,2020,0.0971
+E06000007,Warrington,North West,2021,0.1057
+E06000007,Warrington,North West,2022,0.1229
+E06000007,Warrington,North West,2023,0.1554
+E06000008,Blackburn with Darwen,North West,2016,0.0819
+E06000008,Blackburn with Darwen,North West,2017,0.0846
+E06000008,Blackburn with Darwen,North West,2018,0.0869
+E06000008,Blackburn with Darwen,North West,2019,0.0916
+E06000008,Blackburn with Darwen,North West,2020,0.0971
+E06000008,Blackburn with Darwen,North West,2021,0.1057
+E06000008,Blackburn with Darwen,North West,2022,0.1229
+E06000008,Blackburn with Darwen,North West,2023,0.1554
+E06000009,Blackpool,North West,2016,0.0819
+E06000009,Blackpool,North West,2017,0.0846
+E06000009,Blackpool,North West,2018,0.0869
+E06000009,Blackpool,North West,2019,0.0916
+E06000009,Blackpool,North West,2020,0.0971
+E06000009,Blackpool,North West,2021,0.1057
+E06000009,Blackpool,North West,2022,0.1229
+E06000009,Blackpool,North West,2023,0.1554
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2016,0.0793
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2017,0.0818
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2018,0.0837
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2019,0.0868
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2020,0.0903
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2021,0.0963
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2022,0.1126
+E06000010,"Kingston upon Hull, City of",Yorkshire and the Humber,2023,0.1444
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2016,0.0793
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2017,0.0818
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2018,0.0837
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2019,0.0868
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2020,0.0903
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2021,0.0963
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2022,0.1126
+E06000011,East Riding of Yorkshire,Yorkshire and the Humber,2023,0.1444
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2016,0.0793
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2017,0.0818
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2018,0.0837
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2019,0.0868
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2020,0.0903
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2021,0.0963
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2022,0.1126
+E06000012,North East Lincolnshire,Yorkshire and the Humber,2023,0.1444
+E06000013,North Lincolnshire,Yorkshire and the Humber,2016,0.0793
+E06000013,North Lincolnshire,Yorkshire and the Humber,2017,0.0818
+E06000013,North Lincolnshire,Yorkshire and the Humber,2018,0.0837
+E06000013,North Lincolnshire,Yorkshire and the Humber,2019,0.0868
+E06000013,North Lincolnshire,Yorkshire and the Humber,2020,0.0903
+E06000013,North Lincolnshire,Yorkshire and the Humber,2021,0.0963
+E06000013,North Lincolnshire,Yorkshire and the Humber,2022,0.1126
+E06000013,North Lincolnshire,Yorkshire and the Humber,2023,0.1444
+E06000014,York,Yorkshire and the Humber,2016,0.0793
+E06000014,York,Yorkshire and the Humber,2017,0.0818
+E06000014,York,Yorkshire and the Humber,2018,0.0837
+E06000014,York,Yorkshire and the Humber,2019,0.0868
+E06000014,York,Yorkshire and the Humber,2020,0.0903
+E06000014,York,Yorkshire and the Humber,2021,0.0963
+E06000014,York,Yorkshire and the Humber,2022,0.1126
+E06000014,York,Yorkshire and the Humber,2023,0.1444
+E06000015,Derby,East Midlands,2016,0.1105
+E06000015,Derby,East Midlands,2017,0.1168
+E06000015,Derby,East Midlands,2018,0.1217
+E06000015,Derby,East Midlands,2019,0.1281
+E06000015,Derby,East Midlands,2020,0.1328
+E06000015,Derby,East Midlands,2021,0.1408
+E06000015,Derby,East Midlands,2022,0.1609
+E06000015,Derby,East Midlands,2023,0.2016
+E06000016,Leicester,East Midlands,2016,0.1105
+E06000016,Leicester,East Midlands,2017,0.1168
+E06000016,Leicester,East Midlands,2018,0.1217
+E06000016,Leicester,East Midlands,2019,0.1281
+E06000016,Leicester,East Midlands,2020,0.1328
+E06000016,Leicester,East Midlands,2021,0.1408
+E06000016,Leicester,East Midlands,2022,0.1609
+E06000016,Leicester,East Midlands,2023,0.2016
+E06000017,Rutland,East Midlands,2016,0.1105
+E06000017,Rutland,East Midlands,2017,0.1168
+E06000017,Rutland,East Midlands,2018,0.1217
+E06000017,Rutland,East Midlands,2019,0.1281
+E06000017,Rutland,East Midlands,2020,0.1328
+E06000017,Rutland,East Midlands,2021,0.1408
+E06000017,Rutland,East Midlands,2022,0.1609
+E06000017,Rutland,East Midlands,2023,0.2016
+E06000018,Nottingham,East Midlands,2016,0.1105
+E06000018,Nottingham,East Midlands,2017,0.1168
+E06000018,Nottingham,East Midlands,2018,0.1217
+E06000018,Nottingham,East Midlands,2019,0.1281
+E06000018,Nottingham,East Midlands,2020,0.1328
+E06000018,Nottingham,East Midlands,2021,0.1408
+E06000018,Nottingham,East Midlands,2022,0.1609
+E06000018,Nottingham,East Midlands,2023,0.2016
+E06000019,"Herefordshire, County of",West Midlands,2016,0.1178
+E06000019,"Herefordshire, County of",West Midlands,2017,0.123
+E06000019,"Herefordshire, County of",West Midlands,2018,0.1273
+E06000019,"Herefordshire, County of",West Midlands,2019,0.1326
+E06000019,"Herefordshire, County of",West Midlands,2020,0.1375
+E06000019,"Herefordshire, County of",West Midlands,2021,0.1442
+E06000019,"Herefordshire, County of",West Midlands,2022,0.163
+E06000019,"Herefordshire, County of",West Midlands,2023,0.2018
+E06000020,Telford and Wrekin,West Midlands,2016,0.1178
+E06000020,Telford and Wrekin,West Midlands,2017,0.123
+E06000020,Telford and Wrekin,West Midlands,2018,0.1273
+E06000020,Telford and Wrekin,West Midlands,2019,0.1326
+E06000020,Telford and Wrekin,West Midlands,2020,0.1375
+E06000020,Telford and Wrekin,West Midlands,2021,0.1442
+E06000020,Telford and Wrekin,West Midlands,2022,0.163
+E06000020,Telford and Wrekin,West Midlands,2023,0.2018
+E06000021,Stoke-on-Trent,West Midlands,2016,0.1178
+E06000021,Stoke-on-Trent,West Midlands,2017,0.123
+E06000021,Stoke-on-Trent,West Midlands,2018,0.1273
+E06000021,Stoke-on-Trent,West Midlands,2019,0.1326
+E06000021,Stoke-on-Trent,West Midlands,2020,0.1375
+E06000021,Stoke-on-Trent,West Midlands,2021,0.1442
+E06000021,Stoke-on-Trent,West Midlands,2022,0.163
+E06000021,Stoke-on-Trent,West Midlands,2023,0.2018
+E06000022,Bath and North East Somerset,South West,2016,0.1085
+E06000022,Bath and North East Somerset,South West,2017,0.112
+E06000022,Bath and North East Somerset,South West,2018,0.1135
+E06000022,Bath and North East Somerset,South West,2019,0.1182
+E06000022,Bath and North East Somerset,South West,2020,0.1232
+E06000022,Bath and North East Somerset,South West,2021,0.1281
+E06000022,Bath and North East Somerset,South West,2022,0.1422
+E06000022,Bath and North East Somerset,South West,2023,0.1732
+E06000023,"Bristol, City of",South West,2016,0.1085
+E06000023,"Bristol, City of",South West,2017,0.112
+E06000023,"Bristol, City of",South West,2018,0.1135
+E06000023,"Bristol, City of",South West,2019,0.1182
+E06000023,"Bristol, City of",South West,2020,0.1232
+E06000023,"Bristol, City of",South West,2021,0.1281
+E06000023,"Bristol, City of",South West,2022,0.1422
+E06000023,"Bristol, City of",South West,2023,0.1732
+E06000024,North Somerset,South West,2016,0.1085
+E06000024,North Somerset,South West,2017,0.112
+E06000024,North Somerset,South West,2018,0.1135
+E06000024,North Somerset,South West,2019,0.1182
+E06000024,North Somerset,South West,2020,0.1232
+E06000024,North Somerset,South West,2021,0.1281
+E06000024,North Somerset,South West,2022,0.1422
+E06000024,North Somerset,South West,2023,0.1732
+E06000025,South Gloucestershire,South West,2016,0.1085
+E06000025,South Gloucestershire,South West,2017,0.112
+E06000025,South Gloucestershire,South West,2018,0.1135
+E06000025,South Gloucestershire,South West,2019,0.1182
+E06000025,South Gloucestershire,South West,2020,0.1232
+E06000025,South Gloucestershire,South West,2021,0.1281
+E06000025,South Gloucestershire,South West,2022,0.1422
+E06000025,South Gloucestershire,South West,2023,0.1732
+E06000026,Plymouth,South West,2016,0.1085
+E06000026,Plymouth,South West,2017,0.112
+E06000026,Plymouth,South West,2018,0.1135
+E06000026,Plymouth,South West,2019,0.1182
+E06000026,Plymouth,South West,2020,0.1232
+E06000026,Plymouth,South West,2021,0.1281
+E06000026,Plymouth,South West,2022,0.1422
+E06000026,Plymouth,South West,2023,0.1732
+E06000027,Torbay,South West,2016,0.1085
+E06000027,Torbay,South West,2017,0.112
+E06000027,Torbay,South West,2018,0.1135
+E06000027,Torbay,South West,2019,0.1182
+E06000027,Torbay,South West,2020,0.1232
+E06000027,Torbay,South West,2021,0.1281
+E06000027,Torbay,South West,2022,0.1422
+E06000027,Torbay,South West,2023,0.1732
+E06000030,Swindon,South West,2016,0.1085
+E06000030,Swindon,South West,2017,0.112
+E06000030,Swindon,South West,2018,0.1135
+E06000030,Swindon,South West,2019,0.1182
+E06000030,Swindon,South West,2020,0.1232
+E06000030,Swindon,South West,2021,0.1281
+E06000030,Swindon,South West,2022,0.1422
+E06000030,Swindon,South West,2023,0.1732
+E06000031,Peterborough,East of England,2016,0.1701
+E06000031,Peterborough,East of England,2017,0.1777
+E06000031,Peterborough,East of England,2018,0.184
+E06000031,Peterborough,East of England,2019,0.1918
+E06000031,Peterborough,East of England,2020,0.1999
+E06000031,Peterborough,East of England,2021,0.2084
+E06000031,Peterborough,East of England,2022,0.2252
+E06000031,Peterborough,East of England,2023,0.2614
+E06000032,Luton,East of England,2016,0.1701
+E06000032,Luton,East of England,2017,0.1777
+E06000032,Luton,East of England,2018,0.184
+E06000032,Luton,East of England,2019,0.1918
+E06000032,Luton,East of England,2020,0.1999
+E06000032,Luton,East of England,2021,0.2084
+E06000032,Luton,East of England,2022,0.2252
+E06000032,Luton,East of England,2023,0.2614
+E06000033,Southend-on-Sea,East of England,2016,0.1701
+E06000033,Southend-on-Sea,East of England,2017,0.1777
+E06000033,Southend-on-Sea,East of England,2018,0.184
+E06000033,Southend-on-Sea,East of England,2019,0.1918
+E06000033,Southend-on-Sea,East of England,2020,0.1999
+E06000033,Southend-on-Sea,East of England,2021,0.2084
+E06000033,Southend-on-Sea,East of England,2022,0.2252
+E06000033,Southend-on-Sea,East of England,2023,0.2614
+E06000034,Thurrock,East of England,2016,0.1701
+E06000034,Thurrock,East of England,2017,0.1777
+E06000034,Thurrock,East of England,2018,0.184
+E06000034,Thurrock,East of England,2019,0.1918
+E06000034,Thurrock,East of England,2020,0.1999
+E06000034,Thurrock,East of England,2021,0.2084
+E06000034,Thurrock,East of England,2022,0.2252
+E06000034,Thurrock,East of England,2023,0.2614
+E06000035,Medway,South East,2016,0.1849
+E06000035,Medway,South East,2017,0.1907
+E06000035,Medway,South East,2018,0.1952
+E06000035,Medway,South East,2019,0.2024
+E06000035,Medway,South East,2020,0.2086
+E06000035,Medway,South East,2021,0.2149
+E06000035,Medway,South East,2022,0.2329
+E06000035,Medway,South East,2023,0.268
+E06000036,Bracknell Forest,South East,2016,0.1849
+E06000036,Bracknell Forest,South East,2017,0.1907
+E06000036,Bracknell Forest,South East,2018,0.1952
+E06000036,Bracknell Forest,South East,2019,0.2024
+E06000036,Bracknell Forest,South East,2020,0.2086
+E06000036,Bracknell Forest,South East,2021,0.2149
+E06000036,Bracknell Forest,South East,2022,0.2329
+E06000036,Bracknell Forest,South East,2023,0.268
+E06000037,West Berkshire,South East,2016,0.1849
+E06000037,West Berkshire,South East,2017,0.1907
+E06000037,West Berkshire,South East,2018,0.1952
+E06000037,West Berkshire,South East,2019,0.2024
+E06000037,West Berkshire,South East,2020,0.2086
+E06000037,West Berkshire,South East,2021,0.2149
+E06000037,West Berkshire,South East,2022,0.2329
+E06000037,West Berkshire,South East,2023,0.268
+E06000038,Reading,South East,2016,0.1849
+E06000038,Reading,South East,2017,0.1907
+E06000038,Reading,South East,2018,0.1952
+E06000038,Reading,South East,2019,0.2024
+E06000038,Reading,South East,2020,0.2086
+E06000038,Reading,South East,2021,0.2149
+E06000038,Reading,South East,2022,0.2329
+E06000038,Reading,South East,2023,0.268
+E06000039,Slough,South East,2016,0.1849
+E06000039,Slough,South East,2017,0.1907
+E06000039,Slough,South East,2018,0.1952
+E06000039,Slough,South East,2019,0.2024
+E06000039,Slough,South East,2020,0.2086
+E06000039,Slough,South East,2021,0.2149
+E06000039,Slough,South East,2022,0.2329
+E06000039,Slough,South East,2023,0.268
+E06000040,Windsor and Maidenhead,South East,2016,0.1849
+E06000040,Windsor and Maidenhead,South East,2017,0.1907
+E06000040,Windsor and Maidenhead,South East,2018,0.1952
+E06000040,Windsor and Maidenhead,South East,2019,0.2024
+E06000040,Windsor and Maidenhead,South East,2020,0.2086
+E06000040,Windsor and Maidenhead,South East,2021,0.2149
+E06000040,Windsor and Maidenhead,South East,2022,0.2329
+E06000040,Windsor and Maidenhead,South East,2023,0.268
+E06000041,Wokingham,South East,2016,0.1849
+E06000041,Wokingham,South East,2017,0.1907
+E06000041,Wokingham,South East,2018,0.1952
+E06000041,Wokingham,South East,2019,0.2024
+E06000041,Wokingham,South East,2020,0.2086
+E06000041,Wokingham,South East,2021,0.2149
+E06000041,Wokingham,South East,2022,0.2329
+E06000041,Wokingham,South East,2023,0.268
+E06000042,Milton Keynes,South East,2016,0.1849
+E06000042,Milton Keynes,South East,2017,0.1907
+E06000042,Milton Keynes,South East,2018,0.1952
+E06000042,Milton Keynes,South East,2019,0.2024
+E06000042,Milton Keynes,South East,2020,0.2086
+E06000042,Milton Keynes,South East,2021,0.2149
+E06000042,Milton Keynes,South East,2022,0.2329
+E06000042,Milton Keynes,South East,2023,0.268
+E06000043,Brighton and Hove,South East,2016,0.1849
+E06000043,Brighton and Hove,South East,2017,0.1907
+E06000043,Brighton and Hove,South East,2018,0.1952
+E06000043,Brighton and Hove,South East,2019,0.2024
+E06000043,Brighton and Hove,South East,2020,0.2086
+E06000043,Brighton and Hove,South East,2021,0.2149
+E06000043,Brighton and Hove,South East,2022,0.2329
+E06000043,Brighton and Hove,South East,2023,0.268
+E06000044,Portsmouth,South East,2016,0.1849
+E06000044,Portsmouth,South East,2017,0.1907
+E06000044,Portsmouth,South East,2018,0.1952
+E06000044,Portsmouth,South East,2019,0.2024
+E06000044,Portsmouth,South East,2020,0.2086
+E06000044,Portsmouth,South East,2021,0.2149
+E06000044,Portsmouth,South East,2022,0.2329
+E06000044,Portsmouth,South East,2023,0.268
+E06000045,Southampton,South East,2016,0.1849
+E06000045,Southampton,South East,2017,0.1907
+E06000045,Southampton,South East,2018,0.1952
+E06000045,Southampton,South East,2019,0.2024
+E06000045,Southampton,South East,2020,0.2086
+E06000045,Southampton,South East,2021,0.2149
+E06000045,Southampton,South East,2022,0.2329
+E06000045,Southampton,South East,2023,0.268
+E06000046,Isle of Wight,South East,2016,0.1849
+E06000046,Isle of Wight,South East,2017,0.1907
+E06000046,Isle of Wight,South East,2018,0.1952
+E06000046,Isle of Wight,South East,2019,0.2024
+E06000046,Isle of Wight,South East,2020,0.2086
+E06000046,Isle of Wight,South East,2021,0.2149
+E06000046,Isle of Wight,South East,2022,0.2329
+E06000046,Isle of Wight,South East,2023,0.268
+E06000047,County Durham,North East,2016,0.0537
+E06000047,County Durham,North East,2017,0.0563
+E06000047,County Durham,North East,2018,0.0584
+E06000047,County Durham,North East,2019,0.0606
+E06000047,County Durham,North East,2020,0.064
+E06000047,County Durham,North East,2021,0.0701
+E06000047,County Durham,North East,2022,0.0859
+E06000047,County Durham,North East,2023,0.1166
+E06000049,Cheshire East,North West,2016,0.0819
+E06000049,Cheshire East,North West,2017,0.0846
+E06000049,Cheshire East,North West,2018,0.0869
+E06000049,Cheshire East,North West,2019,0.0916
+E06000049,Cheshire East,North West,2020,0.0971
+E06000049,Cheshire East,North West,2021,0.1057
+E06000049,Cheshire East,North West,2022,0.1229
+E06000049,Cheshire East,North West,2023,0.1554
+E06000050,Cheshire West and Chester,North West,2016,0.0819
+E06000050,Cheshire West and Chester,North West,2017,0.0846
+E06000050,Cheshire West and Chester,North West,2018,0.0869
+E06000050,Cheshire West and Chester,North West,2019,0.0916
+E06000050,Cheshire West and Chester,North West,2020,0.0971
+E06000050,Cheshire West and Chester,North West,2021,0.1057
+E06000050,Cheshire West and Chester,North West,2022,0.1229
+E06000050,Cheshire West and Chester,North West,2023,0.1554
+E06000051,Shropshire,West Midlands,2016,0.1178
+E06000051,Shropshire,West Midlands,2017,0.123
+E06000051,Shropshire,West Midlands,2018,0.1273
+E06000051,Shropshire,West Midlands,2019,0.1326
+E06000051,Shropshire,West Midlands,2020,0.1375
+E06000051,Shropshire,West Midlands,2021,0.1442
+E06000051,Shropshire,West Midlands,2022,0.163
+E06000051,Shropshire,West Midlands,2023,0.2018
+E06000052,Cornwall,South West,2016,0.1085
+E06000052,Cornwall,South West,2017,0.112
+E06000052,Cornwall,South West,2018,0.1135
+E06000052,Cornwall,South West,2019,0.1182
+E06000052,Cornwall,South West,2020,0.1232
+E06000052,Cornwall,South West,2021,0.1281
+E06000052,Cornwall,South West,2022,0.1422
+E06000052,Cornwall,South West,2023,0.1732
+E06000053,Isles of Scilly,South West,2016,0.1085
+E06000053,Isles of Scilly,South West,2017,0.112
+E06000053,Isles of Scilly,South West,2018,0.1135
+E06000053,Isles of Scilly,South West,2019,0.1182
+E06000053,Isles of Scilly,South West,2020,0.1232
+E06000053,Isles of Scilly,South West,2021,0.1281
+E06000053,Isles of Scilly,South West,2022,0.1422
+E06000053,Isles of Scilly,South West,2023,0.1732
+E06000054,Wiltshire,South West,2016,0.1085
+E06000054,Wiltshire,South West,2017,0.112
+E06000054,Wiltshire,South West,2018,0.1135
+E06000054,Wiltshire,South West,2019,0.1182
+E06000054,Wiltshire,South West,2020,0.1232
+E06000054,Wiltshire,South West,2021,0.1281
+E06000054,Wiltshire,South West,2022,0.1422
+E06000054,Wiltshire,South West,2023,0.1732
+E06000055,Bedford,East of England,2016,0.1701
+E06000055,Bedford,East of England,2017,0.1777
+E06000055,Bedford,East of England,2018,0.184
+E06000055,Bedford,East of England,2019,0.1918
+E06000055,Bedford,East of England,2020,0.1999
+E06000055,Bedford,East of England,2021,0.2084
+E06000055,Bedford,East of England,2022,0.2252
+E06000055,Bedford,East of England,2023,0.2614
+E06000056,Central Bedfordshire,East of England,2016,0.1701
+E06000056,Central Bedfordshire,East of England,2017,0.1777
+E06000056,Central Bedfordshire,East of England,2018,0.184
+E06000056,Central Bedfordshire,East of England,2019,0.1918
+E06000056,Central Bedfordshire,East of England,2020,0.1999
+E06000056,Central Bedfordshire,East of England,2021,0.2084
+E06000056,Central Bedfordshire,East of England,2022,0.2252
+E06000056,Central Bedfordshire,East of England,2023,0.2614
+E06000057,Northumberland,North East,2016,0.0537
+E06000057,Northumberland,North East,2017,0.0563
+E06000057,Northumberland,North East,2018,0.0584
+E06000057,Northumberland,North East,2019,0.0606
+E06000057,Northumberland,North East,2020,0.064
+E06000057,Northumberland,North East,2021,0.0701
+E06000057,Northumberland,North East,2022,0.0859
+E06000057,Northumberland,North East,2023,0.1166
+E06000058,"Bournemouth, Christchurch and Poole",South West,2016,0.1085
+E06000058,"Bournemouth, Christchurch and Poole",South West,2017,0.112
+E06000058,"Bournemouth, Christchurch and Poole",South West,2018,0.1135
+E06000058,"Bournemouth, Christchurch and Poole",South West,2019,0.1182
+E06000058,"Bournemouth, Christchurch and Poole",South West,2020,0.1232
+E06000058,"Bournemouth, Christchurch and Poole",South West,2021,0.1281
+E06000058,"Bournemouth, Christchurch and Poole",South West,2022,0.1422
+E06000058,"Bournemouth, Christchurch and Poole",South West,2023,0.1732
+E06000059,Dorset,South West,2016,0.1085
+E06000059,Dorset,South West,2017,0.112
+E06000059,Dorset,South West,2018,0.1135
+E06000059,Dorset,South West,2019,0.1182
+E06000059,Dorset,South West,2020,0.1232
+E06000059,Dorset,South West,2021,0.1281
+E06000059,Dorset,South West,2022,0.1422
+E06000059,Dorset,South West,2023,0.1732
+E06000060,Buckinghamshire,South East,2016,0.1849
+E06000060,Buckinghamshire,South East,2017,0.1907
+E06000060,Buckinghamshire,South East,2018,0.1952
+E06000060,Buckinghamshire,South East,2019,0.2024
+E06000060,Buckinghamshire,South East,2020,0.2086
+E06000060,Buckinghamshire,South East,2021,0.2149
+E06000060,Buckinghamshire,South East,2022,0.2329
+E06000060,Buckinghamshire,South East,2023,0.268
+E06000061,North Northamptonshire,East Midlands,2016,0.1105
+E06000061,North Northamptonshire,East Midlands,2017,0.1168
+E06000061,North Northamptonshire,East Midlands,2018,0.1217
+E06000061,North Northamptonshire,East Midlands,2019,0.1281
+E06000061,North Northamptonshire,East Midlands,2020,0.1328
+E06000061,North Northamptonshire,East Midlands,2021,0.1408
+E06000061,North Northamptonshire,East Midlands,2022,0.1609
+E06000061,North Northamptonshire,East Midlands,2023,0.2016
+E06000062,West Northamptonshire,East Midlands,2016,0.1105
+E06000062,West Northamptonshire,East Midlands,2017,0.1168
+E06000062,West Northamptonshire,East Midlands,2018,0.1217
+E06000062,West Northamptonshire,East Midlands,2019,0.1281
+E06000062,West Northamptonshire,East Midlands,2020,0.1328
+E06000062,West Northamptonshire,East Midlands,2021,0.1408
+E06000062,West Northamptonshire,East Midlands,2022,0.1609
+E06000062,West Northamptonshire,East Midlands,2023,0.2016
+E06000063,Cumberland,North West,2016,0.0819
+E06000063,Cumberland,North West,2017,0.0846
+E06000063,Cumberland,North West,2018,0.0869
+E06000063,Cumberland,North West,2019,0.0916
+E06000063,Cumberland,North West,2020,0.0971
+E06000063,Cumberland,North West,2021,0.1057
+E06000063,Cumberland,North West,2022,0.1229
+E06000063,Cumberland,North West,2023,0.1554
+E06000064,Westmorland and Furness,North West,2016,0.0819
+E06000064,Westmorland and Furness,North West,2017,0.0846
+E06000064,Westmorland and Furness,North West,2018,0.0869
+E06000064,Westmorland and Furness,North West,2019,0.0916
+E06000064,Westmorland and Furness,North West,2020,0.0971
+E06000064,Westmorland and Furness,North West,2021,0.1057
+E06000064,Westmorland and Furness,North West,2022,0.1229
+E06000064,Westmorland and Furness,North West,2023,0.1554
+E06000065,North Yorkshire,Yorkshire and the Humber,2016,0.0793
+E06000065,North Yorkshire,Yorkshire and the Humber,2017,0.0818
+E06000065,North Yorkshire,Yorkshire and the Humber,2018,0.0837
+E06000065,North Yorkshire,Yorkshire and the Humber,2019,0.0868
+E06000065,North Yorkshire,Yorkshire and the Humber,2020,0.0903
+E06000065,North Yorkshire,Yorkshire and the Humber,2021,0.0963
+E06000065,North Yorkshire,Yorkshire and the Humber,2022,0.1126
+E06000065,North Yorkshire,Yorkshire and the Humber,2023,0.1444
+E06000066,Somerset,South West,2016,0.1085
+E06000066,Somerset,South West,2017,0.112
+E06000066,Somerset,South West,2018,0.1135
+E06000066,Somerset,South West,2019,0.1182
+E06000066,Somerset,South West,2020,0.1232
+E06000066,Somerset,South West,2021,0.1281
+E06000066,Somerset,South West,2022,0.1422
+E06000066,Somerset,South West,2023,0.1732
+E07000008,Cambridge,East of England,2016,0.1701
+E07000008,Cambridge,East of England,2017,0.1777
+E07000008,Cambridge,East of England,2018,0.184
+E07000008,Cambridge,East of England,2019,0.1918
+E07000008,Cambridge,East of England,2020,0.1999
+E07000008,Cambridge,East of England,2021,0.2084
+E07000008,Cambridge,East of England,2022,0.2252
+E07000008,Cambridge,East of England,2023,0.2614
+E07000009,East Cambridgeshire,East of England,2016,0.1701
+E07000009,East Cambridgeshire,East of England,2017,0.1777
+E07000009,East Cambridgeshire,East of England,2018,0.184
+E07000009,East Cambridgeshire,East of England,2019,0.1918
+E07000009,East Cambridgeshire,East of England,2020,0.1999
+E07000009,East Cambridgeshire,East of England,2021,0.2084
+E07000009,East Cambridgeshire,East of England,2022,0.2252
+E07000009,East Cambridgeshire,East of England,2023,0.2614
+E07000010,Fenland,East of England,2016,0.1701
+E07000010,Fenland,East of England,2017,0.1777
+E07000010,Fenland,East of England,2018,0.184
+E07000010,Fenland,East of England,2019,0.1918
+E07000010,Fenland,East of England,2020,0.1999
+E07000010,Fenland,East of England,2021,0.2084
+E07000010,Fenland,East of England,2022,0.2252
+E07000010,Fenland,East of England,2023,0.2614
+E07000011,Huntingdonshire,East of England,2016,0.1701
+E07000011,Huntingdonshire,East of England,2017,0.1777
+E07000011,Huntingdonshire,East of England,2018,0.184
+E07000011,Huntingdonshire,East of England,2019,0.1918
+E07000011,Huntingdonshire,East of England,2020,0.1999
+E07000011,Huntingdonshire,East of England,2021,0.2084
+E07000011,Huntingdonshire,East of England,2022,0.2252
+E07000011,Huntingdonshire,East of England,2023,0.2614
+E07000012,South Cambridgeshire,East of England,2016,0.1701
+E07000012,South Cambridgeshire,East of England,2017,0.1777
+E07000012,South Cambridgeshire,East of England,2018,0.184
+E07000012,South Cambridgeshire,East of England,2019,0.1918
+E07000012,South Cambridgeshire,East of England,2020,0.1999
+E07000012,South Cambridgeshire,East of England,2021,0.2084
+E07000012,South Cambridgeshire,East of England,2022,0.2252
+E07000012,South Cambridgeshire,East of England,2023,0.2614
+E07000032,Amber Valley,East Midlands,2016,0.1105
+E07000032,Amber Valley,East Midlands,2017,0.1168
+E07000032,Amber Valley,East Midlands,2018,0.1217
+E07000032,Amber Valley,East Midlands,2019,0.1281
+E07000032,Amber Valley,East Midlands,2020,0.1328
+E07000032,Amber Valley,East Midlands,2021,0.1408
+E07000032,Amber Valley,East Midlands,2022,0.1609
+E07000032,Amber Valley,East Midlands,2023,0.2016
+E07000033,Bolsover,East Midlands,2016,0.1105
+E07000033,Bolsover,East Midlands,2017,0.1168
+E07000033,Bolsover,East Midlands,2018,0.1217
+E07000033,Bolsover,East Midlands,2019,0.1281
+E07000033,Bolsover,East Midlands,2020,0.1328
+E07000033,Bolsover,East Midlands,2021,0.1408
+E07000033,Bolsover,East Midlands,2022,0.1609
+E07000033,Bolsover,East Midlands,2023,0.2016
+E07000034,Chesterfield,East Midlands,2016,0.1105
+E07000034,Chesterfield,East Midlands,2017,0.1168
+E07000034,Chesterfield,East Midlands,2018,0.1217
+E07000034,Chesterfield,East Midlands,2019,0.1281
+E07000034,Chesterfield,East Midlands,2020,0.1328
+E07000034,Chesterfield,East Midlands,2021,0.1408
+E07000034,Chesterfield,East Midlands,2022,0.1609
+E07000034,Chesterfield,East Midlands,2023,0.2016
+E07000035,Derbyshire Dales,East Midlands,2016,0.1105
+E07000035,Derbyshire Dales,East Midlands,2017,0.1168
+E07000035,Derbyshire Dales,East Midlands,2018,0.1217
+E07000035,Derbyshire Dales,East Midlands,2019,0.1281
+E07000035,Derbyshire Dales,East Midlands,2020,0.1328
+E07000035,Derbyshire Dales,East Midlands,2021,0.1408
+E07000035,Derbyshire Dales,East Midlands,2022,0.1609
+E07000035,Derbyshire Dales,East Midlands,2023,0.2016
+E07000036,Erewash,East Midlands,2016,0.1105
+E07000036,Erewash,East Midlands,2017,0.1168
+E07000036,Erewash,East Midlands,2018,0.1217
+E07000036,Erewash,East Midlands,2019,0.1281
+E07000036,Erewash,East Midlands,2020,0.1328
+E07000036,Erewash,East Midlands,2021,0.1408
+E07000036,Erewash,East Midlands,2022,0.1609
+E07000036,Erewash,East Midlands,2023,0.2016
+E07000037,High Peak,East Midlands,2016,0.1105
+E07000037,High Peak,East Midlands,2017,0.1168
+E07000037,High Peak,East Midlands,2018,0.1217
+E07000037,High Peak,East Midlands,2019,0.1281
+E07000037,High Peak,East Midlands,2020,0.1328
+E07000037,High Peak,East Midlands,2021,0.1408
+E07000037,High Peak,East Midlands,2022,0.1609
+E07000037,High Peak,East Midlands,2023,0.2016
+E07000038,North East Derbyshire,East Midlands,2016,0.1105
+E07000038,North East Derbyshire,East Midlands,2017,0.1168
+E07000038,North East Derbyshire,East Midlands,2018,0.1217
+E07000038,North East Derbyshire,East Midlands,2019,0.1281
+E07000038,North East Derbyshire,East Midlands,2020,0.1328
+E07000038,North East Derbyshire,East Midlands,2021,0.1408
+E07000038,North East Derbyshire,East Midlands,2022,0.1609
+E07000038,North East Derbyshire,East Midlands,2023,0.2016
+E07000039,South Derbyshire,East Midlands,2016,0.1105
+E07000039,South Derbyshire,East Midlands,2017,0.1168
+E07000039,South Derbyshire,East Midlands,2018,0.1217
+E07000039,South Derbyshire,East Midlands,2019,0.1281
+E07000039,South Derbyshire,East Midlands,2020,0.1328
+E07000039,South Derbyshire,East Midlands,2021,0.1408
+E07000039,South Derbyshire,East Midlands,2022,0.1609
+E07000039,South Derbyshire,East Midlands,2023,0.2016
+E07000040,East Devon,South West,2016,0.1085
+E07000040,East Devon,South West,2017,0.112
+E07000040,East Devon,South West,2018,0.1135
+E07000040,East Devon,South West,2019,0.1182
+E07000040,East Devon,South West,2020,0.1232
+E07000040,East Devon,South West,2021,0.1281
+E07000040,East Devon,South West,2022,0.1422
+E07000040,East Devon,South West,2023,0.1732
+E07000041,Exeter,South West,2016,0.1085
+E07000041,Exeter,South West,2017,0.112
+E07000041,Exeter,South West,2018,0.1135
+E07000041,Exeter,South West,2019,0.1182
+E07000041,Exeter,South West,2020,0.1232
+E07000041,Exeter,South West,2021,0.1281
+E07000041,Exeter,South West,2022,0.1422
+E07000041,Exeter,South West,2023,0.1732
+E07000042,Mid Devon,South West,2016,0.1085
+E07000042,Mid Devon,South West,2017,0.112
+E07000042,Mid Devon,South West,2018,0.1135
+E07000042,Mid Devon,South West,2019,0.1182
+E07000042,Mid Devon,South West,2020,0.1232
+E07000042,Mid Devon,South West,2021,0.1281
+E07000042,Mid Devon,South West,2022,0.1422
+E07000042,Mid Devon,South West,2023,0.1732
+E07000043,North Devon,South West,2016,0.1085
+E07000043,North Devon,South West,2017,0.112
+E07000043,North Devon,South West,2018,0.1135
+E07000043,North Devon,South West,2019,0.1182
+E07000043,North Devon,South West,2020,0.1232
+E07000043,North Devon,South West,2021,0.1281
+E07000043,North Devon,South West,2022,0.1422
+E07000043,North Devon,South West,2023,0.1732
+E07000044,South Hams,South West,2016,0.1085
+E07000044,South Hams,South West,2017,0.112
+E07000044,South Hams,South West,2018,0.1135
+E07000044,South Hams,South West,2019,0.1182
+E07000044,South Hams,South West,2020,0.1232
+E07000044,South Hams,South West,2021,0.1281
+E07000044,South Hams,South West,2022,0.1422
+E07000044,South Hams,South West,2023,0.1732
+E07000045,Teignbridge,South West,2016,0.1085
+E07000045,Teignbridge,South West,2017,0.112
+E07000045,Teignbridge,South West,2018,0.1135
+E07000045,Teignbridge,South West,2019,0.1182
+E07000045,Teignbridge,South West,2020,0.1232
+E07000045,Teignbridge,South West,2021,0.1281
+E07000045,Teignbridge,South West,2022,0.1422
+E07000045,Teignbridge,South West,2023,0.1732
+E07000046,Torridge,South West,2016,0.1085
+E07000046,Torridge,South West,2017,0.112
+E07000046,Torridge,South West,2018,0.1135
+E07000046,Torridge,South West,2019,0.1182
+E07000046,Torridge,South West,2020,0.1232
+E07000046,Torridge,South West,2021,0.1281
+E07000046,Torridge,South West,2022,0.1422
+E07000046,Torridge,South West,2023,0.1732
+E07000047,West Devon,South West,2016,0.1085
+E07000047,West Devon,South West,2017,0.112
+E07000047,West Devon,South West,2018,0.1135
+E07000047,West Devon,South West,2019,0.1182
+E07000047,West Devon,South West,2020,0.1232
+E07000047,West Devon,South West,2021,0.1281
+E07000047,West Devon,South West,2022,0.1422
+E07000047,West Devon,South West,2023,0.1732
+E07000061,Eastbourne,South East,2016,0.1849
+E07000061,Eastbourne,South East,2017,0.1907
+E07000061,Eastbourne,South East,2018,0.1952
+E07000061,Eastbourne,South East,2019,0.2024
+E07000061,Eastbourne,South East,2020,0.2086
+E07000061,Eastbourne,South East,2021,0.2149
+E07000061,Eastbourne,South East,2022,0.2329
+E07000061,Eastbourne,South East,2023,0.268
+E07000062,Hastings,South East,2016,0.1849
+E07000062,Hastings,South East,2017,0.1907
+E07000062,Hastings,South East,2018,0.1952
+E07000062,Hastings,South East,2019,0.2024
+E07000062,Hastings,South East,2020,0.2086
+E07000062,Hastings,South East,2021,0.2149
+E07000062,Hastings,South East,2022,0.2329
+E07000062,Hastings,South East,2023,0.268
+E07000063,Lewes,South East,2016,0.1849
+E07000063,Lewes,South East,2017,0.1907
+E07000063,Lewes,South East,2018,0.1952
+E07000063,Lewes,South East,2019,0.2024
+E07000063,Lewes,South East,2020,0.2086
+E07000063,Lewes,South East,2021,0.2149
+E07000063,Lewes,South East,2022,0.2329
+E07000063,Lewes,South East,2023,0.268
+E07000064,Rother,South East,2016,0.1849
+E07000064,Rother,South East,2017,0.1907
+E07000064,Rother,South East,2018,0.1952
+E07000064,Rother,South East,2019,0.2024
+E07000064,Rother,South East,2020,0.2086
+E07000064,Rother,South East,2021,0.2149
+E07000064,Rother,South East,2022,0.2329
+E07000064,Rother,South East,2023,0.268
+E07000065,Wealden,South East,2016,0.1849
+E07000065,Wealden,South East,2017,0.1907
+E07000065,Wealden,South East,2018,0.1952
+E07000065,Wealden,South East,2019,0.2024
+E07000065,Wealden,South East,2020,0.2086
+E07000065,Wealden,South East,2021,0.2149
+E07000065,Wealden,South East,2022,0.2329
+E07000065,Wealden,South East,2023,0.268
+E07000066,Basildon,East of England,2016,0.1701
+E07000066,Basildon,East of England,2017,0.1777
+E07000066,Basildon,East of England,2018,0.184
+E07000066,Basildon,East of England,2019,0.1918
+E07000066,Basildon,East of England,2020,0.1999
+E07000066,Basildon,East of England,2021,0.2084
+E07000066,Basildon,East of England,2022,0.2252
+E07000066,Basildon,East of England,2023,0.2614
+E07000067,Braintree,East of England,2016,0.1701
+E07000067,Braintree,East of England,2017,0.1777
+E07000067,Braintree,East of England,2018,0.184
+E07000067,Braintree,East of England,2019,0.1918
+E07000067,Braintree,East of England,2020,0.1999
+E07000067,Braintree,East of England,2021,0.2084
+E07000067,Braintree,East of England,2022,0.2252
+E07000067,Braintree,East of England,2023,0.2614
+E07000068,Brentwood,East of England,2016,0.1701
+E07000068,Brentwood,East of England,2017,0.1777
+E07000068,Brentwood,East of England,2018,0.184
+E07000068,Brentwood,East of England,2019,0.1918
+E07000068,Brentwood,East of England,2020,0.1999
+E07000068,Brentwood,East of England,2021,0.2084
+E07000068,Brentwood,East of England,2022,0.2252
+E07000068,Brentwood,East of England,2023,0.2614
+E07000069,Castle Point,East of England,2016,0.1701
+E07000069,Castle Point,East of England,2017,0.1777
+E07000069,Castle Point,East of England,2018,0.184
+E07000069,Castle Point,East of England,2019,0.1918
+E07000069,Castle Point,East of England,2020,0.1999
+E07000069,Castle Point,East of England,2021,0.2084
+E07000069,Castle Point,East of England,2022,0.2252
+E07000069,Castle Point,East of England,2023,0.2614
+E07000070,Chelmsford,East of England,2016,0.1701
+E07000070,Chelmsford,East of England,2017,0.1777
+E07000070,Chelmsford,East of England,2018,0.184
+E07000070,Chelmsford,East of England,2019,0.1918
+E07000070,Chelmsford,East of England,2020,0.1999
+E07000070,Chelmsford,East of England,2021,0.2084
+E07000070,Chelmsford,East of England,2022,0.2252
+E07000070,Chelmsford,East of England,2023,0.2614
+E07000071,Colchester,East of England,2016,0.1701
+E07000071,Colchester,East of England,2017,0.1777
+E07000071,Colchester,East of England,2018,0.184
+E07000071,Colchester,East of England,2019,0.1918
+E07000071,Colchester,East of England,2020,0.1999
+E07000071,Colchester,East of England,2021,0.2084
+E07000071,Colchester,East of England,2022,0.2252
+E07000071,Colchester,East of England,2023,0.2614
+E07000072,Epping Forest,East of England,2016,0.1701
+E07000072,Epping Forest,East of England,2017,0.1777
+E07000072,Epping Forest,East of England,2018,0.184
+E07000072,Epping Forest,East of England,2019,0.1918
+E07000072,Epping Forest,East of England,2020,0.1999
+E07000072,Epping Forest,East of England,2021,0.2084
+E07000072,Epping Forest,East of England,2022,0.2252
+E07000072,Epping Forest,East of England,2023,0.2614
+E07000073,Harlow,East of England,2016,0.1701
+E07000073,Harlow,East of England,2017,0.1777
+E07000073,Harlow,East of England,2018,0.184
+E07000073,Harlow,East of England,2019,0.1918
+E07000073,Harlow,East of England,2020,0.1999
+E07000073,Harlow,East of England,2021,0.2084
+E07000073,Harlow,East of England,2022,0.2252
+E07000073,Harlow,East of England,2023,0.2614
+E07000074,Maldon,East of England,2016,0.1701
+E07000074,Maldon,East of England,2017,0.1777
+E07000074,Maldon,East of England,2018,0.184
+E07000074,Maldon,East of England,2019,0.1918
+E07000074,Maldon,East of England,2020,0.1999
+E07000074,Maldon,East of England,2021,0.2084
+E07000074,Maldon,East of England,2022,0.2252
+E07000074,Maldon,East of England,2023,0.2614
+E07000075,Rochford,East of England,2016,0.1701
+E07000075,Rochford,East of England,2017,0.1777
+E07000075,Rochford,East of England,2018,0.184
+E07000075,Rochford,East of England,2019,0.1918
+E07000075,Rochford,East of England,2020,0.1999
+E07000075,Rochford,East of England,2021,0.2084
+E07000075,Rochford,East of England,2022,0.2252
+E07000075,Rochford,East of England,2023,0.2614
+E07000076,Tendring,East of England,2016,0.1701
+E07000076,Tendring,East of England,2017,0.1777
+E07000076,Tendring,East of England,2018,0.184
+E07000076,Tendring,East of England,2019,0.1918
+E07000076,Tendring,East of England,2020,0.1999
+E07000076,Tendring,East of England,2021,0.2084
+E07000076,Tendring,East of England,2022,0.2252
+E07000076,Tendring,East of England,2023,0.2614
+E07000077,Uttlesford,East of England,2016,0.1701
+E07000077,Uttlesford,East of England,2017,0.1777
+E07000077,Uttlesford,East of England,2018,0.184
+E07000077,Uttlesford,East of England,2019,0.1918
+E07000077,Uttlesford,East of England,2020,0.1999
+E07000077,Uttlesford,East of England,2021,0.2084
+E07000077,Uttlesford,East of England,2022,0.2252
+E07000077,Uttlesford,East of England,2023,0.2614
+E07000078,Cheltenham,South West,2016,0.1085
+E07000078,Cheltenham,South West,2017,0.112
+E07000078,Cheltenham,South West,2018,0.1135
+E07000078,Cheltenham,South West,2019,0.1182
+E07000078,Cheltenham,South West,2020,0.1232
+E07000078,Cheltenham,South West,2021,0.1281
+E07000078,Cheltenham,South West,2022,0.1422
+E07000078,Cheltenham,South West,2023,0.1732
+E07000079,Cotswold,South West,2016,0.1085
+E07000079,Cotswold,South West,2017,0.112
+E07000079,Cotswold,South West,2018,0.1135
+E07000079,Cotswold,South West,2019,0.1182
+E07000079,Cotswold,South West,2020,0.1232
+E07000079,Cotswold,South West,2021,0.1281
+E07000079,Cotswold,South West,2022,0.1422
+E07000079,Cotswold,South West,2023,0.1732
+E07000080,Forest of Dean,South West,2016,0.1085
+E07000080,Forest of Dean,South West,2017,0.112
+E07000080,Forest of Dean,South West,2018,0.1135
+E07000080,Forest of Dean,South West,2019,0.1182
+E07000080,Forest of Dean,South West,2020,0.1232
+E07000080,Forest of Dean,South West,2021,0.1281
+E07000080,Forest of Dean,South West,2022,0.1422
+E07000080,Forest of Dean,South West,2023,0.1732
+E07000081,Gloucester,South West,2016,0.1085
+E07000081,Gloucester,South West,2017,0.112
+E07000081,Gloucester,South West,2018,0.1135
+E07000081,Gloucester,South West,2019,0.1182
+E07000081,Gloucester,South West,2020,0.1232
+E07000081,Gloucester,South West,2021,0.1281
+E07000081,Gloucester,South West,2022,0.1422
+E07000081,Gloucester,South West,2023,0.1732
+E07000082,Stroud,South West,2016,0.1085
+E07000082,Stroud,South West,2017,0.112
+E07000082,Stroud,South West,2018,0.1135
+E07000082,Stroud,South West,2019,0.1182
+E07000082,Stroud,South West,2020,0.1232
+E07000082,Stroud,South West,2021,0.1281
+E07000082,Stroud,South West,2022,0.1422
+E07000082,Stroud,South West,2023,0.1732
+E07000083,Tewkesbury,South West,2016,0.1085
+E07000083,Tewkesbury,South West,2017,0.112
+E07000083,Tewkesbury,South West,2018,0.1135
+E07000083,Tewkesbury,South West,2019,0.1182
+E07000083,Tewkesbury,South West,2020,0.1232
+E07000083,Tewkesbury,South West,2021,0.1281
+E07000083,Tewkesbury,South West,2022,0.1422
+E07000083,Tewkesbury,South West,2023,0.1732
+E07000084,Basingstoke and Deane,South East,2016,0.1849
+E07000084,Basingstoke and Deane,South East,2017,0.1907
+E07000084,Basingstoke and Deane,South East,2018,0.1952
+E07000084,Basingstoke and Deane,South East,2019,0.2024
+E07000084,Basingstoke and Deane,South East,2020,0.2086
+E07000084,Basingstoke and Deane,South East,2021,0.2149
+E07000084,Basingstoke and Deane,South East,2022,0.2329
+E07000084,Basingstoke and Deane,South East,2023,0.268
+E07000085,East Hampshire,South East,2016,0.1849
+E07000085,East Hampshire,South East,2017,0.1907
+E07000085,East Hampshire,South East,2018,0.1952
+E07000085,East Hampshire,South East,2019,0.2024
+E07000085,East Hampshire,South East,2020,0.2086
+E07000085,East Hampshire,South East,2021,0.2149
+E07000085,East Hampshire,South East,2022,0.2329
+E07000085,East Hampshire,South East,2023,0.268
+E07000086,Eastleigh,South East,2016,0.1849
+E07000086,Eastleigh,South East,2017,0.1907
+E07000086,Eastleigh,South East,2018,0.1952
+E07000086,Eastleigh,South East,2019,0.2024
+E07000086,Eastleigh,South East,2020,0.2086
+E07000086,Eastleigh,South East,2021,0.2149
+E07000086,Eastleigh,South East,2022,0.2329
+E07000086,Eastleigh,South East,2023,0.268
+E07000087,Fareham,South East,2016,0.1849
+E07000087,Fareham,South East,2017,0.1907
+E07000087,Fareham,South East,2018,0.1952
+E07000087,Fareham,South East,2019,0.2024
+E07000087,Fareham,South East,2020,0.2086
+E07000087,Fareham,South East,2021,0.2149
+E07000087,Fareham,South East,2022,0.2329
+E07000087,Fareham,South East,2023,0.268
+E07000088,Gosport,South East,2016,0.1849
+E07000088,Gosport,South East,2017,0.1907
+E07000088,Gosport,South East,2018,0.1952
+E07000088,Gosport,South East,2019,0.2024
+E07000088,Gosport,South East,2020,0.2086
+E07000088,Gosport,South East,2021,0.2149
+E07000088,Gosport,South East,2022,0.2329
+E07000088,Gosport,South East,2023,0.268
+E07000089,Hart,South East,2016,0.1849
+E07000089,Hart,South East,2017,0.1907
+E07000089,Hart,South East,2018,0.1952
+E07000089,Hart,South East,2019,0.2024
+E07000089,Hart,South East,2020,0.2086
+E07000089,Hart,South East,2021,0.2149
+E07000089,Hart,South East,2022,0.2329
+E07000089,Hart,South East,2023,0.268
+E07000090,Havant,South East,2016,0.1849
+E07000090,Havant,South East,2017,0.1907
+E07000090,Havant,South East,2018,0.1952
+E07000090,Havant,South East,2019,0.2024
+E07000090,Havant,South East,2020,0.2086
+E07000090,Havant,South East,2021,0.2149
+E07000090,Havant,South East,2022,0.2329
+E07000090,Havant,South East,2023,0.268
+E07000091,New Forest,South East,2016,0.1849
+E07000091,New Forest,South East,2017,0.1907
+E07000091,New Forest,South East,2018,0.1952
+E07000091,New Forest,South East,2019,0.2024
+E07000091,New Forest,South East,2020,0.2086
+E07000091,New Forest,South East,2021,0.2149
+E07000091,New Forest,South East,2022,0.2329
+E07000091,New Forest,South East,2023,0.268
+E07000092,Rushmoor,South East,2016,0.1849
+E07000092,Rushmoor,South East,2017,0.1907
+E07000092,Rushmoor,South East,2018,0.1952
+E07000092,Rushmoor,South East,2019,0.2024
+E07000092,Rushmoor,South East,2020,0.2086
+E07000092,Rushmoor,South East,2021,0.2149
+E07000092,Rushmoor,South East,2022,0.2329
+E07000092,Rushmoor,South East,2023,0.268
+E07000093,Test Valley,South East,2016,0.1849
+E07000093,Test Valley,South East,2017,0.1907
+E07000093,Test Valley,South East,2018,0.1952
+E07000093,Test Valley,South East,2019,0.2024
+E07000093,Test Valley,South East,2020,0.2086
+E07000093,Test Valley,South East,2021,0.2149
+E07000093,Test Valley,South East,2022,0.2329
+E07000093,Test Valley,South East,2023,0.268
+E07000094,Winchester,South East,2016,0.1849
+E07000094,Winchester,South East,2017,0.1907
+E07000094,Winchester,South East,2018,0.1952
+E07000094,Winchester,South East,2019,0.2024
+E07000094,Winchester,South East,2020,0.2086
+E07000094,Winchester,South East,2021,0.2149
+E07000094,Winchester,South East,2022,0.2329
+E07000094,Winchester,South East,2023,0.268
+E07000095,Broxbourne,East of England,2016,0.1701
+E07000095,Broxbourne,East of England,2017,0.1777
+E07000095,Broxbourne,East of England,2018,0.184
+E07000095,Broxbourne,East of England,2019,0.1918
+E07000095,Broxbourne,East of England,2020,0.1999
+E07000095,Broxbourne,East of England,2021,0.2084
+E07000095,Broxbourne,East of England,2022,0.2252
+E07000095,Broxbourne,East of England,2023,0.2614
+E07000096,Dacorum,East of England,2016,0.1701
+E07000096,Dacorum,East of England,2017,0.1777
+E07000096,Dacorum,East of England,2018,0.184
+E07000096,Dacorum,East of England,2019,0.1918
+E07000096,Dacorum,East of England,2020,0.1999
+E07000096,Dacorum,East of England,2021,0.2084
+E07000096,Dacorum,East of England,2022,0.2252
+E07000096,Dacorum,East of England,2023,0.2614
+E07000098,Hertsmere,East of England,2016,0.1701
+E07000098,Hertsmere,East of England,2017,0.1777
+E07000098,Hertsmere,East of England,2018,0.184
+E07000098,Hertsmere,East of England,2019,0.1918
+E07000098,Hertsmere,East of England,2020,0.1999
+E07000098,Hertsmere,East of England,2021,0.2084
+E07000098,Hertsmere,East of England,2022,0.2252
+E07000098,Hertsmere,East of England,2023,0.2614
+E07000099,North Hertfordshire,East of England,2016,0.1701
+E07000099,North Hertfordshire,East of England,2017,0.1777
+E07000099,North Hertfordshire,East of England,2018,0.184
+E07000099,North Hertfordshire,East of England,2019,0.1918
+E07000099,North Hertfordshire,East of England,2020,0.1999
+E07000099,North Hertfordshire,East of England,2021,0.2084
+E07000099,North Hertfordshire,East of England,2022,0.2252
+E07000099,North Hertfordshire,East of England,2023,0.2614
+E07000102,Three Rivers,East of England,2016,0.1701
+E07000102,Three Rivers,East of England,2017,0.1777
+E07000102,Three Rivers,East of England,2018,0.184
+E07000102,Three Rivers,East of England,2019,0.1918
+E07000102,Three Rivers,East of England,2020,0.1999
+E07000102,Three Rivers,East of England,2021,0.2084
+E07000102,Three Rivers,East of England,2022,0.2252
+E07000102,Three Rivers,East of England,2023,0.2614
+E07000103,Watford,East of England,2016,0.1701
+E07000103,Watford,East of England,2017,0.1777
+E07000103,Watford,East of England,2018,0.184
+E07000103,Watford,East of England,2019,0.1918
+E07000103,Watford,East of England,2020,0.1999
+E07000103,Watford,East of England,2021,0.2084
+E07000103,Watford,East of England,2022,0.2252
+E07000103,Watford,East of England,2023,0.2614
+E07000105,Ashford,South East,2016,0.1849
+E07000105,Ashford,South East,2017,0.1907
+E07000105,Ashford,South East,2018,0.1952
+E07000105,Ashford,South East,2019,0.2024
+E07000105,Ashford,South East,2020,0.2086
+E07000105,Ashford,South East,2021,0.2149
+E07000105,Ashford,South East,2022,0.2329
+E07000105,Ashford,South East,2023,0.268
+E07000106,Canterbury,South East,2016,0.1849
+E07000106,Canterbury,South East,2017,0.1907
+E07000106,Canterbury,South East,2018,0.1952
+E07000106,Canterbury,South East,2019,0.2024
+E07000106,Canterbury,South East,2020,0.2086
+E07000106,Canterbury,South East,2021,0.2149
+E07000106,Canterbury,South East,2022,0.2329
+E07000106,Canterbury,South East,2023,0.268
+E07000107,Dartford,South East,2016,0.1849
+E07000107,Dartford,South East,2017,0.1907
+E07000107,Dartford,South East,2018,0.1952
+E07000107,Dartford,South East,2019,0.2024
+E07000107,Dartford,South East,2020,0.2086
+E07000107,Dartford,South East,2021,0.2149
+E07000107,Dartford,South East,2022,0.2329
+E07000107,Dartford,South East,2023,0.268
+E07000108,Dover,South East,2016,0.1849
+E07000108,Dover,South East,2017,0.1907
+E07000108,Dover,South East,2018,0.1952
+E07000108,Dover,South East,2019,0.2024
+E07000108,Dover,South East,2020,0.2086
+E07000108,Dover,South East,2021,0.2149
+E07000108,Dover,South East,2022,0.2329
+E07000108,Dover,South East,2023,0.268
+E07000109,Gravesham,South East,2016,0.1849
+E07000109,Gravesham,South East,2017,0.1907
+E07000109,Gravesham,South East,2018,0.1952
+E07000109,Gravesham,South East,2019,0.2024
+E07000109,Gravesham,South East,2020,0.2086
+E07000109,Gravesham,South East,2021,0.2149
+E07000109,Gravesham,South East,2022,0.2329
+E07000109,Gravesham,South East,2023,0.268
+E07000110,Maidstone,South East,2016,0.1849
+E07000110,Maidstone,South East,2017,0.1907
+E07000110,Maidstone,South East,2018,0.1952
+E07000110,Maidstone,South East,2019,0.2024
+E07000110,Maidstone,South East,2020,0.2086
+E07000110,Maidstone,South East,2021,0.2149
+E07000110,Maidstone,South East,2022,0.2329
+E07000110,Maidstone,South East,2023,0.268
+E07000111,Sevenoaks,South East,2016,0.1849
+E07000111,Sevenoaks,South East,2017,0.1907
+E07000111,Sevenoaks,South East,2018,0.1952
+E07000111,Sevenoaks,South East,2019,0.2024
+E07000111,Sevenoaks,South East,2020,0.2086
+E07000111,Sevenoaks,South East,2021,0.2149
+E07000111,Sevenoaks,South East,2022,0.2329
+E07000111,Sevenoaks,South East,2023,0.268
+E07000112,Folkestone and Hythe,South East,2016,0.1849
+E07000112,Folkestone and Hythe,South East,2017,0.1907
+E07000112,Folkestone and Hythe,South East,2018,0.1952
+E07000112,Folkestone and Hythe,South East,2019,0.2024
+E07000112,Folkestone and Hythe,South East,2020,0.2086
+E07000112,Folkestone and Hythe,South East,2021,0.2149
+E07000112,Folkestone and Hythe,South East,2022,0.2329
+E07000112,Folkestone and Hythe,South East,2023,0.268
+E07000113,Swale,South East,2016,0.1849
+E07000113,Swale,South East,2017,0.1907
+E07000113,Swale,South East,2018,0.1952
+E07000113,Swale,South East,2019,0.2024
+E07000113,Swale,South East,2020,0.2086
+E07000113,Swale,South East,2021,0.2149
+E07000113,Swale,South East,2022,0.2329
+E07000113,Swale,South East,2023,0.268
+E07000114,Thanet,South East,2016,0.1849
+E07000114,Thanet,South East,2017,0.1907
+E07000114,Thanet,South East,2018,0.1952
+E07000114,Thanet,South East,2019,0.2024
+E07000114,Thanet,South East,2020,0.2086
+E07000114,Thanet,South East,2021,0.2149
+E07000114,Thanet,South East,2022,0.2329
+E07000114,Thanet,South East,2023,0.268
+E07000115,Tonbridge and Malling,South East,2016,0.1849
+E07000115,Tonbridge and Malling,South East,2017,0.1907
+E07000115,Tonbridge and Malling,South East,2018,0.1952
+E07000115,Tonbridge and Malling,South East,2019,0.2024
+E07000115,Tonbridge and Malling,South East,2020,0.2086
+E07000115,Tonbridge and Malling,South East,2021,0.2149
+E07000115,Tonbridge and Malling,South East,2022,0.2329
+E07000115,Tonbridge and Malling,South East,2023,0.268
+E07000116,Tunbridge Wells,South East,2016,0.1849
+E07000116,Tunbridge Wells,South East,2017,0.1907
+E07000116,Tunbridge Wells,South East,2018,0.1952
+E07000116,Tunbridge Wells,South East,2019,0.2024
+E07000116,Tunbridge Wells,South East,2020,0.2086
+E07000116,Tunbridge Wells,South East,2021,0.2149
+E07000116,Tunbridge Wells,South East,2022,0.2329
+E07000116,Tunbridge Wells,South East,2023,0.268
+E07000117,Burnley,North West,2016,0.0819
+E07000117,Burnley,North West,2017,0.0846
+E07000117,Burnley,North West,2018,0.0869
+E07000117,Burnley,North West,2019,0.0916
+E07000117,Burnley,North West,2020,0.0971
+E07000117,Burnley,North West,2021,0.1057
+E07000117,Burnley,North West,2022,0.1229
+E07000117,Burnley,North West,2023,0.1554
+E07000118,Chorley,North West,2016,0.0819
+E07000118,Chorley,North West,2017,0.0846
+E07000118,Chorley,North West,2018,0.0869
+E07000118,Chorley,North West,2019,0.0916
+E07000118,Chorley,North West,2020,0.0971
+E07000118,Chorley,North West,2021,0.1057
+E07000118,Chorley,North West,2022,0.1229
+E07000118,Chorley,North West,2023,0.1554
+E07000119,Fylde,North West,2016,0.0819
+E07000119,Fylde,North West,2017,0.0846
+E07000119,Fylde,North West,2018,0.0869
+E07000119,Fylde,North West,2019,0.0916
+E07000119,Fylde,North West,2020,0.0971
+E07000119,Fylde,North West,2021,0.1057
+E07000119,Fylde,North West,2022,0.1229
+E07000119,Fylde,North West,2023,0.1554
+E07000120,Hyndburn,North West,2016,0.0819
+E07000120,Hyndburn,North West,2017,0.0846
+E07000120,Hyndburn,North West,2018,0.0869
+E07000120,Hyndburn,North West,2019,0.0916
+E07000120,Hyndburn,North West,2020,0.0971
+E07000120,Hyndburn,North West,2021,0.1057
+E07000120,Hyndburn,North West,2022,0.1229
+E07000120,Hyndburn,North West,2023,0.1554
+E07000121,Lancaster,North West,2016,0.0819
+E07000121,Lancaster,North West,2017,0.0846
+E07000121,Lancaster,North West,2018,0.0869
+E07000121,Lancaster,North West,2019,0.0916
+E07000121,Lancaster,North West,2020,0.0971
+E07000121,Lancaster,North West,2021,0.1057
+E07000121,Lancaster,North West,2022,0.1229
+E07000121,Lancaster,North West,2023,0.1554
+E07000122,Pendle,North West,2016,0.0819
+E07000122,Pendle,North West,2017,0.0846
+E07000122,Pendle,North West,2018,0.0869
+E07000122,Pendle,North West,2019,0.0916
+E07000122,Pendle,North West,2020,0.0971
+E07000122,Pendle,North West,2021,0.1057
+E07000122,Pendle,North West,2022,0.1229
+E07000122,Pendle,North West,2023,0.1554
+E07000123,Preston,North West,2016,0.0819
+E07000123,Preston,North West,2017,0.0846
+E07000123,Preston,North West,2018,0.0869
+E07000123,Preston,North West,2019,0.0916
+E07000123,Preston,North West,2020,0.0971
+E07000123,Preston,North West,2021,0.1057
+E07000123,Preston,North West,2022,0.1229
+E07000123,Preston,North West,2023,0.1554
+E07000124,Ribble Valley,North West,2016,0.0819
+E07000124,Ribble Valley,North West,2017,0.0846
+E07000124,Ribble Valley,North West,2018,0.0869
+E07000124,Ribble Valley,North West,2019,0.0916
+E07000124,Ribble Valley,North West,2020,0.0971
+E07000124,Ribble Valley,North West,2021,0.1057
+E07000124,Ribble Valley,North West,2022,0.1229
+E07000124,Ribble Valley,North West,2023,0.1554
+E07000125,Rossendale,North West,2016,0.0819
+E07000125,Rossendale,North West,2017,0.0846
+E07000125,Rossendale,North West,2018,0.0869
+E07000125,Rossendale,North West,2019,0.0916
+E07000125,Rossendale,North West,2020,0.0971
+E07000125,Rossendale,North West,2021,0.1057
+E07000125,Rossendale,North West,2022,0.1229
+E07000125,Rossendale,North West,2023,0.1554
+E07000126,South Ribble,North West,2016,0.0819
+E07000126,South Ribble,North West,2017,0.0846
+E07000126,South Ribble,North West,2018,0.0869
+E07000126,South Ribble,North West,2019,0.0916
+E07000126,South Ribble,North West,2020,0.0971
+E07000126,South Ribble,North West,2021,0.1057
+E07000126,South Ribble,North West,2022,0.1229
+E07000126,South Ribble,North West,2023,0.1554
+E07000127,West Lancashire,North West,2016,0.0819
+E07000127,West Lancashire,North West,2017,0.0846
+E07000127,West Lancashire,North West,2018,0.0869
+E07000127,West Lancashire,North West,2019,0.0916
+E07000127,West Lancashire,North West,2020,0.0971
+E07000127,West Lancashire,North West,2021,0.1057
+E07000127,West Lancashire,North West,2022,0.1229
+E07000127,West Lancashire,North West,2023,0.1554
+E07000128,Wyre,North West,2016,0.0819
+E07000128,Wyre,North West,2017,0.0846
+E07000128,Wyre,North West,2018,0.0869
+E07000128,Wyre,North West,2019,0.0916
+E07000128,Wyre,North West,2020,0.0971
+E07000128,Wyre,North West,2021,0.1057
+E07000128,Wyre,North West,2022,0.1229
+E07000128,Wyre,North West,2023,0.1554
+E07000129,Blaby,East Midlands,2016,0.1105
+E07000129,Blaby,East Midlands,2017,0.1168
+E07000129,Blaby,East Midlands,2018,0.1217
+E07000129,Blaby,East Midlands,2019,0.1281
+E07000129,Blaby,East Midlands,2020,0.1328
+E07000129,Blaby,East Midlands,2021,0.1408
+E07000129,Blaby,East Midlands,2022,0.1609
+E07000129,Blaby,East Midlands,2023,0.2016
+E07000130,Charnwood,East Midlands,2016,0.1105
+E07000130,Charnwood,East Midlands,2017,0.1168
+E07000130,Charnwood,East Midlands,2018,0.1217
+E07000130,Charnwood,East Midlands,2019,0.1281
+E07000130,Charnwood,East Midlands,2020,0.1328
+E07000130,Charnwood,East Midlands,2021,0.1408
+E07000130,Charnwood,East Midlands,2022,0.1609
+E07000130,Charnwood,East Midlands,2023,0.2016
+E07000131,Harborough,East Midlands,2016,0.1105
+E07000131,Harborough,East Midlands,2017,0.1168
+E07000131,Harborough,East Midlands,2018,0.1217
+E07000131,Harborough,East Midlands,2019,0.1281
+E07000131,Harborough,East Midlands,2020,0.1328
+E07000131,Harborough,East Midlands,2021,0.1408
+E07000131,Harborough,East Midlands,2022,0.1609
+E07000131,Harborough,East Midlands,2023,0.2016
+E07000132,Hinckley and Bosworth,East Midlands,2016,0.1105
+E07000132,Hinckley and Bosworth,East Midlands,2017,0.1168
+E07000132,Hinckley and Bosworth,East Midlands,2018,0.1217
+E07000132,Hinckley and Bosworth,East Midlands,2019,0.1281
+E07000132,Hinckley and Bosworth,East Midlands,2020,0.1328
+E07000132,Hinckley and Bosworth,East Midlands,2021,0.1408
+E07000132,Hinckley and Bosworth,East Midlands,2022,0.1609
+E07000132,Hinckley and Bosworth,East Midlands,2023,0.2016
+E07000133,Melton,East Midlands,2016,0.1105
+E07000133,Melton,East Midlands,2017,0.1168
+E07000133,Melton,East Midlands,2018,0.1217
+E07000133,Melton,East Midlands,2019,0.1281
+E07000133,Melton,East Midlands,2020,0.1328
+E07000133,Melton,East Midlands,2021,0.1408
+E07000133,Melton,East Midlands,2022,0.1609
+E07000133,Melton,East Midlands,2023,0.2016
+E07000134,North West Leicestershire,East Midlands,2016,0.1105
+E07000134,North West Leicestershire,East Midlands,2017,0.1168
+E07000134,North West Leicestershire,East Midlands,2018,0.1217
+E07000134,North West Leicestershire,East Midlands,2019,0.1281
+E07000134,North West Leicestershire,East Midlands,2020,0.1328
+E07000134,North West Leicestershire,East Midlands,2021,0.1408
+E07000134,North West Leicestershire,East Midlands,2022,0.1609
+E07000134,North West Leicestershire,East Midlands,2023,0.2016
+E07000135,Oadby and Wigston,East Midlands,2016,0.1105
+E07000135,Oadby and Wigston,East Midlands,2017,0.1168
+E07000135,Oadby and Wigston,East Midlands,2018,0.1217
+E07000135,Oadby and Wigston,East Midlands,2019,0.1281
+E07000135,Oadby and Wigston,East Midlands,2020,0.1328
+E07000135,Oadby and Wigston,East Midlands,2021,0.1408
+E07000135,Oadby and Wigston,East Midlands,2022,0.1609
+E07000135,Oadby and Wigston,East Midlands,2023,0.2016
+E07000136,Boston,East Midlands,2016,0.1105
+E07000136,Boston,East Midlands,2017,0.1168
+E07000136,Boston,East Midlands,2018,0.1217
+E07000136,Boston,East Midlands,2019,0.1281
+E07000136,Boston,East Midlands,2020,0.1328
+E07000136,Boston,East Midlands,2021,0.1408
+E07000136,Boston,East Midlands,2022,0.1609
+E07000136,Boston,East Midlands,2023,0.2016
+E07000137,East Lindsey,East Midlands,2016,0.1105
+E07000137,East Lindsey,East Midlands,2017,0.1168
+E07000137,East Lindsey,East Midlands,2018,0.1217
+E07000137,East Lindsey,East Midlands,2019,0.1281
+E07000137,East Lindsey,East Midlands,2020,0.1328
+E07000137,East Lindsey,East Midlands,2021,0.1408
+E07000137,East Lindsey,East Midlands,2022,0.1609
+E07000137,East Lindsey,East Midlands,2023,0.2016
+E07000138,Lincoln,East Midlands,2016,0.1105
+E07000138,Lincoln,East Midlands,2017,0.1168
+E07000138,Lincoln,East Midlands,2018,0.1217
+E07000138,Lincoln,East Midlands,2019,0.1281
+E07000138,Lincoln,East Midlands,2020,0.1328
+E07000138,Lincoln,East Midlands,2021,0.1408
+E07000138,Lincoln,East Midlands,2022,0.1609
+E07000138,Lincoln,East Midlands,2023,0.2016
+E07000139,North Kesteven,East Midlands,2016,0.1105
+E07000139,North Kesteven,East Midlands,2017,0.1168
+E07000139,North Kesteven,East Midlands,2018,0.1217
+E07000139,North Kesteven,East Midlands,2019,0.1281
+E07000139,North Kesteven,East Midlands,2020,0.1328
+E07000139,North Kesteven,East Midlands,2021,0.1408
+E07000139,North Kesteven,East Midlands,2022,0.1609
+E07000139,North Kesteven,East Midlands,2023,0.2016
+E07000140,South Holland,East Midlands,2016,0.1105
+E07000140,South Holland,East Midlands,2017,0.1168
+E07000140,South Holland,East Midlands,2018,0.1217
+E07000140,South Holland,East Midlands,2019,0.1281
+E07000140,South Holland,East Midlands,2020,0.1328
+E07000140,South Holland,East Midlands,2021,0.1408
+E07000140,South Holland,East Midlands,2022,0.1609
+E07000140,South Holland,East Midlands,2023,0.2016
+E07000141,South Kesteven,East Midlands,2016,0.1105
+E07000141,South Kesteven,East Midlands,2017,0.1168
+E07000141,South Kesteven,East Midlands,2018,0.1217
+E07000141,South Kesteven,East Midlands,2019,0.1281
+E07000141,South Kesteven,East Midlands,2020,0.1328
+E07000141,South Kesteven,East Midlands,2021,0.1408
+E07000141,South Kesteven,East Midlands,2022,0.1609
+E07000141,South Kesteven,East Midlands,2023,0.2016
+E07000142,West Lindsey,East Midlands,2016,0.1105
+E07000142,West Lindsey,East Midlands,2017,0.1168
+E07000142,West Lindsey,East Midlands,2018,0.1217
+E07000142,West Lindsey,East Midlands,2019,0.1281
+E07000142,West Lindsey,East Midlands,2020,0.1328
+E07000142,West Lindsey,East Midlands,2021,0.1408
+E07000142,West Lindsey,East Midlands,2022,0.1609
+E07000142,West Lindsey,East Midlands,2023,0.2016
+E07000143,Breckland,East of England,2016,0.1701
+E07000143,Breckland,East of England,2017,0.1777
+E07000143,Breckland,East of England,2018,0.184
+E07000143,Breckland,East of England,2019,0.1918
+E07000143,Breckland,East of England,2020,0.1999
+E07000143,Breckland,East of England,2021,0.2084
+E07000143,Breckland,East of England,2022,0.2252
+E07000143,Breckland,East of England,2023,0.2614
+E07000144,Broadland,East of England,2016,0.1701
+E07000144,Broadland,East of England,2017,0.1777
+E07000144,Broadland,East of England,2018,0.184
+E07000144,Broadland,East of England,2019,0.1918
+E07000144,Broadland,East of England,2020,0.1999
+E07000144,Broadland,East of England,2021,0.2084
+E07000144,Broadland,East of England,2022,0.2252
+E07000144,Broadland,East of England,2023,0.2614
+E07000145,Great Yarmouth,East of England,2016,0.1701
+E07000145,Great Yarmouth,East of England,2017,0.1777
+E07000145,Great Yarmouth,East of England,2018,0.184
+E07000145,Great Yarmouth,East of England,2019,0.1918
+E07000145,Great Yarmouth,East of England,2020,0.1999
+E07000145,Great Yarmouth,East of England,2021,0.2084
+E07000145,Great Yarmouth,East of England,2022,0.2252
+E07000145,Great Yarmouth,East of England,2023,0.2614
+E07000146,King's Lynn and West Norfolk,East of England,2016,0.1701
+E07000146,King's Lynn and West Norfolk,East of England,2017,0.1777
+E07000146,King's Lynn and West Norfolk,East of England,2018,0.184
+E07000146,King's Lynn and West Norfolk,East of England,2019,0.1918
+E07000146,King's Lynn and West Norfolk,East of England,2020,0.1999
+E07000146,King's Lynn and West Norfolk,East of England,2021,0.2084
+E07000146,King's Lynn and West Norfolk,East of England,2022,0.2252
+E07000146,King's Lynn and West Norfolk,East of England,2023,0.2614
+E07000147,North Norfolk,East of England,2016,0.1701
+E07000147,North Norfolk,East of England,2017,0.1777
+E07000147,North Norfolk,East of England,2018,0.184
+E07000147,North Norfolk,East of England,2019,0.1918
+E07000147,North Norfolk,East of England,2020,0.1999
+E07000147,North Norfolk,East of England,2021,0.2084
+E07000147,North Norfolk,East of England,2022,0.2252
+E07000147,North Norfolk,East of England,2023,0.2614
+E07000148,Norwich,East of England,2016,0.1701
+E07000148,Norwich,East of England,2017,0.1777
+E07000148,Norwich,East of England,2018,0.184
+E07000148,Norwich,East of England,2019,0.1918
+E07000148,Norwich,East of England,2020,0.1999
+E07000148,Norwich,East of England,2021,0.2084
+E07000148,Norwich,East of England,2022,0.2252
+E07000148,Norwich,East of England,2023,0.2614
+E07000149,South Norfolk,East of England,2016,0.1701
+E07000149,South Norfolk,East of England,2017,0.1777
+E07000149,South Norfolk,East of England,2018,0.184
+E07000149,South Norfolk,East of England,2019,0.1918
+E07000149,South Norfolk,East of England,2020,0.1999
+E07000149,South Norfolk,East of England,2021,0.2084
+E07000149,South Norfolk,East of England,2022,0.2252
+E07000149,South Norfolk,East of England,2023,0.2614
+E07000170,Ashfield,East Midlands,2016,0.1105
+E07000170,Ashfield,East Midlands,2017,0.1168
+E07000170,Ashfield,East Midlands,2018,0.1217
+E07000170,Ashfield,East Midlands,2019,0.1281
+E07000170,Ashfield,East Midlands,2020,0.1328
+E07000170,Ashfield,East Midlands,2021,0.1408
+E07000170,Ashfield,East Midlands,2022,0.1609
+E07000170,Ashfield,East Midlands,2023,0.2016
+E07000171,Bassetlaw,East Midlands,2016,0.1105
+E07000171,Bassetlaw,East Midlands,2017,0.1168
+E07000171,Bassetlaw,East Midlands,2018,0.1217
+E07000171,Bassetlaw,East Midlands,2019,0.1281
+E07000171,Bassetlaw,East Midlands,2020,0.1328
+E07000171,Bassetlaw,East Midlands,2021,0.1408
+E07000171,Bassetlaw,East Midlands,2022,0.1609
+E07000171,Bassetlaw,East Midlands,2023,0.2016
+E07000172,Broxtowe,East Midlands,2016,0.1105
+E07000172,Broxtowe,East Midlands,2017,0.1168
+E07000172,Broxtowe,East Midlands,2018,0.1217
+E07000172,Broxtowe,East Midlands,2019,0.1281
+E07000172,Broxtowe,East Midlands,2020,0.1328
+E07000172,Broxtowe,East Midlands,2021,0.1408
+E07000172,Broxtowe,East Midlands,2022,0.1609
+E07000172,Broxtowe,East Midlands,2023,0.2016
+E07000173,Gedling,East Midlands,2016,0.1105
+E07000173,Gedling,East Midlands,2017,0.1168
+E07000173,Gedling,East Midlands,2018,0.1217
+E07000173,Gedling,East Midlands,2019,0.1281
+E07000173,Gedling,East Midlands,2020,0.1328
+E07000173,Gedling,East Midlands,2021,0.1408
+E07000173,Gedling,East Midlands,2022,0.1609
+E07000173,Gedling,East Midlands,2023,0.2016
+E07000174,Mansfield,East Midlands,2016,0.1105
+E07000174,Mansfield,East Midlands,2017,0.1168
+E07000174,Mansfield,East Midlands,2018,0.1217
+E07000174,Mansfield,East Midlands,2019,0.1281
+E07000174,Mansfield,East Midlands,2020,0.1328
+E07000174,Mansfield,East Midlands,2021,0.1408
+E07000174,Mansfield,East Midlands,2022,0.1609
+E07000174,Mansfield,East Midlands,2023,0.2016
+E07000175,Newark and Sherwood,East Midlands,2016,0.1105
+E07000175,Newark and Sherwood,East Midlands,2017,0.1168
+E07000175,Newark and Sherwood,East Midlands,2018,0.1217
+E07000175,Newark and Sherwood,East Midlands,2019,0.1281
+E07000175,Newark and Sherwood,East Midlands,2020,0.1328
+E07000175,Newark and Sherwood,East Midlands,2021,0.1408
+E07000175,Newark and Sherwood,East Midlands,2022,0.1609
+E07000175,Newark and Sherwood,East Midlands,2023,0.2016
+E07000176,Rushcliffe,East Midlands,2016,0.1105
+E07000176,Rushcliffe,East Midlands,2017,0.1168
+E07000176,Rushcliffe,East Midlands,2018,0.1217
+E07000176,Rushcliffe,East Midlands,2019,0.1281
+E07000176,Rushcliffe,East Midlands,2020,0.1328
+E07000176,Rushcliffe,East Midlands,2021,0.1408
+E07000176,Rushcliffe,East Midlands,2022,0.1609
+E07000176,Rushcliffe,East Midlands,2023,0.2016
+E07000177,Cherwell,South East,2016,0.1849
+E07000177,Cherwell,South East,2017,0.1907
+E07000177,Cherwell,South East,2018,0.1952
+E07000177,Cherwell,South East,2019,0.2024
+E07000177,Cherwell,South East,2020,0.2086
+E07000177,Cherwell,South East,2021,0.2149
+E07000177,Cherwell,South East,2022,0.2329
+E07000177,Cherwell,South East,2023,0.268
+E07000178,Oxford,South East,2016,0.1849
+E07000178,Oxford,South East,2017,0.1907
+E07000178,Oxford,South East,2018,0.1952
+E07000178,Oxford,South East,2019,0.2024
+E07000178,Oxford,South East,2020,0.2086
+E07000178,Oxford,South East,2021,0.2149
+E07000178,Oxford,South East,2022,0.2329
+E07000178,Oxford,South East,2023,0.268
+E07000179,South Oxfordshire,South East,2016,0.1849
+E07000179,South Oxfordshire,South East,2017,0.1907
+E07000179,South Oxfordshire,South East,2018,0.1952
+E07000179,South Oxfordshire,South East,2019,0.2024
+E07000179,South Oxfordshire,South East,2020,0.2086
+E07000179,South Oxfordshire,South East,2021,0.2149
+E07000179,South Oxfordshire,South East,2022,0.2329
+E07000179,South Oxfordshire,South East,2023,0.268
+E07000180,Vale of White Horse,South East,2016,0.1849
+E07000180,Vale of White Horse,South East,2017,0.1907
+E07000180,Vale of White Horse,South East,2018,0.1952
+E07000180,Vale of White Horse,South East,2019,0.2024
+E07000180,Vale of White Horse,South East,2020,0.2086
+E07000180,Vale of White Horse,South East,2021,0.2149
+E07000180,Vale of White Horse,South East,2022,0.2329
+E07000180,Vale of White Horse,South East,2023,0.268
+E07000181,West Oxfordshire,South East,2016,0.1849
+E07000181,West Oxfordshire,South East,2017,0.1907
+E07000181,West Oxfordshire,South East,2018,0.1952
+E07000181,West Oxfordshire,South East,2019,0.2024
+E07000181,West Oxfordshire,South East,2020,0.2086
+E07000181,West Oxfordshire,South East,2021,0.2149
+E07000181,West Oxfordshire,South East,2022,0.2329
+E07000181,West Oxfordshire,South East,2023,0.268
+E07000192,Cannock Chase,West Midlands,2016,0.1178
+E07000192,Cannock Chase,West Midlands,2017,0.123
+E07000192,Cannock Chase,West Midlands,2018,0.1273
+E07000192,Cannock Chase,West Midlands,2019,0.1326
+E07000192,Cannock Chase,West Midlands,2020,0.1375
+E07000192,Cannock Chase,West Midlands,2021,0.1442
+E07000192,Cannock Chase,West Midlands,2022,0.163
+E07000192,Cannock Chase,West Midlands,2023,0.2018
+E07000193,East Staffordshire,West Midlands,2016,0.1178
+E07000193,East Staffordshire,West Midlands,2017,0.123
+E07000193,East Staffordshire,West Midlands,2018,0.1273
+E07000193,East Staffordshire,West Midlands,2019,0.1326
+E07000193,East Staffordshire,West Midlands,2020,0.1375
+E07000193,East Staffordshire,West Midlands,2021,0.1442
+E07000193,East Staffordshire,West Midlands,2022,0.163
+E07000193,East Staffordshire,West Midlands,2023,0.2018
+E07000194,Lichfield,West Midlands,2016,0.1178
+E07000194,Lichfield,West Midlands,2017,0.123
+E07000194,Lichfield,West Midlands,2018,0.1273
+E07000194,Lichfield,West Midlands,2019,0.1326
+E07000194,Lichfield,West Midlands,2020,0.1375
+E07000194,Lichfield,West Midlands,2021,0.1442
+E07000194,Lichfield,West Midlands,2022,0.163
+E07000194,Lichfield,West Midlands,2023,0.2018
+E07000195,Newcastle-under-Lyme,West Midlands,2016,0.1178
+E07000195,Newcastle-under-Lyme,West Midlands,2017,0.123
+E07000195,Newcastle-under-Lyme,West Midlands,2018,0.1273
+E07000195,Newcastle-under-Lyme,West Midlands,2019,0.1326
+E07000195,Newcastle-under-Lyme,West Midlands,2020,0.1375
+E07000195,Newcastle-under-Lyme,West Midlands,2021,0.1442
+E07000195,Newcastle-under-Lyme,West Midlands,2022,0.163
+E07000195,Newcastle-under-Lyme,West Midlands,2023,0.2018
+E07000196,South Staffordshire,West Midlands,2016,0.1178
+E07000196,South Staffordshire,West Midlands,2017,0.123
+E07000196,South Staffordshire,West Midlands,2018,0.1273
+E07000196,South Staffordshire,West Midlands,2019,0.1326
+E07000196,South Staffordshire,West Midlands,2020,0.1375
+E07000196,South Staffordshire,West Midlands,2021,0.1442
+E07000196,South Staffordshire,West Midlands,2022,0.163
+E07000196,South Staffordshire,West Midlands,2023,0.2018
+E07000197,Stafford,West Midlands,2016,0.1178
+E07000197,Stafford,West Midlands,2017,0.123
+E07000197,Stafford,West Midlands,2018,0.1273
+E07000197,Stafford,West Midlands,2019,0.1326
+E07000197,Stafford,West Midlands,2020,0.1375
+E07000197,Stafford,West Midlands,2021,0.1442
+E07000197,Stafford,West Midlands,2022,0.163
+E07000197,Stafford,West Midlands,2023,0.2018
+E07000198,Staffordshire Moorlands,West Midlands,2016,0.1178
+E07000198,Staffordshire Moorlands,West Midlands,2017,0.123
+E07000198,Staffordshire Moorlands,West Midlands,2018,0.1273
+E07000198,Staffordshire Moorlands,West Midlands,2019,0.1326
+E07000198,Staffordshire Moorlands,West Midlands,2020,0.1375
+E07000198,Staffordshire Moorlands,West Midlands,2021,0.1442
+E07000198,Staffordshire Moorlands,West Midlands,2022,0.163
+E07000198,Staffordshire Moorlands,West Midlands,2023,0.2018
+E07000199,Tamworth,West Midlands,2016,0.1178
+E07000199,Tamworth,West Midlands,2017,0.123
+E07000199,Tamworth,West Midlands,2018,0.1273
+E07000199,Tamworth,West Midlands,2019,0.1326
+E07000199,Tamworth,West Midlands,2020,0.1375
+E07000199,Tamworth,West Midlands,2021,0.1442
+E07000199,Tamworth,West Midlands,2022,0.163
+E07000199,Tamworth,West Midlands,2023,0.2018
+E07000200,Babergh,East of England,2016,0.1701
+E07000200,Babergh,East of England,2017,0.1777
+E07000200,Babergh,East of England,2018,0.184
+E07000200,Babergh,East of England,2019,0.1918
+E07000200,Babergh,East of England,2020,0.1999
+E07000200,Babergh,East of England,2021,0.2084
+E07000200,Babergh,East of England,2022,0.2252
+E07000200,Babergh,East of England,2023,0.2614
+E07000202,Ipswich,East of England,2016,0.1701
+E07000202,Ipswich,East of England,2017,0.1777
+E07000202,Ipswich,East of England,2018,0.184
+E07000202,Ipswich,East of England,2019,0.1918
+E07000202,Ipswich,East of England,2020,0.1999
+E07000202,Ipswich,East of England,2021,0.2084
+E07000202,Ipswich,East of England,2022,0.2252
+E07000202,Ipswich,East of England,2023,0.2614
+E07000203,Mid Suffolk,East of England,2016,0.1701
+E07000203,Mid Suffolk,East of England,2017,0.1777
+E07000203,Mid Suffolk,East of England,2018,0.184
+E07000203,Mid Suffolk,East of England,2019,0.1918
+E07000203,Mid Suffolk,East of England,2020,0.1999
+E07000203,Mid Suffolk,East of England,2021,0.2084
+E07000203,Mid Suffolk,East of England,2022,0.2252
+E07000203,Mid Suffolk,East of England,2023,0.2614
+E07000207,Elmbridge,South East,2016,0.1849
+E07000207,Elmbridge,South East,2017,0.1907
+E07000207,Elmbridge,South East,2018,0.1952
+E07000207,Elmbridge,South East,2019,0.2024
+E07000207,Elmbridge,South East,2020,0.2086
+E07000207,Elmbridge,South East,2021,0.2149
+E07000207,Elmbridge,South East,2022,0.2329
+E07000207,Elmbridge,South East,2023,0.268
+E07000208,Epsom and Ewell,South East,2016,0.1849
+E07000208,Epsom and Ewell,South East,2017,0.1907
+E07000208,Epsom and Ewell,South East,2018,0.1952
+E07000208,Epsom and Ewell,South East,2019,0.2024
+E07000208,Epsom and Ewell,South East,2020,0.2086
+E07000208,Epsom and Ewell,South East,2021,0.2149
+E07000208,Epsom and Ewell,South East,2022,0.2329
+E07000208,Epsom and Ewell,South East,2023,0.268
+E07000209,Guildford,South East,2016,0.1849
+E07000209,Guildford,South East,2017,0.1907
+E07000209,Guildford,South East,2018,0.1952
+E07000209,Guildford,South East,2019,0.2024
+E07000209,Guildford,South East,2020,0.2086
+E07000209,Guildford,South East,2021,0.2149
+E07000209,Guildford,South East,2022,0.2329
+E07000209,Guildford,South East,2023,0.268
+E07000210,Mole Valley,South East,2016,0.1849
+E07000210,Mole Valley,South East,2017,0.1907
+E07000210,Mole Valley,South East,2018,0.1952
+E07000210,Mole Valley,South East,2019,0.2024
+E07000210,Mole Valley,South East,2020,0.2086
+E07000210,Mole Valley,South East,2021,0.2149
+E07000210,Mole Valley,South East,2022,0.2329
+E07000210,Mole Valley,South East,2023,0.268
+E07000211,Reigate and Banstead,South East,2016,0.1849
+E07000211,Reigate and Banstead,South East,2017,0.1907
+E07000211,Reigate and Banstead,South East,2018,0.1952
+E07000211,Reigate and Banstead,South East,2019,0.2024
+E07000211,Reigate and Banstead,South East,2020,0.2086
+E07000211,Reigate and Banstead,South East,2021,0.2149
+E07000211,Reigate and Banstead,South East,2022,0.2329
+E07000211,Reigate and Banstead,South East,2023,0.268
+E07000212,Runnymede,South East,2016,0.1849
+E07000212,Runnymede,South East,2017,0.1907
+E07000212,Runnymede,South East,2018,0.1952
+E07000212,Runnymede,South East,2019,0.2024
+E07000212,Runnymede,South East,2020,0.2086
+E07000212,Runnymede,South East,2021,0.2149
+E07000212,Runnymede,South East,2022,0.2329
+E07000212,Runnymede,South East,2023,0.268
+E07000213,Spelthorne,South East,2016,0.1849
+E07000213,Spelthorne,South East,2017,0.1907
+E07000213,Spelthorne,South East,2018,0.1952
+E07000213,Spelthorne,South East,2019,0.2024
+E07000213,Spelthorne,South East,2020,0.2086
+E07000213,Spelthorne,South East,2021,0.2149
+E07000213,Spelthorne,South East,2022,0.2329
+E07000213,Spelthorne,South East,2023,0.268
+E07000214,Surrey Heath,South East,2016,0.1849
+E07000214,Surrey Heath,South East,2017,0.1907
+E07000214,Surrey Heath,South East,2018,0.1952
+E07000214,Surrey Heath,South East,2019,0.2024
+E07000214,Surrey Heath,South East,2020,0.2086
+E07000214,Surrey Heath,South East,2021,0.2149
+E07000214,Surrey Heath,South East,2022,0.2329
+E07000214,Surrey Heath,South East,2023,0.268
+E07000215,Tandridge,South East,2016,0.1849
+E07000215,Tandridge,South East,2017,0.1907
+E07000215,Tandridge,South East,2018,0.1952
+E07000215,Tandridge,South East,2019,0.2024
+E07000215,Tandridge,South East,2020,0.2086
+E07000215,Tandridge,South East,2021,0.2149
+E07000215,Tandridge,South East,2022,0.2329
+E07000215,Tandridge,South East,2023,0.268
+E07000216,Waverley,South East,2016,0.1849
+E07000216,Waverley,South East,2017,0.1907
+E07000216,Waverley,South East,2018,0.1952
+E07000216,Waverley,South East,2019,0.2024
+E07000216,Waverley,South East,2020,0.2086
+E07000216,Waverley,South East,2021,0.2149
+E07000216,Waverley,South East,2022,0.2329
+E07000216,Waverley,South East,2023,0.268
+E07000217,Woking,South East,2016,0.1849
+E07000217,Woking,South East,2017,0.1907
+E07000217,Woking,South East,2018,0.1952
+E07000217,Woking,South East,2019,0.2024
+E07000217,Woking,South East,2020,0.2086
+E07000217,Woking,South East,2021,0.2149
+E07000217,Woking,South East,2022,0.2329
+E07000217,Woking,South East,2023,0.268
+E07000218,North Warwickshire,West Midlands,2016,0.1178
+E07000218,North Warwickshire,West Midlands,2017,0.123
+E07000218,North Warwickshire,West Midlands,2018,0.1273
+E07000218,North Warwickshire,West Midlands,2019,0.1326
+E07000218,North Warwickshire,West Midlands,2020,0.1375
+E07000218,North Warwickshire,West Midlands,2021,0.1442
+E07000218,North Warwickshire,West Midlands,2022,0.163
+E07000218,North Warwickshire,West Midlands,2023,0.2018
+E07000219,Nuneaton and Bedworth,West Midlands,2016,0.1178
+E07000219,Nuneaton and Bedworth,West Midlands,2017,0.123
+E07000219,Nuneaton and Bedworth,West Midlands,2018,0.1273
+E07000219,Nuneaton and Bedworth,West Midlands,2019,0.1326
+E07000219,Nuneaton and Bedworth,West Midlands,2020,0.1375
+E07000219,Nuneaton and Bedworth,West Midlands,2021,0.1442
+E07000219,Nuneaton and Bedworth,West Midlands,2022,0.163
+E07000219,Nuneaton and Bedworth,West Midlands,2023,0.2018
+E07000220,Rugby,West Midlands,2016,0.1178
+E07000220,Rugby,West Midlands,2017,0.123
+E07000220,Rugby,West Midlands,2018,0.1273
+E07000220,Rugby,West Midlands,2019,0.1326
+E07000220,Rugby,West Midlands,2020,0.1375
+E07000220,Rugby,West Midlands,2021,0.1442
+E07000220,Rugby,West Midlands,2022,0.163
+E07000220,Rugby,West Midlands,2023,0.2018
+E07000221,Stratford-on-Avon,West Midlands,2016,0.1178
+E07000221,Stratford-on-Avon,West Midlands,2017,0.123
+E07000221,Stratford-on-Avon,West Midlands,2018,0.1273
+E07000221,Stratford-on-Avon,West Midlands,2019,0.1326
+E07000221,Stratford-on-Avon,West Midlands,2020,0.1375
+E07000221,Stratford-on-Avon,West Midlands,2021,0.1442
+E07000221,Stratford-on-Avon,West Midlands,2022,0.163
+E07000221,Stratford-on-Avon,West Midlands,2023,0.2018
+E07000222,Warwick,West Midlands,2016,0.1178
+E07000222,Warwick,West Midlands,2017,0.123
+E07000222,Warwick,West Midlands,2018,0.1273
+E07000222,Warwick,West Midlands,2019,0.1326
+E07000222,Warwick,West Midlands,2020,0.1375
+E07000222,Warwick,West Midlands,2021,0.1442
+E07000222,Warwick,West Midlands,2022,0.163
+E07000222,Warwick,West Midlands,2023,0.2018
+E07000223,Adur,South East,2016,0.1849
+E07000223,Adur,South East,2017,0.1907
+E07000223,Adur,South East,2018,0.1952
+E07000223,Adur,South East,2019,0.2024
+E07000223,Adur,South East,2020,0.2086
+E07000223,Adur,South East,2021,0.2149
+E07000223,Adur,South East,2022,0.2329
+E07000223,Adur,South East,2023,0.268
+E07000224,Arun,South East,2016,0.1849
+E07000224,Arun,South East,2017,0.1907
+E07000224,Arun,South East,2018,0.1952
+E07000224,Arun,South East,2019,0.2024
+E07000224,Arun,South East,2020,0.2086
+E07000224,Arun,South East,2021,0.2149
+E07000224,Arun,South East,2022,0.2329
+E07000224,Arun,South East,2023,0.268
+E07000225,Chichester,South East,2016,0.1849
+E07000225,Chichester,South East,2017,0.1907
+E07000225,Chichester,South East,2018,0.1952
+E07000225,Chichester,South East,2019,0.2024
+E07000225,Chichester,South East,2020,0.2086
+E07000225,Chichester,South East,2021,0.2149
+E07000225,Chichester,South East,2022,0.2329
+E07000225,Chichester,South East,2023,0.268
+E07000226,Crawley,South East,2016,0.1849
+E07000226,Crawley,South East,2017,0.1907
+E07000226,Crawley,South East,2018,0.1952
+E07000226,Crawley,South East,2019,0.2024
+E07000226,Crawley,South East,2020,0.2086
+E07000226,Crawley,South East,2021,0.2149
+E07000226,Crawley,South East,2022,0.2329
+E07000226,Crawley,South East,2023,0.268
+E07000227,Horsham,South East,2016,0.1849
+E07000227,Horsham,South East,2017,0.1907
+E07000227,Horsham,South East,2018,0.1952
+E07000227,Horsham,South East,2019,0.2024
+E07000227,Horsham,South East,2020,0.2086
+E07000227,Horsham,South East,2021,0.2149
+E07000227,Horsham,South East,2022,0.2329
+E07000227,Horsham,South East,2023,0.268
+E07000228,Mid Sussex,South East,2016,0.1849
+E07000228,Mid Sussex,South East,2017,0.1907
+E07000228,Mid Sussex,South East,2018,0.1952
+E07000228,Mid Sussex,South East,2019,0.2024
+E07000228,Mid Sussex,South East,2020,0.2086
+E07000228,Mid Sussex,South East,2021,0.2149
+E07000228,Mid Sussex,South East,2022,0.2329
+E07000228,Mid Sussex,South East,2023,0.268
+E07000229,Worthing,South East,2016,0.1849
+E07000229,Worthing,South East,2017,0.1907
+E07000229,Worthing,South East,2018,0.1952
+E07000229,Worthing,South East,2019,0.2024
+E07000229,Worthing,South East,2020,0.2086
+E07000229,Worthing,South East,2021,0.2149
+E07000229,Worthing,South East,2022,0.2329
+E07000229,Worthing,South East,2023,0.268
+E07000234,Bromsgrove,West Midlands,2016,0.1178
+E07000234,Bromsgrove,West Midlands,2017,0.123
+E07000234,Bromsgrove,West Midlands,2018,0.1273
+E07000234,Bromsgrove,West Midlands,2019,0.1326
+E07000234,Bromsgrove,West Midlands,2020,0.1375
+E07000234,Bromsgrove,West Midlands,2021,0.1442
+E07000234,Bromsgrove,West Midlands,2022,0.163
+E07000234,Bromsgrove,West Midlands,2023,0.2018
+E07000235,Malvern Hills,West Midlands,2016,0.1178
+E07000235,Malvern Hills,West Midlands,2017,0.123
+E07000235,Malvern Hills,West Midlands,2018,0.1273
+E07000235,Malvern Hills,West Midlands,2019,0.1326
+E07000235,Malvern Hills,West Midlands,2020,0.1375
+E07000235,Malvern Hills,West Midlands,2021,0.1442
+E07000235,Malvern Hills,West Midlands,2022,0.163
+E07000235,Malvern Hills,West Midlands,2023,0.2018
+E07000236,Redditch,West Midlands,2016,0.1178
+E07000236,Redditch,West Midlands,2017,0.123
+E07000236,Redditch,West Midlands,2018,0.1273
+E07000236,Redditch,West Midlands,2019,0.1326
+E07000236,Redditch,West Midlands,2020,0.1375
+E07000236,Redditch,West Midlands,2021,0.1442
+E07000236,Redditch,West Midlands,2022,0.163
+E07000236,Redditch,West Midlands,2023,0.2018
+E07000237,Worcester,West Midlands,2016,0.1178
+E07000237,Worcester,West Midlands,2017,0.123
+E07000237,Worcester,West Midlands,2018,0.1273
+E07000237,Worcester,West Midlands,2019,0.1326
+E07000237,Worcester,West Midlands,2020,0.1375
+E07000237,Worcester,West Midlands,2021,0.1442
+E07000237,Worcester,West Midlands,2022,0.163
+E07000237,Worcester,West Midlands,2023,0.2018
+E07000238,Wychavon,West Midlands,2016,0.1178
+E07000238,Wychavon,West Midlands,2017,0.123
+E07000238,Wychavon,West Midlands,2018,0.1273
+E07000238,Wychavon,West Midlands,2019,0.1326
+E07000238,Wychavon,West Midlands,2020,0.1375
+E07000238,Wychavon,West Midlands,2021,0.1442
+E07000238,Wychavon,West Midlands,2022,0.163
+E07000238,Wychavon,West Midlands,2023,0.2018
+E07000239,Wyre Forest,West Midlands,2016,0.1178
+E07000239,Wyre Forest,West Midlands,2017,0.123
+E07000239,Wyre Forest,West Midlands,2018,0.1273
+E07000239,Wyre Forest,West Midlands,2019,0.1326
+E07000239,Wyre Forest,West Midlands,2020,0.1375
+E07000239,Wyre Forest,West Midlands,2021,0.1442
+E07000239,Wyre Forest,West Midlands,2022,0.163
+E07000239,Wyre Forest,West Midlands,2023,0.2018
+E07000240,St Albans,East of England,2016,0.1701
+E07000240,St Albans,East of England,2017,0.1777
+E07000240,St Albans,East of England,2018,0.184
+E07000240,St Albans,East of England,2019,0.1918
+E07000240,St Albans,East of England,2020,0.1999
+E07000240,St Albans,East of England,2021,0.2084
+E07000240,St Albans,East of England,2022,0.2252
+E07000240,St Albans,East of England,2023,0.2614
+E07000241,Welwyn Hatfield,East of England,2016,0.1701
+E07000241,Welwyn Hatfield,East of England,2017,0.1777
+E07000241,Welwyn Hatfield,East of England,2018,0.184
+E07000241,Welwyn Hatfield,East of England,2019,0.1918
+E07000241,Welwyn Hatfield,East of England,2020,0.1999
+E07000241,Welwyn Hatfield,East of England,2021,0.2084
+E07000241,Welwyn Hatfield,East of England,2022,0.2252
+E07000241,Welwyn Hatfield,East of England,2023,0.2614
+E07000242,East Hertfordshire,East of England,2016,0.1701
+E07000242,East Hertfordshire,East of England,2017,0.1777
+E07000242,East Hertfordshire,East of England,2018,0.184
+E07000242,East Hertfordshire,East of England,2019,0.1918
+E07000242,East Hertfordshire,East of England,2020,0.1999
+E07000242,East Hertfordshire,East of England,2021,0.2084
+E07000242,East Hertfordshire,East of England,2022,0.2252
+E07000242,East Hertfordshire,East of England,2023,0.2614
+E07000243,Stevenage,East of England,2016,0.1701
+E07000243,Stevenage,East of England,2017,0.1777
+E07000243,Stevenage,East of England,2018,0.184
+E07000243,Stevenage,East of England,2019,0.1918
+E07000243,Stevenage,East of England,2020,0.1999
+E07000243,Stevenage,East of England,2021,0.2084
+E07000243,Stevenage,East of England,2022,0.2252
+E07000243,Stevenage,East of England,2023,0.2614
+E07000244,East Suffolk,East of England,2016,0.1701
+E07000244,East Suffolk,East of England,2017,0.1777
+E07000244,East Suffolk,East of England,2018,0.184
+E07000244,East Suffolk,East of England,2019,0.1918
+E07000244,East Suffolk,East of England,2020,0.1999
+E07000244,East Suffolk,East of England,2021,0.2084
+E07000244,East Suffolk,East of England,2022,0.2252
+E07000244,East Suffolk,East of England,2023,0.2614
+E07000245,West Suffolk,East of England,2016,0.1701
+E07000245,West Suffolk,East of England,2017,0.1777
+E07000245,West Suffolk,East of England,2018,0.184
+E07000245,West Suffolk,East of England,2019,0.1918
+E07000245,West Suffolk,East of England,2020,0.1999
+E07000245,West Suffolk,East of England,2021,0.2084
+E07000245,West Suffolk,East of England,2022,0.2252
+E07000245,West Suffolk,East of England,2023,0.2614
+E08000001,Bolton,North West,2016,0.0819
+E08000001,Bolton,North West,2017,0.0846
+E08000001,Bolton,North West,2018,0.0869
+E08000001,Bolton,North West,2019,0.0916
+E08000001,Bolton,North West,2020,0.0971
+E08000001,Bolton,North West,2021,0.1057
+E08000001,Bolton,North West,2022,0.1229
+E08000001,Bolton,North West,2023,0.1554
+E08000002,Bury,North West,2016,0.0819
+E08000002,Bury,North West,2017,0.0846
+E08000002,Bury,North West,2018,0.0869
+E08000002,Bury,North West,2019,0.0916
+E08000002,Bury,North West,2020,0.0971
+E08000002,Bury,North West,2021,0.1057
+E08000002,Bury,North West,2022,0.1229
+E08000002,Bury,North West,2023,0.1554
+E08000003,Manchester,North West,2016,0.0819
+E08000003,Manchester,North West,2017,0.0846
+E08000003,Manchester,North West,2018,0.0869
+E08000003,Manchester,North West,2019,0.0916
+E08000003,Manchester,North West,2020,0.0971
+E08000003,Manchester,North West,2021,0.1057
+E08000003,Manchester,North West,2022,0.1229
+E08000003,Manchester,North West,2023,0.1554
+E08000004,Oldham,North West,2016,0.0819
+E08000004,Oldham,North West,2017,0.0846
+E08000004,Oldham,North West,2018,0.0869
+E08000004,Oldham,North West,2019,0.0916
+E08000004,Oldham,North West,2020,0.0971
+E08000004,Oldham,North West,2021,0.1057
+E08000004,Oldham,North West,2022,0.1229
+E08000004,Oldham,North West,2023,0.1554
+E08000005,Rochdale,North West,2016,0.0819
+E08000005,Rochdale,North West,2017,0.0846
+E08000005,Rochdale,North West,2018,0.0869
+E08000005,Rochdale,North West,2019,0.0916
+E08000005,Rochdale,North West,2020,0.0971
+E08000005,Rochdale,North West,2021,0.1057
+E08000005,Rochdale,North West,2022,0.1229
+E08000005,Rochdale,North West,2023,0.1554
+E08000006,Salford,North West,2016,0.0819
+E08000006,Salford,North West,2017,0.0846
+E08000006,Salford,North West,2018,0.0869
+E08000006,Salford,North West,2019,0.0916
+E08000006,Salford,North West,2020,0.0971
+E08000006,Salford,North West,2021,0.1057
+E08000006,Salford,North West,2022,0.1229
+E08000006,Salford,North West,2023,0.1554
+E08000007,Stockport,North West,2016,0.0819
+E08000007,Stockport,North West,2017,0.0846
+E08000007,Stockport,North West,2018,0.0869
+E08000007,Stockport,North West,2019,0.0916
+E08000007,Stockport,North West,2020,0.0971
+E08000007,Stockport,North West,2021,0.1057
+E08000007,Stockport,North West,2022,0.1229
+E08000007,Stockport,North West,2023,0.1554
+E08000008,Tameside,North West,2016,0.0819
+E08000008,Tameside,North West,2017,0.0846
+E08000008,Tameside,North West,2018,0.0869
+E08000008,Tameside,North West,2019,0.0916
+E08000008,Tameside,North West,2020,0.0971
+E08000008,Tameside,North West,2021,0.1057
+E08000008,Tameside,North West,2022,0.1229
+E08000008,Tameside,North West,2023,0.1554
+E08000009,Trafford,North West,2016,0.0819
+E08000009,Trafford,North West,2017,0.0846
+E08000009,Trafford,North West,2018,0.0869
+E08000009,Trafford,North West,2019,0.0916
+E08000009,Trafford,North West,2020,0.0971
+E08000009,Trafford,North West,2021,0.1057
+E08000009,Trafford,North West,2022,0.1229
+E08000009,Trafford,North West,2023,0.1554
+E08000010,Wigan,North West,2016,0.0819
+E08000010,Wigan,North West,2017,0.0846
+E08000010,Wigan,North West,2018,0.0869
+E08000010,Wigan,North West,2019,0.0916
+E08000010,Wigan,North West,2020,0.0971
+E08000010,Wigan,North West,2021,0.1057
+E08000010,Wigan,North West,2022,0.1229
+E08000010,Wigan,North West,2023,0.1554
+E08000011,Knowsley,North West,2016,0.0819
+E08000011,Knowsley,North West,2017,0.0846
+E08000011,Knowsley,North West,2018,0.0869
+E08000011,Knowsley,North West,2019,0.0916
+E08000011,Knowsley,North West,2020,0.0971
+E08000011,Knowsley,North West,2021,0.1057
+E08000011,Knowsley,North West,2022,0.1229
+E08000011,Knowsley,North West,2023,0.1554
+E08000012,Liverpool,North West,2016,0.0819
+E08000012,Liverpool,North West,2017,0.0846
+E08000012,Liverpool,North West,2018,0.0869
+E08000012,Liverpool,North West,2019,0.0916
+E08000012,Liverpool,North West,2020,0.0971
+E08000012,Liverpool,North West,2021,0.1057
+E08000012,Liverpool,North West,2022,0.1229
+E08000012,Liverpool,North West,2023,0.1554
+E08000013,St. Helens,North West,2016,0.0819
+E08000013,St. Helens,North West,2017,0.0846
+E08000013,St. Helens,North West,2018,0.0869
+E08000013,St. Helens,North West,2019,0.0916
+E08000013,St. Helens,North West,2020,0.0971
+E08000013,St. Helens,North West,2021,0.1057
+E08000013,St. Helens,North West,2022,0.1229
+E08000013,St. Helens,North West,2023,0.1554
+E08000014,Sefton,North West,2016,0.0819
+E08000014,Sefton,North West,2017,0.0846
+E08000014,Sefton,North West,2018,0.0869
+E08000014,Sefton,North West,2019,0.0916
+E08000014,Sefton,North West,2020,0.0971
+E08000014,Sefton,North West,2021,0.1057
+E08000014,Sefton,North West,2022,0.1229
+E08000014,Sefton,North West,2023,0.1554
+E08000015,Wirral,North West,2016,0.0819
+E08000015,Wirral,North West,2017,0.0846
+E08000015,Wirral,North West,2018,0.0869
+E08000015,Wirral,North West,2019,0.0916
+E08000015,Wirral,North West,2020,0.0971
+E08000015,Wirral,North West,2021,0.1057
+E08000015,Wirral,North West,2022,0.1229
+E08000015,Wirral,North West,2023,0.1554
+E08000016,Barnsley,Yorkshire and the Humber,2016,0.0793
+E08000016,Barnsley,Yorkshire and the Humber,2017,0.0818
+E08000016,Barnsley,Yorkshire and the Humber,2018,0.0837
+E08000016,Barnsley,Yorkshire and the Humber,2019,0.0868
+E08000016,Barnsley,Yorkshire and the Humber,2020,0.0903
+E08000016,Barnsley,Yorkshire and the Humber,2021,0.0963
+E08000016,Barnsley,Yorkshire and the Humber,2022,0.1126
+E08000016,Barnsley,Yorkshire and the Humber,2023,0.1444
+E08000017,Doncaster,Yorkshire and the Humber,2016,0.0793
+E08000017,Doncaster,Yorkshire and the Humber,2017,0.0818
+E08000017,Doncaster,Yorkshire and the Humber,2018,0.0837
+E08000017,Doncaster,Yorkshire and the Humber,2019,0.0868
+E08000017,Doncaster,Yorkshire and the Humber,2020,0.0903
+E08000017,Doncaster,Yorkshire and the Humber,2021,0.0963
+E08000017,Doncaster,Yorkshire and the Humber,2022,0.1126
+E08000017,Doncaster,Yorkshire and the Humber,2023,0.1444
+E08000018,Rotherham,Yorkshire and the Humber,2016,0.0793
+E08000018,Rotherham,Yorkshire and the Humber,2017,0.0818
+E08000018,Rotherham,Yorkshire and the Humber,2018,0.0837
+E08000018,Rotherham,Yorkshire and the Humber,2019,0.0868
+E08000018,Rotherham,Yorkshire and the Humber,2020,0.0903
+E08000018,Rotherham,Yorkshire and the Humber,2021,0.0963
+E08000018,Rotherham,Yorkshire and the Humber,2022,0.1126
+E08000018,Rotherham,Yorkshire and the Humber,2023,0.1444
+E08000019,Sheffield,Yorkshire and the Humber,2016,0.0793
+E08000019,Sheffield,Yorkshire and the Humber,2017,0.0818
+E08000019,Sheffield,Yorkshire and the Humber,2018,0.0837
+E08000019,Sheffield,Yorkshire and the Humber,2019,0.0868
+E08000019,Sheffield,Yorkshire and the Humber,2020,0.0903
+E08000019,Sheffield,Yorkshire and the Humber,2021,0.0963
+E08000019,Sheffield,Yorkshire and the Humber,2022,0.1126
+E08000019,Sheffield,Yorkshire and the Humber,2023,0.1444
+E08000021,Newcastle upon Tyne,North East,2016,0.0537
+E08000021,Newcastle upon Tyne,North East,2017,0.0563
+E08000021,Newcastle upon Tyne,North East,2018,0.0584
+E08000021,Newcastle upon Tyne,North East,2019,0.0606
+E08000021,Newcastle upon Tyne,North East,2020,0.064
+E08000021,Newcastle upon Tyne,North East,2021,0.0701
+E08000021,Newcastle upon Tyne,North East,2022,0.0859
+E08000021,Newcastle upon Tyne,North East,2023,0.1166
+E08000022,North Tyneside,North East,2016,0.0537
+E08000022,North Tyneside,North East,2017,0.0563
+E08000022,North Tyneside,North East,2018,0.0584
+E08000022,North Tyneside,North East,2019,0.0606
+E08000022,North Tyneside,North East,2020,0.064
+E08000022,North Tyneside,North East,2021,0.0701
+E08000022,North Tyneside,North East,2022,0.0859
+E08000022,North Tyneside,North East,2023,0.1166
+E08000023,South Tyneside,North East,2016,0.0537
+E08000023,South Tyneside,North East,2017,0.0563
+E08000023,South Tyneside,North East,2018,0.0584
+E08000023,South Tyneside,North East,2019,0.0606
+E08000023,South Tyneside,North East,2020,0.064
+E08000023,South Tyneside,North East,2021,0.0701
+E08000023,South Tyneside,North East,2022,0.0859
+E08000023,South Tyneside,North East,2023,0.1166
+E08000024,Sunderland,North East,2016,0.0537
+E08000024,Sunderland,North East,2017,0.0563
+E08000024,Sunderland,North East,2018,0.0584
+E08000024,Sunderland,North East,2019,0.0606
+E08000024,Sunderland,North East,2020,0.064
+E08000024,Sunderland,North East,2021,0.0701
+E08000024,Sunderland,North East,2022,0.0859
+E08000024,Sunderland,North East,2023,0.1166
+E08000025,Birmingham,West Midlands,2016,0.1178
+E08000025,Birmingham,West Midlands,2017,0.123
+E08000025,Birmingham,West Midlands,2018,0.1273
+E08000025,Birmingham,West Midlands,2019,0.1326
+E08000025,Birmingham,West Midlands,2020,0.1375
+E08000025,Birmingham,West Midlands,2021,0.1442
+E08000025,Birmingham,West Midlands,2022,0.163
+E08000025,Birmingham,West Midlands,2023,0.2018
+E08000026,Coventry,West Midlands,2016,0.1178
+E08000026,Coventry,West Midlands,2017,0.123
+E08000026,Coventry,West Midlands,2018,0.1273
+E08000026,Coventry,West Midlands,2019,0.1326
+E08000026,Coventry,West Midlands,2020,0.1375
+E08000026,Coventry,West Midlands,2021,0.1442
+E08000026,Coventry,West Midlands,2022,0.163
+E08000026,Coventry,West Midlands,2023,0.2018
+E08000027,Dudley,West Midlands,2016,0.1178
+E08000027,Dudley,West Midlands,2017,0.123
+E08000027,Dudley,West Midlands,2018,0.1273
+E08000027,Dudley,West Midlands,2019,0.1326
+E08000027,Dudley,West Midlands,2020,0.1375
+E08000027,Dudley,West Midlands,2021,0.1442
+E08000027,Dudley,West Midlands,2022,0.163
+E08000027,Dudley,West Midlands,2023,0.2018
+E08000028,Sandwell,West Midlands,2016,0.1178
+E08000028,Sandwell,West Midlands,2017,0.123
+E08000028,Sandwell,West Midlands,2018,0.1273
+E08000028,Sandwell,West Midlands,2019,0.1326
+E08000028,Sandwell,West Midlands,2020,0.1375
+E08000028,Sandwell,West Midlands,2021,0.1442
+E08000028,Sandwell,West Midlands,2022,0.163
+E08000028,Sandwell,West Midlands,2023,0.2018
+E08000029,Solihull,West Midlands,2016,0.1178
+E08000029,Solihull,West Midlands,2017,0.123
+E08000029,Solihull,West Midlands,2018,0.1273
+E08000029,Solihull,West Midlands,2019,0.1326
+E08000029,Solihull,West Midlands,2020,0.1375
+E08000029,Solihull,West Midlands,2021,0.1442
+E08000029,Solihull,West Midlands,2022,0.163
+E08000029,Solihull,West Midlands,2023,0.2018
+E08000030,Walsall,West Midlands,2016,0.1178
+E08000030,Walsall,West Midlands,2017,0.123
+E08000030,Walsall,West Midlands,2018,0.1273
+E08000030,Walsall,West Midlands,2019,0.1326
+E08000030,Walsall,West Midlands,2020,0.1375
+E08000030,Walsall,West Midlands,2021,0.1442
+E08000030,Walsall,West Midlands,2022,0.163
+E08000030,Walsall,West Midlands,2023,0.2018
+E08000031,Wolverhampton,West Midlands,2016,0.1178
+E08000031,Wolverhampton,West Midlands,2017,0.123
+E08000031,Wolverhampton,West Midlands,2018,0.1273
+E08000031,Wolverhampton,West Midlands,2019,0.1326
+E08000031,Wolverhampton,West Midlands,2020,0.1375
+E08000031,Wolverhampton,West Midlands,2021,0.1442
+E08000031,Wolverhampton,West Midlands,2022,0.163
+E08000031,Wolverhampton,West Midlands,2023,0.2018
+E08000032,Bradford,Yorkshire and the Humber,2016,0.0793
+E08000032,Bradford,Yorkshire and the Humber,2017,0.0818
+E08000032,Bradford,Yorkshire and the Humber,2018,0.0837
+E08000032,Bradford,Yorkshire and the Humber,2019,0.0868
+E08000032,Bradford,Yorkshire and the Humber,2020,0.0903
+E08000032,Bradford,Yorkshire and the Humber,2021,0.0963
+E08000032,Bradford,Yorkshire and the Humber,2022,0.1126
+E08000032,Bradford,Yorkshire and the Humber,2023,0.1444
+E08000033,Calderdale,Yorkshire and the Humber,2016,0.0793
+E08000033,Calderdale,Yorkshire and the Humber,2017,0.0818
+E08000033,Calderdale,Yorkshire and the Humber,2018,0.0837
+E08000033,Calderdale,Yorkshire and the Humber,2019,0.0868
+E08000033,Calderdale,Yorkshire and the Humber,2020,0.0903
+E08000033,Calderdale,Yorkshire and the Humber,2021,0.0963
+E08000033,Calderdale,Yorkshire and the Humber,2022,0.1126
+E08000033,Calderdale,Yorkshire and the Humber,2023,0.1444
+E08000034,Kirklees,Yorkshire and the Humber,2016,0.0793
+E08000034,Kirklees,Yorkshire and the Humber,2017,0.0818
+E08000034,Kirklees,Yorkshire and the Humber,2018,0.0837
+E08000034,Kirklees,Yorkshire and the Humber,2019,0.0868
+E08000034,Kirklees,Yorkshire and the Humber,2020,0.0903
+E08000034,Kirklees,Yorkshire and the Humber,2021,0.0963
+E08000034,Kirklees,Yorkshire and the Humber,2022,0.1126
+E08000034,Kirklees,Yorkshire and the Humber,2023,0.1444
+E08000035,Leeds,Yorkshire and the Humber,2016,0.0793
+E08000035,Leeds,Yorkshire and the Humber,2017,0.0818
+E08000035,Leeds,Yorkshire and the Humber,2018,0.0837
+E08000035,Leeds,Yorkshire and the Humber,2019,0.0868
+E08000035,Leeds,Yorkshire and the Humber,2020,0.0903
+E08000035,Leeds,Yorkshire and the Humber,2021,0.0963
+E08000035,Leeds,Yorkshire and the Humber,2022,0.1126
+E08000035,Leeds,Yorkshire and the Humber,2023,0.1444
+E08000036,Wakefield,Yorkshire and the Humber,2016,0.0793
+E08000036,Wakefield,Yorkshire and the Humber,2017,0.0818
+E08000036,Wakefield,Yorkshire and the Humber,2018,0.0837
+E08000036,Wakefield,Yorkshire and the Humber,2019,0.0868
+E08000036,Wakefield,Yorkshire and the Humber,2020,0.0903
+E08000036,Wakefield,Yorkshire and the Humber,2021,0.0963
+E08000036,Wakefield,Yorkshire and the Humber,2022,0.1126
+E08000036,Wakefield,Yorkshire and the Humber,2023,0.1444
+E08000037,Gateshead,North East,2016,0.0537
+E08000037,Gateshead,North East,2017,0.0563
+E08000037,Gateshead,North East,2018,0.0584
+E08000037,Gateshead,North East,2019,0.0606
+E08000037,Gateshead,North East,2020,0.064
+E08000037,Gateshead,North East,2021,0.0701
+E08000037,Gateshead,North East,2022,0.0859
+E08000037,Gateshead,North East,2023,0.1166
+E09000001,City of London,London,2016,0.3782
+E09000001,City of London,London,2017,0.3817
+E09000001,City of London,London,2018,0.3855
+E09000001,City of London,London,2019,0.3913
+E09000001,City of London,London,2020,0.3966
+E09000001,City of London,London,2021,0.4021
+E09000001,City of London,London,2022,0.4168
+E09000001,City of London,London,2023,0.4457
+E09000002,Barking and Dagenham,London,2016,0.3782
+E09000002,Barking and Dagenham,London,2017,0.3817
+E09000002,Barking and Dagenham,London,2018,0.3855
+E09000002,Barking and Dagenham,London,2019,0.3913
+E09000002,Barking and Dagenham,London,2020,0.3966
+E09000002,Barking and Dagenham,London,2021,0.4021
+E09000002,Barking and Dagenham,London,2022,0.4168
+E09000002,Barking and Dagenham,London,2023,0.4457
+E09000003,Barnet,London,2016,0.3782
+E09000003,Barnet,London,2017,0.3817
+E09000003,Barnet,London,2018,0.3855
+E09000003,Barnet,London,2019,0.3913
+E09000003,Barnet,London,2020,0.3966
+E09000003,Barnet,London,2021,0.4021
+E09000003,Barnet,London,2022,0.4168
+E09000003,Barnet,London,2023,0.4457
+E09000004,Bexley,London,2016,0.3782
+E09000004,Bexley,London,2017,0.3817
+E09000004,Bexley,London,2018,0.3855
+E09000004,Bexley,London,2019,0.3913
+E09000004,Bexley,London,2020,0.3966
+E09000004,Bexley,London,2021,0.4021
+E09000004,Bexley,London,2022,0.4168
+E09000004,Bexley,London,2023,0.4457
+E09000005,Brent,London,2016,0.3782
+E09000005,Brent,London,2017,0.3817
+E09000005,Brent,London,2018,0.3855
+E09000005,Brent,London,2019,0.3913
+E09000005,Brent,London,2020,0.3966
+E09000005,Brent,London,2021,0.4021
+E09000005,Brent,London,2022,0.4168
+E09000005,Brent,London,2023,0.4457
+E09000006,Bromley,London,2016,0.3782
+E09000006,Bromley,London,2017,0.3817
+E09000006,Bromley,London,2018,0.3855
+E09000006,Bromley,London,2019,0.3913
+E09000006,Bromley,London,2020,0.3966
+E09000006,Bromley,London,2021,0.4021
+E09000006,Bromley,London,2022,0.4168
+E09000006,Bromley,London,2023,0.4457
+E09000007,Camden,London,2016,0.3782
+E09000007,Camden,London,2017,0.3817
+E09000007,Camden,London,2018,0.3855
+E09000007,Camden,London,2019,0.3913
+E09000007,Camden,London,2020,0.3966
+E09000007,Camden,London,2021,0.4021
+E09000007,Camden,London,2022,0.4168
+E09000007,Camden,London,2023,0.4457
+E09000008,Croydon,London,2016,0.3782
+E09000008,Croydon,London,2017,0.3817
+E09000008,Croydon,London,2018,0.3855
+E09000008,Croydon,London,2019,0.3913
+E09000008,Croydon,London,2020,0.3966
+E09000008,Croydon,London,2021,0.4021
+E09000008,Croydon,London,2022,0.4168
+E09000008,Croydon,London,2023,0.4457
+E09000009,Ealing,London,2016,0.3782
+E09000009,Ealing,London,2017,0.3817
+E09000009,Ealing,London,2018,0.3855
+E09000009,Ealing,London,2019,0.3913
+E09000009,Ealing,London,2020,0.3966
+E09000009,Ealing,London,2021,0.4021
+E09000009,Ealing,London,2022,0.4168
+E09000009,Ealing,London,2023,0.4457
+E09000010,Enfield,London,2016,0.3782
+E09000010,Enfield,London,2017,0.3817
+E09000010,Enfield,London,2018,0.3855
+E09000010,Enfield,London,2019,0.3913
+E09000010,Enfield,London,2020,0.3966
+E09000010,Enfield,London,2021,0.4021
+E09000010,Enfield,London,2022,0.4168
+E09000010,Enfield,London,2023,0.4457
+E09000011,Greenwich,London,2016,0.3782
+E09000011,Greenwich,London,2017,0.3817
+E09000011,Greenwich,London,2018,0.3855
+E09000011,Greenwich,London,2019,0.3913
+E09000011,Greenwich,London,2020,0.3966
+E09000011,Greenwich,London,2021,0.4021
+E09000011,Greenwich,London,2022,0.4168
+E09000011,Greenwich,London,2023,0.4457
+E09000012,Hackney,London,2016,0.3782
+E09000012,Hackney,London,2017,0.3817
+E09000012,Hackney,London,2018,0.3855
+E09000012,Hackney,London,2019,0.3913
+E09000012,Hackney,London,2020,0.3966
+E09000012,Hackney,London,2021,0.4021
+E09000012,Hackney,London,2022,0.4168
+E09000012,Hackney,London,2023,0.4457
+E09000013,Hammersmith and Fulham,London,2016,0.3782
+E09000013,Hammersmith and Fulham,London,2017,0.3817
+E09000013,Hammersmith and Fulham,London,2018,0.3855
+E09000013,Hammersmith and Fulham,London,2019,0.3913
+E09000013,Hammersmith and Fulham,London,2020,0.3966
+E09000013,Hammersmith and Fulham,London,2021,0.4021
+E09000013,Hammersmith and Fulham,London,2022,0.4168
+E09000013,Hammersmith and Fulham,London,2023,0.4457
+E09000014,Haringey,London,2016,0.3782
+E09000014,Haringey,London,2017,0.3817
+E09000014,Haringey,London,2018,0.3855
+E09000014,Haringey,London,2019,0.3913
+E09000014,Haringey,London,2020,0.3966
+E09000014,Haringey,London,2021,0.4021
+E09000014,Haringey,London,2022,0.4168
+E09000014,Haringey,London,2023,0.4457
+E09000015,Harrow,London,2016,0.3782
+E09000015,Harrow,London,2017,0.3817
+E09000015,Harrow,London,2018,0.3855
+E09000015,Harrow,London,2019,0.3913
+E09000015,Harrow,London,2020,0.3966
+E09000015,Harrow,London,2021,0.4021
+E09000015,Harrow,London,2022,0.4168
+E09000015,Harrow,London,2023,0.4457
+E09000016,Havering,London,2016,0.3782
+E09000016,Havering,London,2017,0.3817
+E09000016,Havering,London,2018,0.3855
+E09000016,Havering,London,2019,0.3913
+E09000016,Havering,London,2020,0.3966
+E09000016,Havering,London,2021,0.4021
+E09000016,Havering,London,2022,0.4168
+E09000016,Havering,London,2023,0.4457
+E09000017,Hillingdon,London,2016,0.3782
+E09000017,Hillingdon,London,2017,0.3817
+E09000017,Hillingdon,London,2018,0.3855
+E09000017,Hillingdon,London,2019,0.3913
+E09000017,Hillingdon,London,2020,0.3966
+E09000017,Hillingdon,London,2021,0.4021
+E09000017,Hillingdon,London,2022,0.4168
+E09000017,Hillingdon,London,2023,0.4457
+E09000018,Hounslow,London,2016,0.3782
+E09000018,Hounslow,London,2017,0.3817
+E09000018,Hounslow,London,2018,0.3855
+E09000018,Hounslow,London,2019,0.3913
+E09000018,Hounslow,London,2020,0.3966
+E09000018,Hounslow,London,2021,0.4021
+E09000018,Hounslow,London,2022,0.4168
+E09000018,Hounslow,London,2023,0.4457
+E09000019,Islington,London,2016,0.3782
+E09000019,Islington,London,2017,0.3817
+E09000019,Islington,London,2018,0.3855
+E09000019,Islington,London,2019,0.3913
+E09000019,Islington,London,2020,0.3966
+E09000019,Islington,London,2021,0.4021
+E09000019,Islington,London,2022,0.4168
+E09000019,Islington,London,2023,0.4457
+E09000020,Kensington and Chelsea,London,2016,0.3782
+E09000020,Kensington and Chelsea,London,2017,0.3817
+E09000020,Kensington and Chelsea,London,2018,0.3855
+E09000020,Kensington and Chelsea,London,2019,0.3913
+E09000020,Kensington and Chelsea,London,2020,0.3966
+E09000020,Kensington and Chelsea,London,2021,0.4021
+E09000020,Kensington and Chelsea,London,2022,0.4168
+E09000020,Kensington and Chelsea,London,2023,0.4457
+E09000021,Kingston upon Thames,London,2016,0.3782
+E09000021,Kingston upon Thames,London,2017,0.3817
+E09000021,Kingston upon Thames,London,2018,0.3855
+E09000021,Kingston upon Thames,London,2019,0.3913
+E09000021,Kingston upon Thames,London,2020,0.3966
+E09000021,Kingston upon Thames,London,2021,0.4021
+E09000021,Kingston upon Thames,London,2022,0.4168
+E09000021,Kingston upon Thames,London,2023,0.4457
+E09000022,Lambeth,London,2016,0.3782
+E09000022,Lambeth,London,2017,0.3817
+E09000022,Lambeth,London,2018,0.3855
+E09000022,Lambeth,London,2019,0.3913
+E09000022,Lambeth,London,2020,0.3966
+E09000022,Lambeth,London,2021,0.4021
+E09000022,Lambeth,London,2022,0.4168
+E09000022,Lambeth,London,2023,0.4457
+E09000023,Lewisham,London,2016,0.3782
+E09000023,Lewisham,London,2017,0.3817
+E09000023,Lewisham,London,2018,0.3855
+E09000023,Lewisham,London,2019,0.3913
+E09000023,Lewisham,London,2020,0.3966
+E09000023,Lewisham,London,2021,0.4021
+E09000023,Lewisham,London,2022,0.4168
+E09000023,Lewisham,London,2023,0.4457
+E09000024,Merton,London,2016,0.3782
+E09000024,Merton,London,2017,0.3817
+E09000024,Merton,London,2018,0.3855
+E09000024,Merton,London,2019,0.3913
+E09000024,Merton,London,2020,0.3966
+E09000024,Merton,London,2021,0.4021
+E09000024,Merton,London,2022,0.4168
+E09000024,Merton,London,2023,0.4457
+E09000025,Newham,London,2016,0.3782
+E09000025,Newham,London,2017,0.3817
+E09000025,Newham,London,2018,0.3855
+E09000025,Newham,London,2019,0.3913
+E09000025,Newham,London,2020,0.3966
+E09000025,Newham,London,2021,0.4021
+E09000025,Newham,London,2022,0.4168
+E09000025,Newham,London,2023,0.4457
+E09000026,Redbridge,London,2016,0.3782
+E09000026,Redbridge,London,2017,0.3817
+E09000026,Redbridge,London,2018,0.3855
+E09000026,Redbridge,London,2019,0.3913
+E09000026,Redbridge,London,2020,0.3966
+E09000026,Redbridge,London,2021,0.4021
+E09000026,Redbridge,London,2022,0.4168
+E09000026,Redbridge,London,2023,0.4457
+E09000027,Richmond upon Thames,London,2016,0.3782
+E09000027,Richmond upon Thames,London,2017,0.3817
+E09000027,Richmond upon Thames,London,2018,0.3855
+E09000027,Richmond upon Thames,London,2019,0.3913
+E09000027,Richmond upon Thames,London,2020,0.3966
+E09000027,Richmond upon Thames,London,2021,0.4021
+E09000027,Richmond upon Thames,London,2022,0.4168
+E09000027,Richmond upon Thames,London,2023,0.4457
+E09000028,Southwark,London,2016,0.3782
+E09000028,Southwark,London,2017,0.3817
+E09000028,Southwark,London,2018,0.3855
+E09000028,Southwark,London,2019,0.3913
+E09000028,Southwark,London,2020,0.3966
+E09000028,Southwark,London,2021,0.4021
+E09000028,Southwark,London,2022,0.4168
+E09000028,Southwark,London,2023,0.4457
+E09000029,Sutton,London,2016,0.3782
+E09000029,Sutton,London,2017,0.3817
+E09000029,Sutton,London,2018,0.3855
+E09000029,Sutton,London,2019,0.3913
+E09000029,Sutton,London,2020,0.3966
+E09000029,Sutton,London,2021,0.4021
+E09000029,Sutton,London,2022,0.4168
+E09000029,Sutton,London,2023,0.4457
+E09000030,Tower Hamlets,London,2016,0.3782
+E09000030,Tower Hamlets,London,2017,0.3817
+E09000030,Tower Hamlets,London,2018,0.3855
+E09000030,Tower Hamlets,London,2019,0.3913
+E09000030,Tower Hamlets,London,2020,0.3966
+E09000030,Tower Hamlets,London,2021,0.4021
+E09000030,Tower Hamlets,London,2022,0.4168
+E09000030,Tower Hamlets,London,2023,0.4457
+E09000031,Waltham Forest,London,2016,0.3782
+E09000031,Waltham Forest,London,2017,0.3817
+E09000031,Waltham Forest,London,2018,0.3855
+E09000031,Waltham Forest,London,2019,0.3913
+E09000031,Waltham Forest,London,2020,0.3966
+E09000031,Waltham Forest,London,2021,0.4021
+E09000031,Waltham Forest,London,2022,0.4168
+E09000031,Waltham Forest,London,2023,0.4457
+E09000032,Wandsworth,London,2016,0.3782
+E09000032,Wandsworth,London,2017,0.3817
+E09000032,Wandsworth,London,2018,0.3855
+E09000032,Wandsworth,London,2019,0.3913
+E09000032,Wandsworth,London,2020,0.3966
+E09000032,Wandsworth,London,2021,0.4021
+E09000032,Wandsworth,London,2022,0.4168
+E09000032,Wandsworth,London,2023,0.4457
+E09000033,Westminster,London,2016,0.3782
+E09000033,Westminster,London,2017,0.3817
+E09000033,Westminster,London,2018,0.3855
+E09000033,Westminster,London,2019,0.3913
+E09000033,Westminster,London,2020,0.3966
+E09000033,Westminster,London,2021,0.4021
+E09000033,Westminster,London,2022,0.4168
+E09000033,Westminster,London,2023,0.4457
+N09000001,Antrim and Newtownabbey,Northern Ireland,2016,0.0726
+N09000001,Antrim and Newtownabbey,Northern Ireland,2017,0.0739
+N09000001,Antrim and Newtownabbey,Northern Ireland,2018,0.0754
+N09000001,Antrim and Newtownabbey,Northern Ireland,2019,0.078
+N09000001,Antrim and Newtownabbey,Northern Ireland,2020,0.0786
+N09000001,Antrim and Newtownabbey,Northern Ireland,2021,0.0821
+N09000001,Antrim and Newtownabbey,Northern Ireland,2022,0.0923
+N09000001,Antrim and Newtownabbey,Northern Ireland,2023,0.1103
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2016,0.0726
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2017,0.0739
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2018,0.0754
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2019,0.078
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2020,0.0786
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2021,0.0821
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2022,0.0923
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,2023,0.1103
+N09000003,Belfast,Northern Ireland,2016,0.0726
+N09000003,Belfast,Northern Ireland,2017,0.0739
+N09000003,Belfast,Northern Ireland,2018,0.0754
+N09000003,Belfast,Northern Ireland,2019,0.078
+N09000003,Belfast,Northern Ireland,2020,0.0786
+N09000003,Belfast,Northern Ireland,2021,0.0821
+N09000003,Belfast,Northern Ireland,2022,0.0923
+N09000003,Belfast,Northern Ireland,2023,0.1103
+N09000004,Causeway Coast and Glens,Northern Ireland,2016,0.0726
+N09000004,Causeway Coast and Glens,Northern Ireland,2017,0.0739
+N09000004,Causeway Coast and Glens,Northern Ireland,2018,0.0754
+N09000004,Causeway Coast and Glens,Northern Ireland,2019,0.078
+N09000004,Causeway Coast and Glens,Northern Ireland,2020,0.0786
+N09000004,Causeway Coast and Glens,Northern Ireland,2021,0.0821
+N09000004,Causeway Coast and Glens,Northern Ireland,2022,0.0923
+N09000004,Causeway Coast and Glens,Northern Ireland,2023,0.1103
+N09000005,Derry City and Strabane,Northern Ireland,2016,0.0726
+N09000005,Derry City and Strabane,Northern Ireland,2017,0.0739
+N09000005,Derry City and Strabane,Northern Ireland,2018,0.0754
+N09000005,Derry City and Strabane,Northern Ireland,2019,0.078
+N09000005,Derry City and Strabane,Northern Ireland,2020,0.0786
+N09000005,Derry City and Strabane,Northern Ireland,2021,0.0821
+N09000005,Derry City and Strabane,Northern Ireland,2022,0.0923
+N09000005,Derry City and Strabane,Northern Ireland,2023,0.1103
+N09000006,Fermanagh and Omagh,Northern Ireland,2016,0.0726
+N09000006,Fermanagh and Omagh,Northern Ireland,2017,0.0739
+N09000006,Fermanagh and Omagh,Northern Ireland,2018,0.0754
+N09000006,Fermanagh and Omagh,Northern Ireland,2019,0.078
+N09000006,Fermanagh and Omagh,Northern Ireland,2020,0.0786
+N09000006,Fermanagh and Omagh,Northern Ireland,2021,0.0821
+N09000006,Fermanagh and Omagh,Northern Ireland,2022,0.0923
+N09000006,Fermanagh and Omagh,Northern Ireland,2023,0.1103
+N09000007,Lisburn and Castlereagh,Northern Ireland,2016,0.0726
+N09000007,Lisburn and Castlereagh,Northern Ireland,2017,0.0739
+N09000007,Lisburn and Castlereagh,Northern Ireland,2018,0.0754
+N09000007,Lisburn and Castlereagh,Northern Ireland,2019,0.078
+N09000007,Lisburn and Castlereagh,Northern Ireland,2020,0.0786
+N09000007,Lisburn and Castlereagh,Northern Ireland,2021,0.0821
+N09000007,Lisburn and Castlereagh,Northern Ireland,2022,0.0923
+N09000007,Lisburn and Castlereagh,Northern Ireland,2023,0.1103
+N09000008,Mid and East Antrim,Northern Ireland,2016,0.0726
+N09000008,Mid and East Antrim,Northern Ireland,2017,0.0739
+N09000008,Mid and East Antrim,Northern Ireland,2018,0.0754
+N09000008,Mid and East Antrim,Northern Ireland,2019,0.078
+N09000008,Mid and East Antrim,Northern Ireland,2020,0.0786
+N09000008,Mid and East Antrim,Northern Ireland,2021,0.0821
+N09000008,Mid and East Antrim,Northern Ireland,2022,0.0923
+N09000008,Mid and East Antrim,Northern Ireland,2023,0.1103
+N09000009,Mid Ulster,Northern Ireland,2016,0.0726
+N09000009,Mid Ulster,Northern Ireland,2017,0.0739
+N09000009,Mid Ulster,Northern Ireland,2018,0.0754
+N09000009,Mid Ulster,Northern Ireland,2019,0.078
+N09000009,Mid Ulster,Northern Ireland,2020,0.0786
+N09000009,Mid Ulster,Northern Ireland,2021,0.0821
+N09000009,Mid Ulster,Northern Ireland,2022,0.0923
+N09000009,Mid Ulster,Northern Ireland,2023,0.1103
+N09000010,"Newry, Mourne and Down",Northern Ireland,2016,0.0726
+N09000010,"Newry, Mourne and Down",Northern Ireland,2017,0.0739
+N09000010,"Newry, Mourne and Down",Northern Ireland,2018,0.0754
+N09000010,"Newry, Mourne and Down",Northern Ireland,2019,0.078
+N09000010,"Newry, Mourne and Down",Northern Ireland,2020,0.0786
+N09000010,"Newry, Mourne and Down",Northern Ireland,2021,0.0821
+N09000010,"Newry, Mourne and Down",Northern Ireland,2022,0.0923
+N09000010,"Newry, Mourne and Down",Northern Ireland,2023,0.1103
+N09000011,Ards and North Down,Northern Ireland,2016,0.0726
+N09000011,Ards and North Down,Northern Ireland,2017,0.0739
+N09000011,Ards and North Down,Northern Ireland,2018,0.0754
+N09000011,Ards and North Down,Northern Ireland,2019,0.078
+N09000011,Ards and North Down,Northern Ireland,2020,0.0786
+N09000011,Ards and North Down,Northern Ireland,2021,0.0821
+N09000011,Ards and North Down,Northern Ireland,2022,0.0923
+N09000011,Ards and North Down,Northern Ireland,2023,0.1103
+S12000005,Clackmannanshire,Scotland,2016,0.0661
+S12000005,Clackmannanshire,Scotland,2017,0.0684
+S12000005,Clackmannanshire,Scotland,2018,0.0706
+S12000005,Clackmannanshire,Scotland,2019,0.0736
+S12000005,Clackmannanshire,Scotland,2020,0.0767
+S12000005,Clackmannanshire,Scotland,2021,0.0803
+S12000005,Clackmannanshire,Scotland,2022,0.0908
+S12000005,Clackmannanshire,Scotland,2023,0.1125
+S12000006,Dumfries and Galloway,Scotland,2016,0.0661
+S12000006,Dumfries and Galloway,Scotland,2017,0.0684
+S12000006,Dumfries and Galloway,Scotland,2018,0.0706
+S12000006,Dumfries and Galloway,Scotland,2019,0.0736
+S12000006,Dumfries and Galloway,Scotland,2020,0.0767
+S12000006,Dumfries and Galloway,Scotland,2021,0.0803
+S12000006,Dumfries and Galloway,Scotland,2022,0.0908
+S12000006,Dumfries and Galloway,Scotland,2023,0.1125
+S12000008,East Ayrshire,Scotland,2016,0.0661
+S12000008,East Ayrshire,Scotland,2017,0.0684
+S12000008,East Ayrshire,Scotland,2018,0.0706
+S12000008,East Ayrshire,Scotland,2019,0.0736
+S12000008,East Ayrshire,Scotland,2020,0.0767
+S12000008,East Ayrshire,Scotland,2021,0.0803
+S12000008,East Ayrshire,Scotland,2022,0.0908
+S12000008,East Ayrshire,Scotland,2023,0.1125
+S12000010,East Lothian,Scotland,2016,0.0661
+S12000010,East Lothian,Scotland,2017,0.0684
+S12000010,East Lothian,Scotland,2018,0.0706
+S12000010,East Lothian,Scotland,2019,0.0736
+S12000010,East Lothian,Scotland,2020,0.0767
+S12000010,East Lothian,Scotland,2021,0.0803
+S12000010,East Lothian,Scotland,2022,0.0908
+S12000010,East Lothian,Scotland,2023,0.1125
+S12000011,East Renfrewshire,Scotland,2016,0.0661
+S12000011,East Renfrewshire,Scotland,2017,0.0684
+S12000011,East Renfrewshire,Scotland,2018,0.0706
+S12000011,East Renfrewshire,Scotland,2019,0.0736
+S12000011,East Renfrewshire,Scotland,2020,0.0767
+S12000011,East Renfrewshire,Scotland,2021,0.0803
+S12000011,East Renfrewshire,Scotland,2022,0.0908
+S12000011,East Renfrewshire,Scotland,2023,0.1125
+S12000013,Na h-Eileanan Siar,Scotland,2016,0.0661
+S12000013,Na h-Eileanan Siar,Scotland,2017,0.0684
+S12000013,Na h-Eileanan Siar,Scotland,2018,0.0706
+S12000013,Na h-Eileanan Siar,Scotland,2019,0.0736
+S12000013,Na h-Eileanan Siar,Scotland,2020,0.0767
+S12000013,Na h-Eileanan Siar,Scotland,2021,0.0803
+S12000013,Na h-Eileanan Siar,Scotland,2022,0.0908
+S12000013,Na h-Eileanan Siar,Scotland,2023,0.1125
+S12000014,Falkirk,Scotland,2016,0.0661
+S12000014,Falkirk,Scotland,2017,0.0684
+S12000014,Falkirk,Scotland,2018,0.0706
+S12000014,Falkirk,Scotland,2019,0.0736
+S12000014,Falkirk,Scotland,2020,0.0767
+S12000014,Falkirk,Scotland,2021,0.0803
+S12000014,Falkirk,Scotland,2022,0.0908
+S12000014,Falkirk,Scotland,2023,0.1125
+S12000017,Highland,Scotland,2016,0.0661
+S12000017,Highland,Scotland,2017,0.0684
+S12000017,Highland,Scotland,2018,0.0706
+S12000017,Highland,Scotland,2019,0.0736
+S12000017,Highland,Scotland,2020,0.0767
+S12000017,Highland,Scotland,2021,0.0803
+S12000017,Highland,Scotland,2022,0.0908
+S12000017,Highland,Scotland,2023,0.1125
+S12000018,Inverclyde,Scotland,2016,0.0661
+S12000018,Inverclyde,Scotland,2017,0.0684
+S12000018,Inverclyde,Scotland,2018,0.0706
+S12000018,Inverclyde,Scotland,2019,0.0736
+S12000018,Inverclyde,Scotland,2020,0.0767
+S12000018,Inverclyde,Scotland,2021,0.0803
+S12000018,Inverclyde,Scotland,2022,0.0908
+S12000018,Inverclyde,Scotland,2023,0.1125
+S12000019,Midlothian,Scotland,2016,0.0661
+S12000019,Midlothian,Scotland,2017,0.0684
+S12000019,Midlothian,Scotland,2018,0.0706
+S12000019,Midlothian,Scotland,2019,0.0736
+S12000019,Midlothian,Scotland,2020,0.0767
+S12000019,Midlothian,Scotland,2021,0.0803
+S12000019,Midlothian,Scotland,2022,0.0908
+S12000019,Midlothian,Scotland,2023,0.1125
+S12000020,Moray,Scotland,2016,0.0661
+S12000020,Moray,Scotland,2017,0.0684
+S12000020,Moray,Scotland,2018,0.0706
+S12000020,Moray,Scotland,2019,0.0736
+S12000020,Moray,Scotland,2020,0.0767
+S12000020,Moray,Scotland,2021,0.0803
+S12000020,Moray,Scotland,2022,0.0908
+S12000020,Moray,Scotland,2023,0.1125
+S12000021,North Ayrshire,Scotland,2016,0.0661
+S12000021,North Ayrshire,Scotland,2017,0.0684
+S12000021,North Ayrshire,Scotland,2018,0.0706
+S12000021,North Ayrshire,Scotland,2019,0.0736
+S12000021,North Ayrshire,Scotland,2020,0.0767
+S12000021,North Ayrshire,Scotland,2021,0.0803
+S12000021,North Ayrshire,Scotland,2022,0.0908
+S12000021,North Ayrshire,Scotland,2023,0.1125
+S12000023,Orkney Islands,Scotland,2016,0.0661
+S12000023,Orkney Islands,Scotland,2017,0.0684
+S12000023,Orkney Islands,Scotland,2018,0.0706
+S12000023,Orkney Islands,Scotland,2019,0.0736
+S12000023,Orkney Islands,Scotland,2020,0.0767
+S12000023,Orkney Islands,Scotland,2021,0.0803
+S12000023,Orkney Islands,Scotland,2022,0.0908
+S12000023,Orkney Islands,Scotland,2023,0.1125
+S12000026,Scottish Borders,Scotland,2016,0.0661
+S12000026,Scottish Borders,Scotland,2017,0.0684
+S12000026,Scottish Borders,Scotland,2018,0.0706
+S12000026,Scottish Borders,Scotland,2019,0.0736
+S12000026,Scottish Borders,Scotland,2020,0.0767
+S12000026,Scottish Borders,Scotland,2021,0.0803
+S12000026,Scottish Borders,Scotland,2022,0.0908
+S12000026,Scottish Borders,Scotland,2023,0.1125
+S12000027,Shetland Islands,Scotland,2016,0.0661
+S12000027,Shetland Islands,Scotland,2017,0.0684
+S12000027,Shetland Islands,Scotland,2018,0.0706
+S12000027,Shetland Islands,Scotland,2019,0.0736
+S12000027,Shetland Islands,Scotland,2020,0.0767
+S12000027,Shetland Islands,Scotland,2021,0.0803
+S12000027,Shetland Islands,Scotland,2022,0.0908
+S12000027,Shetland Islands,Scotland,2023,0.1125
+S12000028,South Ayrshire,Scotland,2016,0.0661
+S12000028,South Ayrshire,Scotland,2017,0.0684
+S12000028,South Ayrshire,Scotland,2018,0.0706
+S12000028,South Ayrshire,Scotland,2019,0.0736
+S12000028,South Ayrshire,Scotland,2020,0.0767
+S12000028,South Ayrshire,Scotland,2021,0.0803
+S12000028,South Ayrshire,Scotland,2022,0.0908
+S12000028,South Ayrshire,Scotland,2023,0.1125
+S12000029,South Lanarkshire,Scotland,2016,0.0661
+S12000029,South Lanarkshire,Scotland,2017,0.0684
+S12000029,South Lanarkshire,Scotland,2018,0.0706
+S12000029,South Lanarkshire,Scotland,2019,0.0736
+S12000029,South Lanarkshire,Scotland,2020,0.0767
+S12000029,South Lanarkshire,Scotland,2021,0.0803
+S12000029,South Lanarkshire,Scotland,2022,0.0908
+S12000029,South Lanarkshire,Scotland,2023,0.1125
+S12000030,Stirling,Scotland,2016,0.0661
+S12000030,Stirling,Scotland,2017,0.0684
+S12000030,Stirling,Scotland,2018,0.0706
+S12000030,Stirling,Scotland,2019,0.0736
+S12000030,Stirling,Scotland,2020,0.0767
+S12000030,Stirling,Scotland,2021,0.0803
+S12000030,Stirling,Scotland,2022,0.0908
+S12000030,Stirling,Scotland,2023,0.1125
+S12000033,Aberdeen City,Scotland,2016,0.0661
+S12000033,Aberdeen City,Scotland,2017,0.0684
+S12000033,Aberdeen City,Scotland,2018,0.0706
+S12000033,Aberdeen City,Scotland,2019,0.0736
+S12000033,Aberdeen City,Scotland,2020,0.0767
+S12000033,Aberdeen City,Scotland,2021,0.0803
+S12000033,Aberdeen City,Scotland,2022,0.0908
+S12000033,Aberdeen City,Scotland,2023,0.1125
+S12000034,Aberdeenshire,Scotland,2016,0.0661
+S12000034,Aberdeenshire,Scotland,2017,0.0684
+S12000034,Aberdeenshire,Scotland,2018,0.0706
+S12000034,Aberdeenshire,Scotland,2019,0.0736
+S12000034,Aberdeenshire,Scotland,2020,0.0767
+S12000034,Aberdeenshire,Scotland,2021,0.0803
+S12000034,Aberdeenshire,Scotland,2022,0.0908
+S12000034,Aberdeenshire,Scotland,2023,0.1125
+S12000035,Argyll and Bute,Scotland,2016,0.0661
+S12000035,Argyll and Bute,Scotland,2017,0.0684
+S12000035,Argyll and Bute,Scotland,2018,0.0706
+S12000035,Argyll and Bute,Scotland,2019,0.0736
+S12000035,Argyll and Bute,Scotland,2020,0.0767
+S12000035,Argyll and Bute,Scotland,2021,0.0803
+S12000035,Argyll and Bute,Scotland,2022,0.0908
+S12000035,Argyll and Bute,Scotland,2023,0.1125
+S12000036,City of Edinburgh,Scotland,2016,0.0661
+S12000036,City of Edinburgh,Scotland,2017,0.0684
+S12000036,City of Edinburgh,Scotland,2018,0.0706
+S12000036,City of Edinburgh,Scotland,2019,0.0736
+S12000036,City of Edinburgh,Scotland,2020,0.0767
+S12000036,City of Edinburgh,Scotland,2021,0.0803
+S12000036,City of Edinburgh,Scotland,2022,0.0908
+S12000036,City of Edinburgh,Scotland,2023,0.1125
+S12000038,Renfrewshire,Scotland,2016,0.0661
+S12000038,Renfrewshire,Scotland,2017,0.0684
+S12000038,Renfrewshire,Scotland,2018,0.0706
+S12000038,Renfrewshire,Scotland,2019,0.0736
+S12000038,Renfrewshire,Scotland,2020,0.0767
+S12000038,Renfrewshire,Scotland,2021,0.0803
+S12000038,Renfrewshire,Scotland,2022,0.0908
+S12000038,Renfrewshire,Scotland,2023,0.1125
+S12000039,West Dunbartonshire,Scotland,2016,0.0661
+S12000039,West Dunbartonshire,Scotland,2017,0.0684
+S12000039,West Dunbartonshire,Scotland,2018,0.0706
+S12000039,West Dunbartonshire,Scotland,2019,0.0736
+S12000039,West Dunbartonshire,Scotland,2020,0.0767
+S12000039,West Dunbartonshire,Scotland,2021,0.0803
+S12000039,West Dunbartonshire,Scotland,2022,0.0908
+S12000039,West Dunbartonshire,Scotland,2023,0.1125
+S12000040,West Lothian,Scotland,2016,0.0661
+S12000040,West Lothian,Scotland,2017,0.0684
+S12000040,West Lothian,Scotland,2018,0.0706
+S12000040,West Lothian,Scotland,2019,0.0736
+S12000040,West Lothian,Scotland,2020,0.0767
+S12000040,West Lothian,Scotland,2021,0.0803
+S12000040,West Lothian,Scotland,2022,0.0908
+S12000040,West Lothian,Scotland,2023,0.1125
+S12000041,Angus,Scotland,2016,0.0661
+S12000041,Angus,Scotland,2017,0.0684
+S12000041,Angus,Scotland,2018,0.0706
+S12000041,Angus,Scotland,2019,0.0736
+S12000041,Angus,Scotland,2020,0.0767
+S12000041,Angus,Scotland,2021,0.0803
+S12000041,Angus,Scotland,2022,0.0908
+S12000041,Angus,Scotland,2023,0.1125
+S12000042,Dundee City,Scotland,2016,0.0661
+S12000042,Dundee City,Scotland,2017,0.0684
+S12000042,Dundee City,Scotland,2018,0.0706
+S12000042,Dundee City,Scotland,2019,0.0736
+S12000042,Dundee City,Scotland,2020,0.0767
+S12000042,Dundee City,Scotland,2021,0.0803
+S12000042,Dundee City,Scotland,2022,0.0908
+S12000042,Dundee City,Scotland,2023,0.1125
+S12000045,East Dunbartonshire,Scotland,2016,0.0661
+S12000045,East Dunbartonshire,Scotland,2017,0.0684
+S12000045,East Dunbartonshire,Scotland,2018,0.0706
+S12000045,East Dunbartonshire,Scotland,2019,0.0736
+S12000045,East Dunbartonshire,Scotland,2020,0.0767
+S12000045,East Dunbartonshire,Scotland,2021,0.0803
+S12000045,East Dunbartonshire,Scotland,2022,0.0908
+S12000045,East Dunbartonshire,Scotland,2023,0.1125
+S12000047,Fife,Scotland,2016,0.0661
+S12000047,Fife,Scotland,2017,0.0684
+S12000047,Fife,Scotland,2018,0.0706
+S12000047,Fife,Scotland,2019,0.0736
+S12000047,Fife,Scotland,2020,0.0767
+S12000047,Fife,Scotland,2021,0.0803
+S12000047,Fife,Scotland,2022,0.0908
+S12000047,Fife,Scotland,2023,0.1125
+S12000048,Perth and Kinross,Scotland,2016,0.0661
+S12000048,Perth and Kinross,Scotland,2017,0.0684
+S12000048,Perth and Kinross,Scotland,2018,0.0706
+S12000048,Perth and Kinross,Scotland,2019,0.0736
+S12000048,Perth and Kinross,Scotland,2020,0.0767
+S12000048,Perth and Kinross,Scotland,2021,0.0803
+S12000048,Perth and Kinross,Scotland,2022,0.0908
+S12000048,Perth and Kinross,Scotland,2023,0.1125
+S12000049,Glasgow City,Scotland,2016,0.0661
+S12000049,Glasgow City,Scotland,2017,0.0684
+S12000049,Glasgow City,Scotland,2018,0.0706
+S12000049,Glasgow City,Scotland,2019,0.0736
+S12000049,Glasgow City,Scotland,2020,0.0767
+S12000049,Glasgow City,Scotland,2021,0.0803
+S12000049,Glasgow City,Scotland,2022,0.0908
+S12000049,Glasgow City,Scotland,2023,0.1125
+S12000050,North Lanarkshire,Scotland,2016,0.0661
+S12000050,North Lanarkshire,Scotland,2017,0.0684
+S12000050,North Lanarkshire,Scotland,2018,0.0706
+S12000050,North Lanarkshire,Scotland,2019,0.0736
+S12000050,North Lanarkshire,Scotland,2020,0.0767
+S12000050,North Lanarkshire,Scotland,2021,0.0803
+S12000050,North Lanarkshire,Scotland,2022,0.0908
+S12000050,North Lanarkshire,Scotland,2023,0.1125
+W06000001,Isle of Anglesey,Wales,2016,0.0667
+W06000001,Isle of Anglesey,Wales,2017,0.0679
+W06000001,Isle of Anglesey,Wales,2018,0.0688
+W06000001,Isle of Anglesey,Wales,2019,0.0706
+W06000001,Isle of Anglesey,Wales,2020,0.0723
+W06000001,Isle of Anglesey,Wales,2021,0.0756
+W06000001,Isle of Anglesey,Wales,2022,0.0873
+W06000001,Isle of Anglesey,Wales,2023,0.1109
+W06000002,Gwynedd,Wales,2016,0.0667
+W06000002,Gwynedd,Wales,2017,0.0679
+W06000002,Gwynedd,Wales,2018,0.0688
+W06000002,Gwynedd,Wales,2019,0.0706
+W06000002,Gwynedd,Wales,2020,0.0723
+W06000002,Gwynedd,Wales,2021,0.0756
+W06000002,Gwynedd,Wales,2022,0.0873
+W06000002,Gwynedd,Wales,2023,0.1109
+W06000003,Conwy,Wales,2016,0.0667
+W06000003,Conwy,Wales,2017,0.0679
+W06000003,Conwy,Wales,2018,0.0688
+W06000003,Conwy,Wales,2019,0.0706
+W06000003,Conwy,Wales,2020,0.0723
+W06000003,Conwy,Wales,2021,0.0756
+W06000003,Conwy,Wales,2022,0.0873
+W06000003,Conwy,Wales,2023,0.1109
+W06000004,Denbighshire,Wales,2016,0.0667
+W06000004,Denbighshire,Wales,2017,0.0679
+W06000004,Denbighshire,Wales,2018,0.0688
+W06000004,Denbighshire,Wales,2019,0.0706
+W06000004,Denbighshire,Wales,2020,0.0723
+W06000004,Denbighshire,Wales,2021,0.0756
+W06000004,Denbighshire,Wales,2022,0.0873
+W06000004,Denbighshire,Wales,2023,0.1109
+W06000005,Flintshire,Wales,2016,0.0667
+W06000005,Flintshire,Wales,2017,0.0679
+W06000005,Flintshire,Wales,2018,0.0688
+W06000005,Flintshire,Wales,2019,0.0706
+W06000005,Flintshire,Wales,2020,0.0723
+W06000005,Flintshire,Wales,2021,0.0756
+W06000005,Flintshire,Wales,2022,0.0873
+W06000005,Flintshire,Wales,2023,0.1109
+W06000006,Wrexham,Wales,2016,0.0667
+W06000006,Wrexham,Wales,2017,0.0679
+W06000006,Wrexham,Wales,2018,0.0688
+W06000006,Wrexham,Wales,2019,0.0706
+W06000006,Wrexham,Wales,2020,0.0723
+W06000006,Wrexham,Wales,2021,0.0756
+W06000006,Wrexham,Wales,2022,0.0873
+W06000006,Wrexham,Wales,2023,0.1109
+W06000008,Ceredigion,Wales,2016,0.0667
+W06000008,Ceredigion,Wales,2017,0.0679
+W06000008,Ceredigion,Wales,2018,0.0688
+W06000008,Ceredigion,Wales,2019,0.0706
+W06000008,Ceredigion,Wales,2020,0.0723
+W06000008,Ceredigion,Wales,2021,0.0756
+W06000008,Ceredigion,Wales,2022,0.0873
+W06000008,Ceredigion,Wales,2023,0.1109
+W06000009,Pembrokeshire,Wales,2016,0.0667
+W06000009,Pembrokeshire,Wales,2017,0.0679
+W06000009,Pembrokeshire,Wales,2018,0.0688
+W06000009,Pembrokeshire,Wales,2019,0.0706
+W06000009,Pembrokeshire,Wales,2020,0.0723
+W06000009,Pembrokeshire,Wales,2021,0.0756
+W06000009,Pembrokeshire,Wales,2022,0.0873
+W06000009,Pembrokeshire,Wales,2023,0.1109
+W06000010,Carmarthenshire,Wales,2016,0.0667
+W06000010,Carmarthenshire,Wales,2017,0.0679
+W06000010,Carmarthenshire,Wales,2018,0.0688
+W06000010,Carmarthenshire,Wales,2019,0.0706
+W06000010,Carmarthenshire,Wales,2020,0.0723
+W06000010,Carmarthenshire,Wales,2021,0.0756
+W06000010,Carmarthenshire,Wales,2022,0.0873
+W06000010,Carmarthenshire,Wales,2023,0.1109
+W06000011,Swansea,Wales,2016,0.0667
+W06000011,Swansea,Wales,2017,0.0679
+W06000011,Swansea,Wales,2018,0.0688
+W06000011,Swansea,Wales,2019,0.0706
+W06000011,Swansea,Wales,2020,0.0723
+W06000011,Swansea,Wales,2021,0.0756
+W06000011,Swansea,Wales,2022,0.0873
+W06000011,Swansea,Wales,2023,0.1109
+W06000012,Neath Port Talbot,Wales,2016,0.0667
+W06000012,Neath Port Talbot,Wales,2017,0.0679
+W06000012,Neath Port Talbot,Wales,2018,0.0688
+W06000012,Neath Port Talbot,Wales,2019,0.0706
+W06000012,Neath Port Talbot,Wales,2020,0.0723
+W06000012,Neath Port Talbot,Wales,2021,0.0756
+W06000012,Neath Port Talbot,Wales,2022,0.0873
+W06000012,Neath Port Talbot,Wales,2023,0.1109
+W06000013,Bridgend,Wales,2016,0.0667
+W06000013,Bridgend,Wales,2017,0.0679
+W06000013,Bridgend,Wales,2018,0.0688
+W06000013,Bridgend,Wales,2019,0.0706
+W06000013,Bridgend,Wales,2020,0.0723
+W06000013,Bridgend,Wales,2021,0.0756
+W06000013,Bridgend,Wales,2022,0.0873
+W06000013,Bridgend,Wales,2023,0.1109
+W06000014,Vale of Glamorgan,Wales,2016,0.0667
+W06000014,Vale of Glamorgan,Wales,2017,0.0679
+W06000014,Vale of Glamorgan,Wales,2018,0.0688
+W06000014,Vale of Glamorgan,Wales,2019,0.0706
+W06000014,Vale of Glamorgan,Wales,2020,0.0723
+W06000014,Vale of Glamorgan,Wales,2021,0.0756
+W06000014,Vale of Glamorgan,Wales,2022,0.0873
+W06000014,Vale of Glamorgan,Wales,2023,0.1109
+W06000015,Cardiff,Wales,2016,0.0667
+W06000015,Cardiff,Wales,2017,0.0679
+W06000015,Cardiff,Wales,2018,0.0688
+W06000015,Cardiff,Wales,2019,0.0706
+W06000015,Cardiff,Wales,2020,0.0723
+W06000015,Cardiff,Wales,2021,0.0756
+W06000015,Cardiff,Wales,2022,0.0873
+W06000015,Cardiff,Wales,2023,0.1109
+W06000016,Rhondda Cynon Taf,Wales,2016,0.0667
+W06000016,Rhondda Cynon Taf,Wales,2017,0.0679
+W06000016,Rhondda Cynon Taf,Wales,2018,0.0688
+W06000016,Rhondda Cynon Taf,Wales,2019,0.0706
+W06000016,Rhondda Cynon Taf,Wales,2020,0.0723
+W06000016,Rhondda Cynon Taf,Wales,2021,0.0756
+W06000016,Rhondda Cynon Taf,Wales,2022,0.0873
+W06000016,Rhondda Cynon Taf,Wales,2023,0.1109
+W06000018,Caerphilly,Wales,2016,0.0667
+W06000018,Caerphilly,Wales,2017,0.0679
+W06000018,Caerphilly,Wales,2018,0.0688
+W06000018,Caerphilly,Wales,2019,0.0706
+W06000018,Caerphilly,Wales,2020,0.0723
+W06000018,Caerphilly,Wales,2021,0.0756
+W06000018,Caerphilly,Wales,2022,0.0873
+W06000018,Caerphilly,Wales,2023,0.1109
+W06000019,Blaenau Gwent,Wales,2016,0.0667
+W06000019,Blaenau Gwent,Wales,2017,0.0679
+W06000019,Blaenau Gwent,Wales,2018,0.0688
+W06000019,Blaenau Gwent,Wales,2019,0.0706
+W06000019,Blaenau Gwent,Wales,2020,0.0723
+W06000019,Blaenau Gwent,Wales,2021,0.0756
+W06000019,Blaenau Gwent,Wales,2022,0.0873
+W06000019,Blaenau Gwent,Wales,2023,0.1109
+W06000020,Torfaen,Wales,2016,0.0667
+W06000020,Torfaen,Wales,2017,0.0679
+W06000020,Torfaen,Wales,2018,0.0688
+W06000020,Torfaen,Wales,2019,0.0706
+W06000020,Torfaen,Wales,2020,0.0723
+W06000020,Torfaen,Wales,2021,0.0756
+W06000020,Torfaen,Wales,2022,0.0873
+W06000020,Torfaen,Wales,2023,0.1109
+W06000021,Monmouthshire,Wales,2016,0.0667
+W06000021,Monmouthshire,Wales,2017,0.0679
+W06000021,Monmouthshire,Wales,2018,0.0688
+W06000021,Monmouthshire,Wales,2019,0.0706
+W06000021,Monmouthshire,Wales,2020,0.0723
+W06000021,Monmouthshire,Wales,2021,0.0756
+W06000021,Monmouthshire,Wales,2022,0.0873
+W06000021,Monmouthshire,Wales,2023,0.1109
+W06000022,Newport,Wales,2016,0.0667
+W06000022,Newport,Wales,2017,0.0679
+W06000022,Newport,Wales,2018,0.0688
+W06000022,Newport,Wales,2019,0.0706
+W06000022,Newport,Wales,2020,0.0723
+W06000022,Newport,Wales,2021,0.0756
+W06000022,Newport,Wales,2022,0.0873
+W06000022,Newport,Wales,2023,0.1109
+W06000023,Powys,Wales,2016,0.0667
+W06000023,Powys,Wales,2017,0.0679
+W06000023,Powys,Wales,2018,0.0688
+W06000023,Powys,Wales,2019,0.0706
+W06000023,Powys,Wales,2020,0.0723
+W06000023,Powys,Wales,2021,0.0756
+W06000023,Powys,Wales,2022,0.0873
+W06000023,Powys,Wales,2023,0.1109
+W06000024,Merthyr Tydfil,Wales,2016,0.0667
+W06000024,Merthyr Tydfil,Wales,2017,0.0679
+W06000024,Merthyr Tydfil,Wales,2018,0.0688
+W06000024,Merthyr Tydfil,Wales,2019,0.0706
+W06000024,Merthyr Tydfil,Wales,2020,0.0723
+W06000024,Merthyr Tydfil,Wales,2021,0.0756
+W06000024,Merthyr Tydfil,Wales,2022,0.0873
+W06000024,Merthyr Tydfil,Wales,2023,0.1109

@@ -1,0 +1,97 @@
+supergroup,n_las,mean_baseline,mean_slope,median_slope,std_slope,mean_change,pct_improving,pct_deteriorating,pct_stable,measure
+Affluent England,47,7.527,0.0,-0.001,0.018,0.073,6.383,2.128,91.489,life-satisfaction
+"Business, Education and Heritage Centres",34,7.41,-0.004,-0.001,0.014,-0.077,0.0,5.882,94.118,life-satisfaction
+Countryside Living,65,7.596,0.002,0.003,0.019,0.015,6.154,6.154,87.692,life-satisfaction
+Ethnically Diverse Metropolitan Living,19,7.201,0.016,0.017,0.015,0.175,21.053,0.0,78.947,life-satisfaction
+London Cosmopolitan,10,7.237,0.002,0.006,0.022,0.066,10.0,10.0,80.0,life-satisfaction
+Services and Industrial Legacy,54,7.385,-0.001,-0.001,0.013,0.029,0.0,3.704,96.296,life-satisfaction
+Town and Country Living,74,7.554,-0.001,-0.0,0.02,0.013,4.054,8.108,87.838,life-satisfaction
+Urban Settlements,51,7.315,0.009,0.006,0.018,0.034,13.725,0.0,86.275,life-satisfaction
+Affluent England,47,7.791,-0.0,0.001,0.016,0.001,0.0,2.128,97.872,worthwhile
+"Business, Education and Heritage Centres",34,7.59,0.002,0.002,0.012,0.023,2.941,2.941,94.118,worthwhile
+Countryside Living,65,7.838,0.004,0.003,0.018,0.03,9.231,0.0,90.769,worthwhile
+Ethnically Diverse Metropolitan Living,19,7.479,0.016,0.014,0.014,0.217,26.316,0.0,73.684,worthwhile
+London Cosmopolitan,10,7.438,0.002,0.006,0.017,0.032,10.0,10.0,80.0,worthwhile
+Services and Industrial Legacy,54,7.652,0.006,0.006,0.013,0.071,3.704,1.852,94.444,worthwhile
+Town and Country Living,74,7.781,0.006,0.003,0.02,0.082,10.811,2.703,86.486,worthwhile
+Urban Settlements,51,7.606,0.012,0.009,0.017,0.103,23.529,0.0,76.471,worthwhile
+Affluent England,47,7.383,0.004,0.004,0.021,0.083,8.511,2.128,89.362,happiness
+"Business, Education and Heritage Centres",34,7.239,0.004,0.002,0.018,0.037,11.765,8.824,79.412,happiness
+Countryside Living,65,7.477,0.008,0.009,0.019,0.068,12.308,1.538,86.154,happiness
+Ethnically Diverse Metropolitan Living,19,7.164,0.019,0.016,0.02,0.217,21.053,0.0,78.947,happiness
+London Cosmopolitan,10,7.201,-0.002,-0.002,0.021,0.042,10.0,10.0,80.0,happiness
+Services and Industrial Legacy,54,7.2,0.01,0.01,0.014,0.167,16.667,1.852,81.481,happiness
+Town and Country Living,74,7.426,0.003,0.003,0.021,0.058,6.757,5.405,87.838,happiness
+Urban Settlements,51,7.229,0.012,0.009,0.018,0.105,17.647,0.0,82.353,happiness
+Affluent England,47,3.096,0.02,0.026,0.034,0.122,2.128,17.021,80.851,anxiety
+"Business, Education and Heritage Centres",34,3.232,0.03,0.029,0.026,0.168,0.0,38.235,61.765,anxiety
+Countryside Living,65,2.946,0.021,0.023,0.025,0.099,0.0,24.615,75.385,anxiety
+Ethnically Diverse Metropolitan Living,19,3.357,0.003,0.004,0.038,-0.12,21.053,10.526,68.421,anxiety
+London Cosmopolitan,10,3.484,0.01,0.013,0.026,-0.024,0.0,20.0,80.0,anxiety
+Services and Industrial Legacy,54,3.153,0.02,0.02,0.023,0.091,0.0,18.519,81.481,anxiety
+Town and Country Living,74,2.985,0.021,0.021,0.034,0.119,1.351,21.622,77.027,anxiety
+Urban Settlements,51,3.124,0.02,0.018,0.034,0.228,3.922,27.451,68.627,anxiety
+Affluent England,47,7.527,0.004,0.005,0.019,0.073,8.511,2.128,89.362,life-satisfaction
+"Business, Education and Heritage Centres",34,7.41,0.003,0.007,0.015,-0.077,0.0,5.882,94.118,life-satisfaction
+Countryside Living,65,7.596,0.007,0.008,0.018,0.015,12.308,0.0,87.692,life-satisfaction
+Ethnically Diverse Metropolitan Living,19,7.201,0.026,0.027,0.015,0.175,47.368,0.0,52.632,life-satisfaction
+London Cosmopolitan,10,7.237,0.01,0.017,0.024,0.066,10.0,10.0,80.0,life-satisfaction
+Services and Industrial Legacy,54,7.385,0.007,0.007,0.012,0.029,3.704,3.704,92.593,life-satisfaction
+Town and Country Living,74,7.554,0.005,0.005,0.019,0.013,6.757,8.108,85.135,life-satisfaction
+Urban Settlements,51,7.315,0.018,0.015,0.017,0.034,23.529,0.0,76.471,life-satisfaction
+Affluent England,47,7.791,0.006,0.006,0.013,0.001,2.128,0.0,97.872,worthwhile
+"Business, Education and Heritage Centres",34,7.59,0.007,0.007,0.013,0.023,5.882,2.941,91.176,worthwhile
+Countryside Living,65,7.838,0.008,0.009,0.017,0.03,18.462,0.0,81.538,worthwhile
+Ethnically Diverse Metropolitan Living,19,7.479,0.024,0.025,0.015,0.217,47.368,0.0,52.632,worthwhile
+London Cosmopolitan,10,7.438,0.008,0.013,0.02,0.032,30.0,10.0,60.0,worthwhile
+Services and Industrial Legacy,54,7.652,0.012,0.01,0.012,0.071,11.111,1.852,87.037,worthwhile
+Town and Country Living,74,7.781,0.011,0.009,0.019,0.082,16.216,4.054,79.73,worthwhile
+Urban Settlements,51,7.606,0.018,0.02,0.016,0.103,35.294,0.0,64.706,worthwhile
+Affluent England,47,7.383,0.008,0.006,0.02,0.083,8.511,2.128,89.362,happiness
+"Business, Education and Heritage Centres",34,7.239,0.01,0.008,0.017,0.037,17.647,0.0,82.353,happiness
+Countryside Living,65,7.477,0.011,0.01,0.019,0.068,15.385,0.0,84.615,happiness
+Ethnically Diverse Metropolitan Living,19,7.164,0.027,0.026,0.02,0.217,36.842,0.0,63.158,happiness
+London Cosmopolitan,10,7.201,0.004,0.008,0.023,0.042,10.0,10.0,80.0,happiness
+Services and Industrial Legacy,54,7.2,0.015,0.015,0.014,0.167,24.074,0.0,75.926,happiness
+Town and Country Living,74,7.426,0.008,0.007,0.02,0.058,8.108,4.054,87.838,happiness
+Urban Settlements,51,7.229,0.017,0.014,0.017,0.105,21.569,0.0,78.431,happiness
+Affluent England,47,3.096,0.013,0.016,0.033,0.122,2.128,14.894,82.979,anxiety
+"Business, Education and Heritage Centres",34,3.232,0.023,0.022,0.025,0.168,0.0,26.471,73.529,anxiety
+Countryside Living,65,2.946,0.014,0.014,0.025,0.099,0.0,16.923,83.077,anxiety
+Ethnically Diverse Metropolitan Living,19,3.357,-0.008,-0.004,0.032,-0.12,21.053,0.0,78.947,anxiety
+London Cosmopolitan,10,3.484,0.006,0.012,0.037,-0.024,10.0,30.0,60.0,anxiety
+Services and Industrial Legacy,54,3.153,0.009,0.006,0.023,0.091,3.704,11.111,85.185,anxiety
+Town and Country Living,74,2.985,0.015,0.014,0.032,0.119,1.351,12.162,86.486,anxiety
+Urban Settlements,51,3.124,0.007,0.007,0.034,0.228,5.882,15.686,78.431,anxiety
+Affluent England,47,7.527,0.004,0.005,0.019,0.073,8.511,2.128,89.362,life-satisfaction
+"Business, Education and Heritage Centres",34,7.41,0.003,0.007,0.015,-0.077,0.0,5.882,94.118,life-satisfaction
+Countryside Living,65,7.596,0.007,0.008,0.018,0.015,12.308,0.0,87.692,life-satisfaction
+Ethnically Diverse Metropolitan Living,19,7.201,0.026,0.027,0.015,0.175,47.368,0.0,52.632,life-satisfaction
+London Cosmopolitan,10,7.237,0.01,0.017,0.024,0.066,10.0,10.0,80.0,life-satisfaction
+Services and Industrial Legacy,54,7.385,0.007,0.007,0.012,0.029,3.704,3.704,92.593,life-satisfaction
+Town and Country Living,74,7.554,0.005,0.005,0.019,0.013,6.757,8.108,85.135,life-satisfaction
+Urban Settlements,51,7.315,0.018,0.015,0.017,0.034,23.529,0.0,76.471,life-satisfaction
+Affluent England,47,7.791,0.006,0.006,0.013,0.001,2.128,0.0,97.872,worthwhile
+"Business, Education and Heritage Centres",34,7.59,0.007,0.007,0.013,0.023,5.882,2.941,91.176,worthwhile
+Countryside Living,65,7.838,0.008,0.009,0.017,0.03,18.462,0.0,81.538,worthwhile
+Ethnically Diverse Metropolitan Living,19,7.479,0.024,0.025,0.015,0.217,47.368,0.0,52.632,worthwhile
+London Cosmopolitan,10,7.438,0.008,0.013,0.02,0.032,30.0,10.0,60.0,worthwhile
+Services and Industrial Legacy,54,7.652,0.012,0.01,0.012,0.071,11.111,1.852,87.037,worthwhile
+Town and Country Living,74,7.781,0.011,0.009,0.019,0.082,16.216,4.054,79.73,worthwhile
+Urban Settlements,51,7.606,0.018,0.02,0.016,0.103,35.294,0.0,64.706,worthwhile
+Affluent England,47,7.383,0.008,0.006,0.02,0.083,8.511,2.128,89.362,happiness
+"Business, Education and Heritage Centres",34,7.239,0.01,0.008,0.017,0.037,17.647,0.0,82.353,happiness
+Countryside Living,65,7.477,0.011,0.01,0.019,0.068,15.385,0.0,84.615,happiness
+Ethnically Diverse Metropolitan Living,19,7.164,0.027,0.026,0.02,0.217,36.842,0.0,63.158,happiness
+London Cosmopolitan,10,7.201,0.004,0.008,0.023,0.042,10.0,10.0,80.0,happiness
+Services and Industrial Legacy,54,7.2,0.015,0.015,0.014,0.167,24.074,0.0,75.926,happiness
+Town and Country Living,74,7.426,0.008,0.007,0.02,0.058,8.108,4.054,87.838,happiness
+Urban Settlements,51,7.229,0.017,0.014,0.017,0.105,21.569,0.0,78.431,happiness
+Affluent England,47,3.096,0.013,0.016,0.033,0.122,2.128,14.894,82.979,anxiety
+"Business, Education and Heritage Centres",34,3.232,0.023,0.022,0.025,0.168,0.0,26.471,73.529,anxiety
+Countryside Living,65,2.946,0.014,0.014,0.025,0.099,0.0,16.923,83.077,anxiety
+Ethnically Diverse Metropolitan Living,19,3.357,-0.008,-0.004,0.032,-0.12,21.053,0.0,78.947,anxiety
+London Cosmopolitan,10,3.484,0.006,0.012,0.037,-0.024,10.0,30.0,60.0,anxiety
+Services and Industrial Legacy,54,3.153,0.009,0.006,0.023,0.091,3.704,11.111,85.185,anxiety
+Town and Country Living,74,2.985,0.015,0.014,0.032,0.119,1.351,12.162,86.486,anxiety
+Urban Settlements,51,3.124,0.007,0.007,0.034,0.228,5.882,15.686,78.431,anxiety

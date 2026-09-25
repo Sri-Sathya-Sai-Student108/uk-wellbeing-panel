@@ -1,0 +1,289 @@
+subgroup,n_las,mean_baseline,mean_slope,median_slope,std_slope,mean_change,pct_improving,pct_deteriorating,pct_stable,measure
+Affluent rural,11,7.561,-0.004,-0.001,0.015,0.149,0.0,0.0,100.0,life-satisfaction
+Ageing Coastal Living,13,7.621,-0.003,-0.005,0.012,-0.1,0.0,7.692,92.308,life-satisfaction
+City Periphery,12,7.372,0.013,0.009,0.013,0.087,16.667,0.0,83.333,life-satisfaction
+Country Living,37,7.552,-0.002,0.0,0.016,0.003,0.0,8.108,91.892,life-satisfaction
+Ethnically Diverse Metropolitan  Living,19,7.201,0.016,0.017,0.015,0.175,21.053,0.0,78.947,life-satisfaction
+Expanding Areas,8,7.382,0.001,0.003,0.015,-0.065,12.5,0.0,87.5,life-satisfaction
+Industrial and Multi-ethnic,16,7.218,0.01,0.007,0.016,0.097,12.5,0.0,87.5,life-satisfaction
+Larger Towns and Cities,28,7.428,-0.004,-0.001,0.014,-0.07,0.0,7.143,92.857,life-satisfaction
+London Cosmopolitan,10,7.237,0.002,0.006,0.022,0.066,10.0,10.0,80.0,life-satisfaction
+Manufacturing Legacy,20,7.435,-0.002,-0.002,0.012,0.036,0.0,0.0,100.0,life-satisfaction
+Mining Legacy,13,7.322,0.005,0.006,0.011,0.041,0.0,0.0,100.0,life-satisfaction
+Northern Ireland Countryside,8,7.868,-0.021,-0.014,0.02,-0.111,0.0,37.5,62.5,life-satisfaction
+Older Farming Communities,14,7.654,0.002,0.003,0.032,-0.034,14.286,14.286,71.429,life-satisfaction
+Prosperous Semi-rural,7,7.54,0.014,0.007,0.021,0.087,28.571,0.0,71.429,life-satisfaction
+Prosperous Towns,22,7.446,0.003,0.004,0.019,0.051,4.545,0.0,95.455,life-satisfaction
+Rural Growth Areas,21,7.552,0.002,0.001,0.013,0.059,4.762,0.0,95.238,life-satisfaction
+Rural-Urban Fringe,15,7.469,0.001,-0.004,0.026,0.037,13.333,6.667,80.0,life-satisfaction
+Scottish Countryside,11,7.684,-0.0,0.001,0.012,0.026,9.091,0.0,90.909,life-satisfaction
+Scottish Industrial Legacy,13,7.449,-0.01,-0.006,0.012,-0.055,0.0,15.385,84.615,life-satisfaction
+Seaside Living,5,7.38,0.007,0.012,0.026,0.186,0.0,0.0,100.0,life-satisfaction
+Service Economy,9,7.308,0.003,0.005,0.01,0.119,0.0,0.0,100.0,life-satisfaction
+Sparse English and Welsh Countryside,20,7.542,0.006,0.008,0.011,0.071,5.0,5.0,90.0,life-satisfaction
+University Towns and Cities,7,7.356,-0.002,0.001,0.015,-0.089,0.0,0.0,100.0,life-satisfaction
+Urban Living,15,7.335,0.009,0.001,0.023,-0.022,13.333,0.0,86.667,life-satisfaction
+Affluent rural,11,7.806,0.003,0.006,0.011,0.17,0.0,0.0,100.0,worthwhile
+Ageing Coastal Living,13,7.908,-0.005,-0.009,0.016,-0.105,0.0,0.0,100.0,worthwhile
+City Periphery,12,7.667,0.02,0.011,0.022,0.219,41.667,0.0,58.333,worthwhile
+Country Living,37,7.768,0.003,0.002,0.015,0.089,5.405,2.703,91.892,worthwhile
+Ethnically Diverse Metropolitan  Living,19,7.479,0.016,0.014,0.014,0.217,26.316,0.0,73.684,worthwhile
+Expanding Areas,8,7.621,0.008,0.003,0.015,0.037,12.5,0.0,87.5,worthwhile
+Industrial and Multi-ethnic,16,7.532,0.015,0.015,0.014,0.17,31.25,0.0,68.75,worthwhile
+Larger Towns and Cities,28,7.601,0.001,0.002,0.011,0.023,0.0,3.571,96.429,worthwhile
+London Cosmopolitan,10,7.438,0.002,0.006,0.017,0.032,10.0,10.0,80.0,worthwhile
+Manufacturing Legacy,20,7.704,0.007,0.003,0.014,0.057,5.0,0.0,95.0,worthwhile
+Mining Legacy,13,7.626,0.008,0.008,0.011,0.126,7.692,0.0,92.308,worthwhile
+Northern Ireland Countryside,8,8.025,-0.004,-0.0,0.017,0.049,0.0,12.5,87.5,worthwhile
+Older Farming Communities,14,7.854,0.004,0.001,0.029,0.025,14.286,0.0,85.714,worthwhile
+Prosperous Semi-rural,7,7.847,0.017,0.013,0.019,0.101,28.571,0.0,71.429,worthwhile
+Prosperous Towns,22,7.693,0.01,0.004,0.025,0.077,18.182,0.0,81.818,worthwhile
+Rural Growth Areas,21,7.798,0.0,0.001,0.011,0.03,0.0,0.0,100.0,worthwhile
+Rural-Urban Fringe,15,7.771,-0.004,0.001,0.023,-0.163,0.0,6.667,93.333,worthwhile
+Scottish Countryside,11,7.847,0.007,0.007,0.013,0.099,18.182,0.0,81.818,worthwhile
+Scottish Industrial Legacy,13,7.645,0.0,0.006,0.013,0.045,0.0,7.692,92.308,worthwhile
+Seaside Living,5,7.692,0.008,-0.001,0.027,0.168,20.0,0.0,80.0,worthwhile
+Service Economy,9,7.607,0.006,0.007,0.008,0.061,0.0,0.0,100.0,worthwhile
+Sparse English and Welsh Countryside,20,7.813,0.008,0.01,0.009,0.046,5.0,0.0,95.0,worthwhile
+University Towns and Cities,7,7.579,0.007,0.002,0.013,0.016,14.286,0.0,85.714,worthwhile
+Urban Living,15,7.629,0.004,-0.001,0.015,-0.026,6.667,0.0,93.333,worthwhile
+Affluent rural,11,7.403,0.0,-0.006,0.024,0.072,9.091,0.0,90.909,happiness
+Ageing Coastal Living,13,7.551,-0.001,-0.003,0.016,-0.118,7.692,7.692,84.615,happiness
+City Periphery,12,7.28,0.016,0.021,0.022,0.146,25.0,0.0,75.0,happiness
+Country Living,37,7.426,0.002,0.002,0.018,0.091,2.703,2.703,94.595,happiness
+Ethnically Diverse Metropolitan  Living,19,7.164,0.019,0.016,0.02,0.217,21.053,0.0,78.947,happiness
+Expanding Areas,8,7.208,0.005,0.001,0.011,0.016,0.0,0.0,100.0,happiness
+Industrial and Multi-ethnic,16,7.166,0.013,0.01,0.019,0.152,37.5,0.0,62.5,happiness
+Larger Towns and Cities,28,7.255,0.004,0.003,0.019,0.049,10.714,10.714,78.571,happiness
+London Cosmopolitan,10,7.201,-0.002,-0.002,0.021,0.042,10.0,10.0,80.0,happiness
+Manufacturing Legacy,20,7.237,0.009,0.008,0.015,0.156,10.0,0.0,90.0,happiness
+Mining Legacy,13,7.175,0.014,0.018,0.013,0.202,30.769,0.0,69.231,happiness
+Northern Ireland Countryside,8,7.775,-0.015,-0.022,0.026,-0.049,0.0,37.5,62.5,happiness
+Older Farming Communities,14,7.515,0.01,0.007,0.033,0.079,21.429,0.0,78.571,happiness
+Prosperous Semi-rural,7,7.466,0.019,0.016,0.015,0.126,28.571,0.0,71.429,happiness
+Prosperous Towns,22,7.286,0.004,0.003,0.023,0.02,9.091,0.0,90.909,happiness
+Rural Growth Areas,21,7.436,0.005,0.005,0.017,0.093,4.762,0.0,95.238,happiness
+Rural-Urban Fringe,15,7.295,0.006,0.003,0.026,0.075,13.333,6.667,80.0,happiness
+Scottish Countryside,11,7.536,0.007,0.007,0.011,0.119,0.0,0.0,100.0,happiness
+Scottish Industrial Legacy,13,7.241,0.004,0.004,0.014,0.088,7.692,7.692,84.615,happiness
+Seaside Living,5,7.282,0.017,0.021,0.019,0.302,40.0,0.0,60.0,happiness
+Service Economy,9,7.128,0.015,0.016,0.011,0.237,22.222,0.0,77.778,happiness
+Sparse English and Welsh Countryside,20,7.421,0.011,0.01,0.008,0.095,10.0,0.0,90.0,happiness
+University Towns and Cities,7,7.201,0.006,0.002,0.015,-0.006,14.286,0.0,85.714,happiness
+Urban Living,15,7.265,0.01,0.008,0.015,0.071,0.0,0.0,100.0,happiness
+Affluent rural,11,3.134,0.039,0.035,0.019,0.112,0.0,18.182,81.818,anxiety
+Ageing Coastal Living,13,2.929,0.034,0.036,0.024,0.271,0.0,38.462,61.538,anxiety
+City Periphery,12,3.133,0.007,0.009,0.028,0.192,8.333,8.333,83.333,anxiety
+Country Living,37,2.978,0.025,0.027,0.031,0.101,2.703,21.622,75.676,anxiety
+Ethnically Diverse Metropolitan  Living,19,3.357,0.003,0.004,0.038,-0.12,21.053,10.526,68.421,anxiety
+Expanding Areas,8,3.135,0.044,0.035,0.029,0.411,0.0,37.5,62.5,anxiety
+Industrial and Multi-ethnic,16,3.15,0.02,0.016,0.03,0.134,0.0,31.25,68.75,anxiety
+Larger Towns and Cities,28,3.204,0.032,0.034,0.026,0.198,0.0,39.286,60.714,anxiety
+London Cosmopolitan,10,3.484,0.01,0.013,0.026,-0.024,0.0,20.0,80.0,anxiety
+Manufacturing Legacy,20,3.07,0.024,0.023,0.023,0.061,0.0,5.0,95.0,anxiety
+Mining Legacy,13,3.253,0.012,0.015,0.024,0.139,0.0,23.077,76.923,anxiety
+Northern Ireland Countryside,8,2.617,0.024,0.015,0.051,0.089,0.0,37.5,62.5,anxiety
+Older Farming Communities,14,2.885,0.02,0.027,0.032,0.174,0.0,21.429,78.571,anxiety
+Prosperous Semi-rural,7,2.933,0.013,0.008,0.017,0.341,0.0,0.0,100.0,anxiety
+Prosperous Towns,22,3.146,0.017,0.014,0.037,0.09,0.0,22.727,77.273,anxiety
+Rural Growth Areas,21,2.99,0.015,0.012,0.031,0.112,0.0,14.286,85.714,anxiety
+Rural-Urban Fringe,15,3.215,0.013,0.003,0.041,0.143,6.667,20.0,73.333,anxiety
+Scottish Countryside,11,2.822,0.026,0.019,0.028,0.117,0.0,36.364,63.636,anxiety
+Scottish Industrial Legacy,13,3.146,0.017,0.016,0.023,0.057,0.0,23.077,76.923,anxiety
+Seaside Living,5,3.148,0.011,0.021,0.023,-0.15,0.0,20.0,80.0,anxiety
+Service Economy,9,3.174,0.031,0.031,0.02,0.176,0.0,33.333,66.667,anxiety
+Sparse English and Welsh Countryside,20,3.021,0.013,0.014,0.018,-0.031,0.0,15.0,85.0,anxiety
+University Towns and Cities,7,3.299,0.023,0.022,0.021,0.034,0.0,28.571,71.429,anxiety
+Urban Living,15,3.085,0.017,0.01,0.041,0.257,6.667,33.333,60.0,anxiety
+Affluent rural,11,7.561,-0.002,0.003,0.015,0.149,0.0,0.0,100.0,life-satisfaction
+Ageing Coastal Living,13,7.621,0.001,0.004,0.009,-0.1,0.0,0.0,100.0,life-satisfaction
+City Periphery,12,7.372,0.018,0.014,0.014,0.087,16.667,0.0,83.333,life-satisfaction
+Country Living,37,7.552,0.003,0.004,0.015,0.003,0.0,8.108,91.892,life-satisfaction
+Ethnically Diverse Metropolitan  Living,19,7.201,0.026,0.027,0.015,0.175,47.368,0.0,52.632,life-satisfaction
+Expanding Areas,8,7.382,0.012,0.009,0.013,-0.065,12.5,0.0,87.5,life-satisfaction
+Industrial and Multi-ethnic,16,7.218,0.02,0.018,0.017,0.097,31.25,0.0,68.75,life-satisfaction
+Larger Towns and Cities,28,7.428,0.002,0.006,0.015,-0.07,0.0,7.143,92.857,life-satisfaction
+London Cosmopolitan,10,7.237,0.01,0.017,0.024,0.066,10.0,10.0,80.0,life-satisfaction
+Manufacturing Legacy,20,7.435,0.006,0.004,0.012,0.036,5.0,0.0,95.0,life-satisfaction
+Mining Legacy,13,7.322,0.011,0.013,0.011,0.041,7.692,0.0,92.308,life-satisfaction
+Northern Ireland Countryside,8,7.868,-0.019,-0.017,0.019,-0.111,0.0,37.5,62.5,life-satisfaction
+Older Farming Communities,14,7.654,0.004,-0.003,0.028,-0.034,14.286,0.0,85.714,life-satisfaction
+Prosperous Semi-rural,7,7.54,0.016,0.008,0.022,0.087,28.571,0.0,71.429,life-satisfaction
+Prosperous Towns,22,7.446,0.014,0.012,0.017,0.051,13.636,0.0,86.364,life-satisfaction
+Rural Growth Areas,21,7.552,0.007,0.006,0.011,0.059,0.0,0.0,100.0,life-satisfaction
+Rural-Urban Fringe,15,7.469,0.006,0.001,0.027,0.037,26.667,6.667,66.667,life-satisfaction
+Scottish Countryside,11,7.684,0.008,0.01,0.013,0.026,9.091,0.0,90.909,life-satisfaction
+Scottish Industrial Legacy,13,7.449,0.001,0.003,0.013,-0.055,0.0,15.385,84.615,life-satisfaction
+Seaside Living,5,7.38,0.013,0.016,0.028,0.186,20.0,0.0,80.0,life-satisfaction
+Service Economy,9,7.308,0.011,0.015,0.011,0.119,0.0,0.0,100.0,life-satisfaction
+Sparse English and Welsh Countryside,20,7.542,0.013,0.013,0.011,0.071,20.0,0.0,80.0,life-satisfaction
+University Towns and Cities,7,7.356,0.01,0.015,0.013,-0.089,0.0,0.0,100.0,life-satisfaction
+Urban Living,15,7.335,0.019,0.016,0.02,-0.022,26.667,0.0,73.333,life-satisfaction
+Affluent rural,11,7.806,0.006,0.007,0.008,0.17,0.0,0.0,100.0,worthwhile
+Ageing Coastal Living,13,7.908,-0.002,-0.007,0.015,-0.105,7.692,0.0,92.308,worthwhile
+City Periphery,12,7.667,0.023,0.022,0.02,0.219,41.667,0.0,58.333,worthwhile
+Country Living,37,7.768,0.008,0.009,0.015,0.089,8.108,5.405,86.486,worthwhile
+Ethnically Diverse Metropolitan  Living,19,7.479,0.024,0.025,0.015,0.217,47.368,0.0,52.632,worthwhile
+Expanding Areas,8,7.621,0.016,0.019,0.012,0.037,25.0,0.0,75.0,worthwhile
+Industrial and Multi-ethnic,16,7.532,0.022,0.025,0.013,0.17,50.0,0.0,50.0,worthwhile
+Larger Towns and Cities,28,7.601,0.005,0.006,0.013,0.023,3.571,3.571,92.857,worthwhile
+London Cosmopolitan,10,7.438,0.008,0.013,0.02,0.032,30.0,10.0,60.0,worthwhile
+Manufacturing Legacy,20,7.704,0.012,0.008,0.016,0.057,15.0,0.0,85.0,worthwhile
+Mining Legacy,13,7.626,0.012,0.01,0.009,0.126,15.385,0.0,84.615,worthwhile
+Northern Ireland Countryside,8,8.025,-0.004,-0.003,0.017,0.049,0.0,12.5,87.5,worthwhile
+Older Farming Communities,14,7.854,0.007,0.004,0.024,0.025,21.429,0.0,78.571,worthwhile
+Prosperous Semi-rural,7,7.847,0.02,0.023,0.016,0.101,42.857,0.0,57.143,worthwhile
+Prosperous Towns,22,7.693,0.02,0.014,0.022,0.077,27.273,0.0,72.727,worthwhile
+Rural Growth Areas,21,7.798,0.005,0.003,0.01,0.03,0.0,0.0,100.0,worthwhile
+Rural-Urban Fringe,15,7.771,0.007,0.01,0.02,-0.163,6.667,0.0,93.333,worthwhile
+Scottish Countryside,11,7.847,0.013,0.012,0.012,0.099,27.273,0.0,72.727,worthwhile
+Scottish Industrial Legacy,13,7.645,0.009,0.01,0.013,0.045,0.0,7.692,92.308,worthwhile
+Seaside Living,5,7.692,0.009,-0.008,0.026,0.168,20.0,0.0,80.0,worthwhile
+Service Economy,9,7.607,0.013,0.014,0.006,0.061,11.111,0.0,88.889,worthwhile
+Sparse English and Welsh Countryside,20,7.813,0.013,0.012,0.009,0.046,20.0,0.0,80.0,worthwhile
+University Towns and Cities,7,7.579,0.014,0.009,0.011,0.016,14.286,0.0,85.714,worthwhile
+Urban Living,15,7.629,0.012,0.012,0.014,-0.026,20.0,0.0,80.0,worthwhile
+Affluent rural,11,7.403,0.001,-0.001,0.019,0.072,9.091,0.0,90.909,happiness
+Ageing Coastal Living,13,7.551,0.002,0.004,0.016,-0.118,7.692,0.0,92.308,happiness
+City Periphery,12,7.28,0.019,0.023,0.024,0.146,25.0,0.0,75.0,happiness
+Country Living,37,7.426,0.006,0.004,0.016,0.091,2.703,0.0,97.297,happiness
+Ethnically Diverse Metropolitan  Living,19,7.164,0.027,0.026,0.02,0.217,36.842,0.0,63.158,happiness
+Expanding Areas,8,7.208,0.014,0.013,0.006,0.016,0.0,0.0,100.0,happiness
+Industrial and Multi-ethnic,16,7.166,0.018,0.012,0.019,0.152,43.75,0.0,56.25,happiness
+Larger Towns and Cities,28,7.255,0.01,0.009,0.017,0.049,14.286,0.0,85.714,happiness
+London Cosmopolitan,10,7.201,0.004,0.008,0.023,0.042,10.0,10.0,80.0,happiness
+Manufacturing Legacy,20,7.237,0.014,0.015,0.016,0.156,15.0,0.0,85.0,happiness
+Mining Legacy,13,7.175,0.018,0.02,0.013,0.202,46.154,0.0,53.846,happiness
+Northern Ireland Countryside,8,7.775,-0.014,-0.015,0.025,-0.049,0.0,37.5,62.5,happiness
+Older Farming Communities,14,7.515,0.009,0.004,0.033,0.079,21.429,0.0,78.571,happiness
+Prosperous Semi-rural,7,7.466,0.024,0.021,0.017,0.126,28.571,0.0,71.429,happiness
+Prosperous Towns,22,7.286,0.014,0.012,0.018,0.02,13.636,0.0,86.364,happiness
+Rural Growth Areas,21,7.436,0.01,0.01,0.017,0.093,4.762,0.0,95.238,happiness
+Rural-Urban Fringe,15,7.295,0.011,0.01,0.025,0.075,13.333,6.667,80.0,happiness
+Scottish Countryside,11,7.536,0.013,0.015,0.013,0.119,27.273,0.0,72.727,happiness
+Scottish Industrial Legacy,13,7.241,0.009,0.01,0.013,0.088,15.385,0.0,84.615,happiness
+Seaside Living,5,7.282,0.019,0.026,0.016,0.302,20.0,0.0,80.0,happiness
+Service Economy,9,7.128,0.019,0.02,0.008,0.237,22.222,0.0,77.778,happiness
+Sparse English and Welsh Countryside,20,7.421,0.015,0.015,0.008,0.095,10.0,0.0,90.0,happiness
+University Towns and Cities,7,7.201,0.011,0.009,0.019,-0.006,28.571,0.0,71.429,happiness
+Urban Living,15,7.265,0.015,0.013,0.011,0.071,6.667,0.0,93.333,happiness
+Affluent rural,11,3.134,0.035,0.029,0.022,0.112,0.0,27.273,72.727,anxiety
+Ageing Coastal Living,13,2.929,0.027,0.022,0.024,0.271,0.0,23.077,76.923,anxiety
+City Periphery,12,3.133,-0.006,-0.0,0.028,0.192,8.333,8.333,83.333,anxiety
+Country Living,37,2.978,0.02,0.022,0.029,0.101,2.703,16.216,81.081,anxiety
+Ethnically Diverse Metropolitan  Living,19,3.357,-0.008,-0.004,0.032,-0.12,21.053,0.0,78.947,anxiety
+Expanding Areas,8,3.135,0.027,0.028,0.03,0.411,0.0,25.0,75.0,anxiety
+Industrial and Multi-ethnic,16,3.15,0.008,0.006,0.032,0.134,6.25,25.0,68.75,anxiety
+Larger Towns and Cities,28,3.204,0.025,0.024,0.025,0.198,0.0,25.0,75.0,anxiety
+London Cosmopolitan,10,3.484,0.006,0.012,0.037,-0.024,10.0,30.0,60.0,anxiety
+Manufacturing Legacy,20,3.07,0.012,0.007,0.024,0.061,0.0,5.0,95.0,anxiety
+Mining Legacy,13,3.253,0.001,0.003,0.024,0.139,15.385,7.692,76.923,anxiety
+Northern Ireland Countryside,8,2.617,0.026,0.019,0.049,0.089,0.0,25.0,75.0,anxiety
+Older Farming Communities,14,2.885,0.014,0.023,0.032,0.174,0.0,14.286,85.714,anxiety
+Prosperous Semi-rural,7,2.933,0.001,-0.001,0.012,0.341,0.0,0.0,100.0,anxiety
+Prosperous Towns,22,3.146,0.005,0.002,0.033,0.09,0.0,4.545,95.455,anxiety
+Rural Growth Areas,21,2.99,0.01,0.009,0.032,0.112,4.762,14.286,80.952,anxiety
+Rural-Urban Fringe,15,3.215,0.002,0.0,0.037,0.143,0.0,6.667,93.333,anxiety
+Scottish Countryside,11,2.822,0.014,0.009,0.028,0.117,0.0,27.273,72.727,anxiety
+Scottish Industrial Legacy,13,3.146,0.007,0.004,0.021,0.057,0.0,15.385,84.615,anxiety
+Seaside Living,5,3.148,0.005,0.014,0.026,-0.15,0.0,20.0,80.0,anxiety
+Service Economy,9,3.174,0.021,0.019,0.018,0.176,0.0,22.222,77.778,anxiety
+Sparse English and Welsh Countryside,20,3.021,0.006,0.01,0.018,-0.031,0.0,10.0,90.0,anxiety
+University Towns and Cities,7,3.299,0.017,0.008,0.023,0.034,0.0,28.571,71.429,anxiety
+Urban Living,15,3.085,0.004,0.014,0.038,0.257,6.667,6.667,86.667,anxiety
+Affluent rural,11,7.561,-0.002,0.003,0.015,0.149,0.0,0.0,100.0,life-satisfaction
+Ageing Coastal Living,13,7.621,0.001,0.004,0.009,-0.1,0.0,0.0,100.0,life-satisfaction
+City Periphery,12,7.372,0.018,0.014,0.014,0.087,16.667,0.0,83.333,life-satisfaction
+Country Living,37,7.552,0.003,0.004,0.015,0.003,0.0,8.108,91.892,life-satisfaction
+Ethnically Diverse Metropolitan  Living,19,7.201,0.026,0.027,0.015,0.175,47.368,0.0,52.632,life-satisfaction
+Expanding Areas,8,7.382,0.012,0.009,0.013,-0.065,12.5,0.0,87.5,life-satisfaction
+Industrial and Multi-ethnic,16,7.218,0.02,0.018,0.017,0.097,31.25,0.0,68.75,life-satisfaction
+Larger Towns and Cities,28,7.428,0.002,0.006,0.015,-0.07,0.0,7.143,92.857,life-satisfaction
+London Cosmopolitan,10,7.237,0.01,0.017,0.024,0.066,10.0,10.0,80.0,life-satisfaction
+Manufacturing Legacy,20,7.435,0.006,0.004,0.012,0.036,5.0,0.0,95.0,life-satisfaction
+Mining Legacy,13,7.322,0.011,0.013,0.011,0.041,7.692,0.0,92.308,life-satisfaction
+Northern Ireland Countryside,8,7.868,-0.019,-0.017,0.019,-0.111,0.0,37.5,62.5,life-satisfaction
+Older Farming Communities,14,7.654,0.004,-0.003,0.028,-0.034,14.286,0.0,85.714,life-satisfaction
+Prosperous Semi-rural,7,7.54,0.016,0.008,0.022,0.087,28.571,0.0,71.429,life-satisfaction
+Prosperous Towns,22,7.446,0.014,0.012,0.017,0.051,13.636,0.0,86.364,life-satisfaction
+Rural Growth Areas,21,7.552,0.007,0.006,0.011,0.059,0.0,0.0,100.0,life-satisfaction
+Rural-Urban Fringe,15,7.469,0.006,0.001,0.027,0.037,26.667,6.667,66.667,life-satisfaction
+Scottish Countryside,11,7.684,0.008,0.01,0.013,0.026,9.091,0.0,90.909,life-satisfaction
+Scottish Industrial Legacy,13,7.449,0.001,0.003,0.013,-0.055,0.0,15.385,84.615,life-satisfaction
+Seaside Living,5,7.38,0.013,0.016,0.028,0.186,20.0,0.0,80.0,life-satisfaction
+Service Economy,9,7.308,0.011,0.015,0.011,0.119,0.0,0.0,100.0,life-satisfaction
+Sparse English and Welsh Countryside,20,7.542,0.013,0.013,0.011,0.071,20.0,0.0,80.0,life-satisfaction
+University Towns and Cities,7,7.356,0.01,0.015,0.013,-0.089,0.0,0.0,100.0,life-satisfaction
+Urban Living,15,7.335,0.019,0.016,0.02,-0.022,26.667,0.0,73.333,life-satisfaction
+Affluent rural,11,7.806,0.006,0.007,0.008,0.17,0.0,0.0,100.0,worthwhile
+Ageing Coastal Living,13,7.908,-0.002,-0.007,0.015,-0.105,7.692,0.0,92.308,worthwhile
+City Periphery,12,7.667,0.023,0.022,0.02,0.219,41.667,0.0,58.333,worthwhile
+Country Living,37,7.768,0.008,0.009,0.015,0.089,8.108,5.405,86.486,worthwhile
+Ethnically Diverse Metropolitan  Living,19,7.479,0.024,0.025,0.015,0.217,47.368,0.0,52.632,worthwhile
+Expanding Areas,8,7.621,0.016,0.019,0.012,0.037,25.0,0.0,75.0,worthwhile
+Industrial and Multi-ethnic,16,7.532,0.022,0.025,0.013,0.17,50.0,0.0,50.0,worthwhile
+Larger Towns and Cities,28,7.601,0.005,0.006,0.013,0.023,3.571,3.571,92.857,worthwhile
+London Cosmopolitan,10,7.438,0.008,0.013,0.02,0.032,30.0,10.0,60.0,worthwhile
+Manufacturing Legacy,20,7.704,0.012,0.008,0.016,0.057,15.0,0.0,85.0,worthwhile
+Mining Legacy,13,7.626,0.012,0.01,0.009,0.126,15.385,0.0,84.615,worthwhile
+Northern Ireland Countryside,8,8.025,-0.004,-0.003,0.017,0.049,0.0,12.5,87.5,worthwhile
+Older Farming Communities,14,7.854,0.007,0.004,0.024,0.025,21.429,0.0,78.571,worthwhile
+Prosperous Semi-rural,7,7.847,0.02,0.023,0.016,0.101,42.857,0.0,57.143,worthwhile
+Prosperous Towns,22,7.693,0.02,0.014,0.022,0.077,27.273,0.0,72.727,worthwhile
+Rural Growth Areas,21,7.798,0.005,0.003,0.01,0.03,0.0,0.0,100.0,worthwhile
+Rural-Urban Fringe,15,7.771,0.007,0.01,0.02,-0.163,6.667,0.0,93.333,worthwhile
+Scottish Countryside,11,7.847,0.013,0.012,0.012,0.099,27.273,0.0,72.727,worthwhile
+Scottish Industrial Legacy,13,7.645,0.009,0.01,0.013,0.045,0.0,7.692,92.308,worthwhile
+Seaside Living,5,7.692,0.009,-0.008,0.026,0.168,20.0,0.0,80.0,worthwhile
+Service Economy,9,7.607,0.013,0.014,0.006,0.061,11.111,0.0,88.889,worthwhile
+Sparse English and Welsh Countryside,20,7.813,0.013,0.012,0.009,0.046,20.0,0.0,80.0,worthwhile
+University Towns and Cities,7,7.579,0.014,0.009,0.011,0.016,14.286,0.0,85.714,worthwhile
+Urban Living,15,7.629,0.012,0.012,0.014,-0.026,20.0,0.0,80.0,worthwhile
+Affluent rural,11,7.403,0.001,-0.001,0.019,0.072,9.091,0.0,90.909,happiness
+Ageing Coastal Living,13,7.551,0.002,0.004,0.016,-0.118,7.692,0.0,92.308,happiness
+City Periphery,12,7.28,0.019,0.023,0.024,0.146,25.0,0.0,75.0,happiness
+Country Living,37,7.426,0.006,0.004,0.016,0.091,2.703,0.0,97.297,happiness
+Ethnically Diverse Metropolitan  Living,19,7.164,0.027,0.026,0.02,0.217,36.842,0.0,63.158,happiness
+Expanding Areas,8,7.208,0.014,0.013,0.006,0.016,0.0,0.0,100.0,happiness
+Industrial and Multi-ethnic,16,7.166,0.018,0.012,0.019,0.152,43.75,0.0,56.25,happiness
+Larger Towns and Cities,28,7.255,0.01,0.009,0.017,0.049,14.286,0.0,85.714,happiness
+London Cosmopolitan,10,7.201,0.004,0.008,0.023,0.042,10.0,10.0,80.0,happiness
+Manufacturing Legacy,20,7.237,0.014,0.015,0.016,0.156,15.0,0.0,85.0,happiness
+Mining Legacy,13,7.175,0.018,0.02,0.013,0.202,46.154,0.0,53.846,happiness
+Northern Ireland Countryside,8,7.775,-0.014,-0.015,0.025,-0.049,0.0,37.5,62.5,happiness
+Older Farming Communities,14,7.515,0.009,0.004,0.033,0.079,21.429,0.0,78.571,happiness
+Prosperous Semi-rural,7,7.466,0.024,0.021,0.017,0.126,28.571,0.0,71.429,happiness
+Prosperous Towns,22,7.286,0.014,0.012,0.018,0.02,13.636,0.0,86.364,happiness
+Rural Growth Areas,21,7.436,0.01,0.01,0.017,0.093,4.762,0.0,95.238,happiness
+Rural-Urban Fringe,15,7.295,0.011,0.01,0.025,0.075,13.333,6.667,80.0,happiness
+Scottish Countryside,11,7.536,0.013,0.015,0.013,0.119,27.273,0.0,72.727,happiness
+Scottish Industrial Legacy,13,7.241,0.009,0.01,0.013,0.088,15.385,0.0,84.615,happiness
+Seaside Living,5,7.282,0.019,0.026,0.016,0.302,20.0,0.0,80.0,happiness
+Service Economy,9,7.128,0.019,0.02,0.008,0.237,22.222,0.0,77.778,happiness
+Sparse English and Welsh Countryside,20,7.421,0.015,0.015,0.008,0.095,10.0,0.0,90.0,happiness
+University Towns and Cities,7,7.201,0.011,0.009,0.019,-0.006,28.571,0.0,71.429,happiness
+Urban Living,15,7.265,0.015,0.013,0.011,0.071,6.667,0.0,93.333,happiness
+Affluent rural,11,3.134,0.035,0.029,0.022,0.112,0.0,27.273,72.727,anxiety
+Ageing Coastal Living,13,2.929,0.027,0.022,0.024,0.271,0.0,23.077,76.923,anxiety
+City Periphery,12,3.133,-0.006,-0.0,0.028,0.192,8.333,8.333,83.333,anxiety
+Country Living,37,2.978,0.02,0.022,0.029,0.101,2.703,16.216,81.081,anxiety
+Ethnically Diverse Metropolitan  Living,19,3.357,-0.008,-0.004,0.032,-0.12,21.053,0.0,78.947,anxiety
+Expanding Areas,8,3.135,0.027,0.028,0.03,0.411,0.0,25.0,75.0,anxiety
+Industrial and Multi-ethnic,16,3.15,0.008,0.006,0.032,0.134,6.25,25.0,68.75,anxiety
+Larger Towns and Cities,28,3.204,0.025,0.024,0.025,0.198,0.0,25.0,75.0,anxiety
+London Cosmopolitan,10,3.484,0.006,0.012,0.037,-0.024,10.0,30.0,60.0,anxiety
+Manufacturing Legacy,20,3.07,0.012,0.007,0.024,0.061,0.0,5.0,95.0,anxiety
+Mining Legacy,13,3.253,0.001,0.003,0.024,0.139,15.385,7.692,76.923,anxiety
+Northern Ireland Countryside,8,2.617,0.026,0.019,0.049,0.089,0.0,25.0,75.0,anxiety
+Older Farming Communities,14,2.885,0.014,0.023,0.032,0.174,0.0,14.286,85.714,anxiety
+Prosperous Semi-rural,7,2.933,0.001,-0.001,0.012,0.341,0.0,0.0,100.0,anxiety
+Prosperous Towns,22,3.146,0.005,0.002,0.033,0.09,0.0,4.545,95.455,anxiety
+Rural Growth Areas,21,2.99,0.01,0.009,0.032,0.112,4.762,14.286,80.952,anxiety
+Rural-Urban Fringe,15,3.215,0.002,0.0,0.037,0.143,0.0,6.667,93.333,anxiety
+Scottish Countryside,11,2.822,0.014,0.009,0.028,0.117,0.0,27.273,72.727,anxiety
+Scottish Industrial Legacy,13,3.146,0.007,0.004,0.021,0.057,0.0,15.385,84.615,anxiety
+Seaside Living,5,3.148,0.005,0.014,0.026,-0.15,0.0,20.0,80.0,anxiety
+Service Economy,9,3.174,0.021,0.019,0.018,0.176,0.0,22.222,77.778,anxiety
+Sparse English and Welsh Countryside,20,3.021,0.006,0.01,0.018,-0.031,0.0,10.0,90.0,anxiety
+University Towns and Cities,7,3.299,0.017,0.008,0.023,0.034,0.0,28.571,71.429,anxiety
+Urban Living,15,3.085,0.004,0.014,0.038,0.257,6.667,6.667,86.667,anxiety

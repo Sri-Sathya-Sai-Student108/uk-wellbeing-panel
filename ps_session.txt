@@ -1,0 +1,260 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260924164036
+Username: UNN\w23043850
+RunAs User: UNN\w23043850
+Configuration Name: 
+Machine: C23003973 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 35436
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\ps_session.txt
+PS C:\Users\w23043850> cd "C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0"
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0> python -m venv wellbeing_env
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0> wellbeing_env\Scripts\activate
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) cd Papers
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers>
+(wellbeing_env) ls
+
+
+    Directory: C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        24/09/2026     16:35                FurtherSuggestions
+d-----        24/09/2026     16:35                Intro
+
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers>
+(wellbeing_env) cd Intro
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) ls
+
+
+    Directory: C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        24/09/2026     16:35           3702 boundary_harmonisation_section.md
+-a----        24/09/2026     16:35            372 build.bat
+-a----        24/09/2026     16:35            436 build_revised.bat
+-a----        24/09/2026     16:35            862 build_smart.bat
+-a----        24/09/2026     16:35           5298 IMPLEMENTATION_SUMMARY.md
+-a----        24/09/2026     16:35              0 nations_analysis.txt
+-a----        24/09/2026     16:35          65359 paper.synctex.gz
+-a----        24/09/2026     16:35          24108 paper.tex
+-a----        24/09/2026     16:35          10887 paper_revised.aux
+-a----        24/09/2026     16:35          30196 paper_revised.log
+-a----        24/09/2026     16:35           6416 paper_revised.out
+-a----        24/09/2026     16:35        2071795 paper_revised.pdf
+-a----        24/09/2026     16:35          51390 paper_revised.tex
+-a----        24/09/2026     16:35           9170 PROJECT_BRIEFING.md
+-a----        24/09/2026     16:35          17872 README.md
+-a----        24/09/2026     16:35           1449 readme_update.md
+-a----        24/09/2026     16:35          11337 REVISION_SUMMARY.md
+
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) build_smart
+build_smart : The term 'build_smart' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ build_smart
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (build_smart:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+build_smart : The term 'build_smart' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ build_smart
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (build_smart:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) .\build_smart
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) where.exe pdflatex
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) Test-Path "C:\Users\w23043850\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe"
+False
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) Get-ChildItem "C:\texlive" -ErrorAction SilentlyContinue   
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) pdflatex --version
+pdflatex : The term 'pdflatex' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pdflatex --version
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pdflatex:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pdflatex : The term 'pdflatex' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pdflatex --version
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pdflatex:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) $env:Path += ";C:\Users\w23043850\AppData\Local\Programs\MiKTeX\miktex\bin\x64"
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) pdflatex --version
+pdflatex : The term 'pdflatex' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pdflatex --version
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pdflatex:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pdflatex : The term 'pdflatex' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pdflatex --version
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pdflatex:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) Test-Path "C:\Users\w23043850\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe"
+False
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) Get-ChildItem -Path "C:\" -Filter "pdflatex.exe" -Recurse -ErrorAction SilentlyContinue
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) .\build_smart
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) .\build_smart
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers\Intro>
+(wellbeing_env) cd ..
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0\Papers>
+(wellbeing_env) cd..
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) ls
+
+
+    Directory: C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        24/09/2026     16:35                data
+d-----        24/09/2026     16:35                diagnostics
+d-----        24/09/2026     16:35                output
+d-----        24/09/2026     16:55                papers
+d-----        24/09/2026     16:35                qof_setup
+d-----        24/09/2026     16:35                to_upload
+d-----        24/09/2026     16:42                wellbeing_env
+-a----        24/09/2026     16:35          14224 analysis.py
+-a----        24/09/2026     16:35           5898 assemble_england.py
+-a----        24/09/2026     16:35          14764 assemble_england_sfc.py
+-a----        24/09/2026     16:35           7631 BARTIK_RECONCILIATION_SUMMARY.md
+-a----        24/09/2026     16:35          16075 boundaries.py
+-a----        24/09/2026     16:35          12138 Codebase_Reconciliation_and_Documentation_Update.md
+-a----        24/09/2026     16:35          16843 cohort_report.py
+-a----        24/09/2026     16:35           3116 collect_upload.py
+-a----        24/09/2026     16:35           6582 compare_nations.py
+-a----        24/09/2026     16:35           3745 compare_panels.py
+-a----        24/09/2026     16:35           1352 config.py
+-a----        24/09/2026     16:35          10761 data_loading.py
+-a----        24/09/2026     16:35           2573 diagnose_bartik.py
+-a----        24/09/2026     16:35           8913 export_curated.py
+-a----        24/09/2026     16:35           5298 IMPLEMENTATION_SUMMARY.md
+-a----        24/09/2026     16:35           2908 install-tinytex.bat
+-a----        24/09/2026     16:35           8340 main.py
+-a----        24/09/2026     16:35          11304 make.py
+-a----        24/09/2026     16:35          15642 maps.py
+-a----        24/09/2026     16:35           2998 nations_analysis.txt
+-a----        24/09/2026     16:35          16329 panel_data.py
+-a----        24/09/2026     16:35          63586 paper_revised.tex
+-a----        24/09/2026     16:35          17660 paye_overseas.py
+-a----        24/09/2026     16:35          10800 PROJECT_BRIEFING.md
+-a----        24/09/2026     16:35           4762 PROJECT_UPDATE_GUIDE.md
+-a----        24/09/2026     17:17           7461 ps_session.txt
+-a----        24/09/2026     16:35          20068 qof_panel.py
+-a----        24/09/2026     16:35           6448 QUICK_START.md
+-a----        24/09/2026     16:35          20758 README.md
+-a----        24/09/2026     16:35          19437 README.SCOT
+-a----        24/09/2026     16:35           5566 README_FIRST.md
+-a----        24/09/2026     16:35            364 requirements.txt
+-a----        24/09/2026     16:35          15545 retail_panel.py
+-a----        24/09/2026     16:35          13602 scotland_panel.py
+-a----        24/09/2026     16:35          17602 skills_for_care.py
+
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) make
+make : The term 'make' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ make
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (make:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+make : The term 'make' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ make
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (make:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) .\make
+.\make : The term '.\make' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\make
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\make:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\make : The term '.\make' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\make
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\make:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) python make
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) `python make.py england-panel`
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) python make.py england-panel
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) python -m pip install -r requirements.txt
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) where python
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) where pip   
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) python -c "import pandas, numpy, scipy, statsmodels, linearmodels, geopandas, shapely, matplotlib, requests; print('All imports OK')"
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) python make.py england-panel
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>
+(wellbeing_env) python make.py curated
+
+PS C:\Users\w23043850\Documents\PhD material\wellbeing paper\v0>

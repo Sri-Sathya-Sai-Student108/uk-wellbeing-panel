@@ -1,0 +1,749 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}           % Palatino font
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath}            % For \text{} in equations
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{hyperref}
+% natbib removed - using manual citations      % For citations
+\usepackage{setspace}
+\usepackage{parskip}
+
+\onehalfspacing
+
+% Figure paths — relative to papers/cohort_description/ directory
+\graphicspath{{../../output/supergroup/maps/}{../../output/supergroup/plots/}}
+
+\title{A Harmonised Longitudinal Panel of Local Authority Well-being in the United Kingdom, 2011–2023:\\
+Dataset Construction and Trajectory Analysis}
+
+\author{
+Peter McMeekin\thanks{Corresponding author. Email: peter.mcmeekin@northumbria.ac.uk}\\
+\textit{Department of Nursing, Midwifery and Health, Northumbria University, Newcastle upon Tyne, UK}
+\and
+Author Two\\
+\textit{Department of Nursing, Midwifery and Health, Northumbria University, Newcastle upon Tyne, UK}
+\and
+Author Three\\
+\textit{Department of Nursing, Midwifery and Health, Northumbria University, Newcastle upon Tyne, UK}
+}
+
+\date{Working Paper --- February 2026}
+
+\begin{document}
+
+\maketitle
+
+% ============================================================================
+\begin{abstract}
+\noindent We construct a harmonised longitudinal panel of subjective well-being at local authority level across the United Kingdom, providing 12 annual observations (2011/12--2022/23) for 354 local authorities across four measures: life satisfaction, worthwhile, happiness, and anxiety. The panel handles 12 boundary changes during the study period through population-weighted aggregation for true mergers and footprint-preserving combination for county splits, ensuring temporal consistency. We link the panel to the ONS 2011 Area Classification and demonstrate its analytic value through trajectory classification, revealing three distinct patterns: evaluative well-being shows convergence from below, with the lowest-baseline area types improving most; experiential happiness improves broadly, strongest in post-industrial areas; and anxiety worsens almost universally, driven by previously low-anxiety rural areas catching up with urban levels. Notable national divergence emerges: Northern Ireland shows consistent deterioration from high baselines across all measures, concentrated in rural areas, with timing suggestive of Brexit-related economic uncertainty. This dataset, together with complete replication code, is released as a platform for future linkage to health service, deprivation, and economic indicators. The harmonised panel, area classification lookup, trajectory results, and analysis scripts are openly available on OSF/GitHub [repository URL to be added].
+
+\medskip
+\noindent\textbf{Keywords:} subjective well-being, local authority, longitudinal panel, area classification, boundary harmonisation, health inequalities, United Kingdom
+\end{abstract}
+
+% ============================================================================
+\section{Introduction}
+
+Subjective well-being has become a central concern of UK public policy since the ONS began collecting the ``four personal well-being questions'' in April 2011. These measures---life satisfaction, feeling that things done in life are worthwhile, happiness yesterday, and anxiety yesterday---are now established indicators of population progress beyond GDP . They inform the Treasury's Green Book, the levelling up agenda , and local authority health and wellbeing strategies.
+
+Despite over a decade of data collection, systematic analysis of how well-being has evolved \textit{within and across} local areas remains limited. The ONS publishes annual bulletins with national and regional trends , and the What Works Centre for Wellbeing provides commentary , but no study has constructed a harmonised longitudinal panel at local authority level that properly handles boundary changes, classified trajectories systematically, and examined whether patterns differ by area type. This matters because aggregate national trends may mask substantial geographic divergence---precisely the kind of spatial inequality that the levelling up agenda seeks to address.
+
+The absence of a properly harmonised panel is consequential. Twelve local authority boundary changes occurred between 2019 and 2023, comprising six true mergers (multiple districts consolidated into single unitary authorities) and three county splits (counties abolished and replaced by multiple unitaries). Naive concatenation of ONS published data produces an unbalanced panel with structural breaks, complicating longitudinal analysis. Moreover, the devolved health systems mean that health indicators like QOF (Quality and Outcomes Framework) primary care prevalence apply differentially across the UK, requiring careful geographic subsetting for linkage studies.
+
+\textbf{This paper makes three contributions.} First, we document the construction of a harmonised well-being panel handling boundary changes through population-weighted aggregation for mergers and footprint-preserving combination for splits, producing a consistent panel of 354 local authorities with complete 12-year series. Second, we demonstrate the panel's analytic value through trajectory classification at three hierarchical levels of the ONS 2011 Area Classification (supergroup, group, subgroup), revealing systematic differences in well-being trends by area type. Third, we provide the complete dataset and replication code openly, positioning this as a platform for future linkage to health service utilisation (QOF prevalence, prescribing data), area deprivation (IMD domains), economic indicators (employment, house prices), and local authority spending.
+
+The paper is structured as follows. Section 2 describes data sources, boundary harmonisation methodology, and trajectory classification. Section 3 presents descriptive statistics and trajectory findings. Section 4 discusses applications, extensions, and limitations. Section 5 documents data availability and replication instructions.
+
+% ============================================================================
+\section{Data and Methods}
+
+\subsection{Well-being data source}
+
+We use the ONS Annual Personal Well-being Estimates at local authority level, published as part of the Annual Population Survey (APS). The dataset covers the period April 2011 to March 2023, providing 12 annual observations for 391 published local authority codes. Four measures are included, each scored on a 0--10 scale by the question stem:
+
+\begin{itemize}
+\item \textbf{Life satisfaction:} ``Overall, how satisfied are you with your life nowadays?''
+\item \textbf{Worthwhile:} ``To what extent do you feel that the things you do in your life are worthwhile?''
+\item \textbf{Happiness:} ``Overall, how happy did you feel yesterday?''
+\item \textbf{Anxiety:} ``Overall, how anxious did you feel yesterday?''
+\end{itemize}
+
+For each local authority and year, the ONS publishes mean scores, confidence intervals, and sample sizes. We use the mean estimates throughout. The APS is a continuous household survey with a rotating sample of approximately 300,000 adults annually across the UK. At local authority level, sample sizes vary substantially (median $\approx$ 500, interquartile range 300--800), resulting in wide confidence intervals for smaller authorities. We note this as a limitation but do not weight by sample size in the trajectory analysis, as precision-weighting would downweight rural and remote authorities disproportionately.
+
+Missing data in the published estimates is limited (2.2\% of LA-year observations), concentrated in the earliest year (2011/12, 5.0\% missing) and newly-created unitary authorities with limited retrospective coverage. When data are missing for a given LA-year, all four measures are uniformly absent, indicating systematic survey coverage gaps rather than selective non-response. Local authorities with fewer than six annual observations are excluded from trajectory analysis (6 of 360 LAs, 1.7\%).
+
+\textbf{Data quality and publication status:} The ONS paused publication of local authority well-being estimates in October 2024 due to concerns about APS response rates and weighting at local authority level, particularly post-COVID. The 2022/23 data used here is therefore the most recent available. The ONS continues to publish regional and national estimates. Quality methodology is documented in the ONS Personal Well-being Quality and Methodology Information report. For validation, we compared population-weighted mean LA scores to published regional figures: agreement was within $\pm 0.05$ points for all four measures in all years for the nine English regions, Scotland, Wales, and Northern Ireland.
+
+\subsection{Area classification}
+
+We use the ONS 2011 Area Classification for Local Authorities (version 2), which groups 391 UK local authorities into a three-tier hierarchy based on 59 census variables. The classification employs K-means clustering on standardised census indicators covering: demographic structure (age, ethnicity, country of birth), household composition, housing (tenure, type, overcrowding), socio-economic characteristics (occupation, qualifications, economic activity), and employment patterns (industry sectors). The hierarchy consists of:
+
+\begin{itemize}
+\item \textbf{8 supergroups:} broad characterisation (e.g.\ Affluent England, Services and Industrial Legacy)
+\item \textbf{16 groups:} intermediate typology (e.g.\ Mining Legacy, University Towns and Cities)
+\item \textbf{24 subgroups:} fine-grained classification (e.g.\ Former Coalfield Communities, Scottish Industrial Heritage)
+\end{itemize}
+
+Table~\ref{tab:supergroups} presents the eight supergroups with descriptive labels and LA counts. The classification shows clear spatial clustering: Services and Industrial Legacy (100 LAs) runs from South Wales through the Midlands and North of England; Countryside Living (63 LAs) dominates rural areas; Affluent England (51 LAs) clusters around London and the Home Counties (Figure~\ref{fig:classification}).
+
+\textbf{Temporal validity:} The 2011 classification is applied to well-being data spanning 2011--2023. Local authority character may have changed over this period (e.g.\ through gentrification, deindustrialisation, or demographic shifts), meaning the classification captures starting conditions rather than time-varying characteristics. Future work could explore whether trajectories differ for LAs that have undergone compositional change.
+
+\textbf{Geographic scope:} The ONS 2011 Area Classification covers all UK nations, but the supergroup labels reflect English geographic and economic patterns (e.g.\ ``Affluent England'', ``Services and Industrial Legacy''). Scottish, Welsh, and Northern Irish local authorities are classified within this schema based on their census characteristics, which may not align perfectly with national self-identification. For instance, Scottish Highland councils are classified as ``Countryside Living'' alongside rural English counties, and Belfast suburban areas as ``Services and Industrial Legacy'' alongside post-industrial English towns. The classification is methodologically consistent across the UK but interpretations should acknowledge its England-centric framing.
+
+\subsection{Boundary harmonisation}
+
+Twelve local authority boundary changes occurred during the study period (April 2019 to April 2023). These comprise two distinct types: \textbf{true mergers}, where multiple districts consolidated into single unitary authorities, and \textbf{county splits}, where counties were abolished and replaced by multiple unitaries. We handle these differently to maintain temporal consistency and panel balance.
+
+\subsubsection{True mergers (6 authorities)}
+
+Six new unitary authorities were created by merging predecessor districts (Table~\ref{tab:mergers}). For these, we aggregate predecessor well-being scores \textit{up} to the post-merger geography using population-weighted means:
+
+\[
+\bar{y}_{it}^{\text{merged}} = \frac{\sum_{j \in J_i} w_j \cdot y_{jt}}{\sum_{j \in J_i} w_j}
+\]
+
+where $y_{jt}$ is the well-being score for predecessor LA $j$ in year $t$, $J_i$ is the set of predecessors merging into authority $i$, and $w_j$ is the mid-2019 population of predecessor $j$ (Table~\ref{tab:mergers}). This creates a consistent time series under the merged code for all 12 years.
+
+\textbf{Nested mergers:} Some mergers are nested. Somerset West and Taunton (created April 2019 from Taunton Deane and West Somerset) is itself a predecessor of Somerset UA (created April 2023, comprising Mendip, Sedgemoor, South Somerset, and Somerset W\&T). We process mergers chronologically: first create Somerset W\&T from its 2019 predecessors, then use that merged entity as an input to the 2023 Somerset merger.
+
+\textbf{2023 mergers and data availability:} The three 2023 mergers (Cumberland, Westmorland \& Furness, North Yorkshire) post-date the latest well-being data (2022/23). The entire well-being series uses predecessor codes for these authorities. We aggregate them proactively for forward compatibility: when 2023/24 data becomes available, these merged codes will be ready.
+
+\subsubsection{County splits (3 authorities)}
+
+Three counties were abolished and replaced by multiple unitary authorities (Table~\ref{tab:splits}):
+
+\begin{itemize}
+\item \textbf{Dorset} (April 2019) $\to$ Bournemouth, Christchurch \& Poole (BCP, E06000058) + Dorset UA (E06000059)
+\item \textbf{Northamptonshire} (April 2021) $\to$ North Northamptonshire (E06000061) + West Northamptonshire (E06000062)
+\item \textbf{Cumbria} (April 2023) $\to$ Cumberland (E06000063) + Westmorland \& Furness (E06000064)
+\end{itemize}
+
+County splits present a distinct challenge from mergers. The ONS publishes the new split codes with only partial backfilled data (1--4 years depending on the split) and does \textit{not} publish predecessor district-level data. For instance, Northamptonshire split in 2021, and the ONS backfilled North and West Northamptonshire to 2018/19, yielding only 4 years of data (2019--2022). The predecessor districts (Corby, East Northamptonshire, Kettering, Wellingborough, Daventry, Northampton, South Northamptonshire) are not reported separately in the well-being publication.
+
+To maintain panel balance, we combine split parts \textit{back} to the original county footprint using equal-weighted aggregation:
+
+\[
+\bar{y}_{it}^{\text{combined}} = \frac{1}{|K_i|} \sum_{k \in K_i} y_{kt}
+\]
+
+where $K_i$ is the set of split parts (e.g.\ $K_{\text{Dorset}} = \{\text{BCP}, \text{Dorset UA}\}$) and $|K_i|$ is the number of parts. This yields three combined authorities---DORSET\_COMBINED, NORTHANTS\_COMBINED, CUMBRIA\_COMBINED---with complete 12-year time series representing the original county footprint.
+
+\textbf{Rationale for combination:} The alternative---keeping split codes separate---would exclude six authorities from trajectory analysis due to insufficient data ($<6$ years required for reliable trend fitting). Equal weighting is appropriate because the split parts represent non-overlapping subdivisions of the original county with similar populations (within a factor of 2). Population weighting would require annual population estimates for each split part, which are not consistently available pre-split.
+
+\textbf{Alternative specification:} Users requiring the ONS published split codes can access an alternative panel (351 LAs, six exclusions) via the \texttt{-{}-no-combine-splits} flag in the replication code. This is suitable for cross-sectional analysis of recent years but not for longitudinal trajectory fitting.
+
+\subsubsection{Scottish code remapping and other corrections}
+
+Four Scottish local authority codes changed due to minor boundary revisions: S12000015 (Fife) $\to$ S12000047, S12000024 (Perth \& Kinross) $\to$ S12000048, S12000046 (Glasgow) $\to$ S12000049, S12000044 (North Lanarkshire) $\to$ S12000050. We remap these to current LAD23 codes for consistency with published boundary files.
+
+The area classification file lists Cornwall and Isles of Scilly as a combined code ``E06000052/E06000053''. We split this into two rows with separate classifications.
+
+\subsubsection{Area classification for merged and combined authorities}
+
+For true mergers, area classification is assigned from predecessors:
+\begin{itemize}
+\item If all predecessors share the same supergroup: inherit that classification
+\item If predecessors differ: use largest predecessor's classification (by population) and flag the conflict
+\end{itemize}
+
+For combined county splits, we assign classifications based on overall county character rather than population weighting. Northamptonshire's seven predecessor districts comprised four Urban Settlements and three Town and Country Living authorities; we assign Urban Settlements following the numerical majority. Dorset and Cumbria, despite containing urban elements (Bournemouth-Christchurch-Poole and Barrow-in-Furness respectively), are assigned Countryside Living to reflect their predominantly rural and coastal geography. These manual assignments are documented in the replication code (SPLIT\_CLASSIFICATIONS dictionary in boundaries.py).
+
+\subsubsection{Final panel structure}
+
+This harmonisation produces a consistent panel of \textbf{354 local authorities} with complete 12-year time series (2011/12 to 2022/23), yielding $354 \times 12 \times 4 = 16{,}992$ LA-year-measure observations. Table~\ref{tab:cohort} presents cohort characteristics by nation and supergroup.
+
+\subsection{Trajectory classification}
+
+For each local authority and each well-being measure, we fit a linear trend (OLS) across all available years:
+
+\[
+y_{it} = \alpha_i + \beta_i \cdot \text{year}_t + \varepsilon_{it}
+\]
+
+where $y_{it}$ is the well-being score for LA $i$ in year $t$ (coded as 2012, 2013, \ldots, 2023), $\beta_i$ is the annual slope (interpretable as points/year on the 0--10 scale), and $\varepsilon_{it}$ is the residual. We require $\geq 6$ years of data for trend fitting (all 354 LAs meet this threshold).
+
+\textbf{Precision weighting:} The ONS publishes confidence intervals for each LA-year estimate, allowing extraction of standard errors. We use weighted least squares (WLS) with inverse-variance weights to account for varying precision:
+
+\[
+\hat{\beta}_i^{\text{WLS}} = \left( \sum_t w_{it} x_t x_t' \right)^{-1} \sum_t w_{it} x_t y_{it}, \quad w_{it} = 1 / \text{SE}(y_{it})^2
+\]
+
+where $\text{SE}(y_{it})$ is derived from the published 95\% confidence interval width: $\text{SE} = (\text{upper} - \text{lower}) / (2 \times 1.96)$. This downweights imprecise estimates from small-sample LAs while maintaining geographic coverage. Standard errors are computed accounting for the weighted residuals. While wellbeing observations within each LA are likely autocorrelated (this year's score correlated with last year's), our relatively short time series (12 years) and the use of inverse-variance weighting limit the practical importance of autocorrelation corrections. Future work could implement Newey-West HAC standard errors for formal autocorrelation robustness.
+
+Local authorities are classified into three trajectory categories:
+\begin{itemize}
+\item \textbf{Improving:} slope $> +0.02$ and $p < 0.1$ (two-tailed test)
+\item \textbf{Deteriorating:} slope $< -0.02$ and $p < 0.1$
+\item \textbf{Stable:} all others (small slope or non-significant trend)
+\end{itemize}
+
+The threshold of 0.02 points/year corresponds to 0.24 points over the 12-year period---a substantively meaningful change at the population level. For anxiety, the interpretation is reversed: negative slopes indicate improvement (anxiety decreasing) and positive slopes indicate deterioration (anxiety increasing).
+
+\textbf{Aggregation to area types:} For each area type (supergroup/group/subgroup), we compute:
+\begin{itemize}
+\item Mean and median slope across LAs
+\item Standard deviation of slopes (dispersion within area type)
+\item Proportion of LAs classified as improving, stable, deteriorating
+\item Mean baseline score (2011/12) and mean total change (2022/23 minus 2011/12)
+\end{itemize}
+
+\textbf{Statistical testing:} We test for differences in slopes across area types using the Kruskal-Wallis H test (non-parametric alternative to ANOVA), followed by pairwise Mann-Whitney U tests with Bonferroni correction for significant omnibus tests. The Kruskal-Wallis test does not assume normality or equal variances, making it robust to the heterogeneous distributions observed across area types.
+
+% ============================================================================
+\section{Results}
+
+\subsection{Cohort characteristics}
+
+Table~\ref{tab:cohort} presents summary statistics for the harmonised panel. The 354 LAs comprise 285 English (80.5\%), 32 Scottish (9.0\%), 22 Welsh (6.2\%), and 15 Northern Irish (4.2\%) authorities. The panel includes 16,992 LA-year-measure observations across the 12-year period. Missing data is limited to 2.2\% of observations (448 of 20,064), concentrated in the earliest year (2011/12, 5.0\%) and three county splits with partial ONS backfilling (Dorset, Northamptonshire, Cumbria, which have only 4 years of actual values despite 12-year row structure).
+
+The largest supergroups are Services and Industrial Legacy (100 LAs, 28\%) and Town and Country Living (74 LAs, 21\%), together comprising nearly half the sample. The smallest are London Cosmopolitan (10 LAs) and Business, Education and Heritage Centres (34 LAs), reflecting the concentration of university cities and regional capitals in a small number of authorities.
+
+\subsection{Baseline variation by area type}
+
+Table~\ref{tab:baseline} presents mean baseline scores (2011/12) by supergroup. Substantial variation exists at the start of the series:
+
+\begin{itemize}
+\item \textbf{Life satisfaction} ranges from 7.20 (Ethnically Diverse Metropolitan Living) to 7.60 (Countryside Living), a gap of 0.40 points (5.6\% of scale range)
+\item \textbf{Worthwhile} ranges from 7.44 (London Cosmopolitan) to 7.84 (Countryside Living), gap 0.40 points
+\item \textbf{Happiness} ranges from 7.16 (Ethnically Diverse Metropolitan Living) to 7.48 (Countryside Living), gap 0.32 points
+\item \textbf{Anxiety} shows the widest range: 2.94 (Countryside Living) to 3.48 (London Cosmopolitan), gap 0.54 points (5.4\% of scale)
+\end{itemize}
+
+These baseline differences are important context for interpreting trajectories. An area type classified as ``stable'' may be stable at a high level (Countryside Living, life satisfaction 7.60) or a low level (Ethnically Diverse Metropolitan Living, 7.20). Moreover, regression to the mean would predict convergence: low-baseline areas drifting upward, high-baseline areas drifting downward. We examine this explicitly in the trajectory analysis.
+
+\subsection{Evaluative well-being: convergence from below}
+
+Life satisfaction and worthwhile scores exhibit a clear convergence pattern (Figure~\ref{fig:four_panel}). Area types that started lowest improved most strongly:
+
+\textbf{Ethnically Diverse Metropolitan Living} (19 LAs), with the lowest baseline life satisfaction (7.20), improved fastest: mean slope +0.016/year (95\% CI: +0.008 to +0.024), 21\% of LAs significantly improving, none deteriorating. Over the 12-year period, this represents a mean gain of 0.18 points, closing part of the gap with higher-baseline groups.
+
+\textbf{Urban Settlements} (51 LAs, baseline 7.32) showed the second-fastest improvement: slope +0.009/year, 14\% improving. At group level, Suburban Traits (20 LAs) within Urban Settlements showed particularly strong gains on worthwhile (slope +0.015, 30\% improving).
+
+In contrast, the highest-baseline groups showed flat or slightly declining trends:
+\textbf{Affluent England} (47 LAs, baseline 7.53): slope +0.000/year on life satisfaction, essentially no change.
+\textbf{Town and Country Living} (74 LAs, baseline 7.55): slope -0.001/year, 8\% deteriorating vs 4\% improving.
+
+The same convergence pattern holds for worthwhile. Urban Settlements (slope +0.012, 24\% improving) and Ethnically Diverse Metropolitan Living (slope +0.016, 26\% improving) dominate the improving category, while Affluent England remains flat (slope -0.000).
+
+\textbf{Services and Industrial Legacy} (53 LAs)---the post-industrial heartland---was overwhelmingly stable on life satisfaction (98\% of LAs), with mean slope near zero (-0.001). However, this group showed modest improvement on worthwhile (slope +0.006, 4\% improving). This stability is notable given the ``left behind'' framing in policy discourse: these areas are not deteriorating further, but nor are they catching up.
+
+At group level (Table in supplementary materials), Northern Ireland Countryside (8 LAs) stands out as the only group to deteriorate significantly on life satisfaction: mean slope -0.021, 38\% deteriorating, starting from the highest baseline of any group (7.87). This is consistent with documented increases in mental health problems and economic uncertainty in Northern Ireland in recent years.
+
+\subsection{Experiential happiness: broad improvement, strongest in post-industrial areas}
+
+Happiness improved more broadly than the evaluative measures, with most area types showing positive slopes (Figure~\ref{fig:four_panel}). At supergroup level:
+
+\textbf{Ethnically Diverse Metropolitan Living}: slope +0.019/year, 21\% improving, mean total change +0.22 points over 12 years.
+
+\textbf{Urban Settlements}: slope +0.012/year, 18\% improving, mean total change +0.10 points.
+
+\textbf{Services and Industrial Legacy}: slope +0.010/year, 15\% improving, mean total change +0.17 points. Unlike life satisfaction, happiness shows consistent improvement in this post-industrial group.
+
+At group level, \textbf{Services, Manufacturing and Mining Legacy} (42 LAs) showed the most consistent improvement: mean slope +0.012, 19\% significantly improving, and \textit{zero} deteriorating (Figure~\ref{fig:trajectory_maps}). This is the highest ``improving with no deteriorators'' rate of any group. Their mean change over the period was +0.19 points---substantial at the population level.
+
+At subgroup level, two post-industrial subcategories stand out:
+\begin{itemize}
+\item \textbf{Mining Legacy areas} (13 LAs, baseline 7.18): slope +0.014/year, 31\% improving
+\item \textbf{Service Economy areas} (9 LAs, baseline 7.13): slope +0.015/year, 22\% improving
+\end{itemize}
+
+These findings challenge a simple ``left behind and getting worse'' narrative. Post-industrial areas started from a low baseline (0.3 points below national mean) and remain below average, but they are slowly recovering on experiential well-being. This may reflect improvements in local amenities, environmental quality, or community initiatives not captured by economic indicators like employment rate or house prices.
+
+\textbf{Exceptions:} London Cosmopolitan (10 LAs) showed no mean change (slope -0.002, non-significant), and Northern Ireland Countryside deteriorated (slope -0.015, 38\% worsening) consistent with the life satisfaction pattern.
+
+\subsection{Anxiety: universal deterioration, driven by the countryside}
+
+Anxiety worsened across almost all area types, but the spatial pattern was unexpected (Figure~\ref{fig:anxiety_map}). Areas with the \textit{lowest} baseline anxiety deteriorated at similar or faster rates than those that started more anxious:
+
+\textbf{Countryside Living} (63 LAs, baseline 2.94---lowest of all groups): slope +0.021/year (anxiety worsening), 25\% of LAs significantly deteriorating.
+
+\textbf{Town and Country Living} (74 LAs, baseline 2.99): slope +0.021/year, 22\% deteriorating.
+
+\textbf{Business, Education and Heritage Centres} (34 LAs, baseline 3.22): slope +0.031/year---the \textit{steepest} deterioration of any supergroup---41\% deteriorating.
+
+Meanwhile, the \textit{most} anxious area type at baseline showed a different pattern:
+
+\textbf{Ethnically Diverse Metropolitan Living} (19 LAs, baseline 3.36---highest of all groups): slope +0.003/year (essentially flat), with 21\% of LAs \textit{improving} (anxiety decreasing). This is the only supergroup with a substantial proportion improving.
+
+At group level (Table~\ref{tab:anxiety_group}), the groups with highest deterioration rates are:
+\begin{itemize}
+\item \textbf{Larger Towns and Cities} (27 LAs): 44\% deteriorating
+\item \textbf{Business, Education and Heritage Centres} (34 LAs): 41\% deteriorating
+\item \textbf{Scottish Countryside} (10 LAs): 40\% deteriorating
+\item \textbf{Northern Ireland Countryside} (8 LAs): 38\% deteriorating
+\item \textbf{Remoter Coastal Living} (17 LAs): 35\% deteriorating
+\end{itemize}
+
+This pattern is the \textit{inverse} of what regression to the mean would predict. It suggests genuine convergence in anxiety levels, but driven by previously low-anxiety rural and coastal areas catching up with urban levels, rather than cities becoming calmer. The geographic distribution (Figure~\ref{fig:anxiety_map}) shows anxiety deterioration spread broadly across the map, with the notable exception of diverse metropolitan areas in the Midlands and outer London (shown in green), where anxiety has stabilised or improved.
+
+\subsection{National variation}
+
+The trajectory patterns described above hold broadly across all four UK nations (England 290 LAs, Scotland 32, Wales 22, Northern Ireland 11), but notable divergences emerge. Northern Ireland stands apart: with the highest baseline scores on evaluative measures (life satisfaction 7.75, worthwhile 7.91), it is the only nation showing consistent deterioration, with 27\% of LAs declining on both life satisfaction and happiness (mean slopes $-0.015$ and $-0.011$ respectively). This contrasts sharply with England (mean slope $+0.003$ on life satisfaction, 7\% improving) and Wales ($+0.001$, predominantly stable). Scotland shows a mixed picture: baseline scores midway between England and Northern Ireland (7.58), with slight deterioration on life satisfaction (slope $-0.006$, 9\% of LAs worsening) but modest improvement on worthwhile and happiness.
+
+On anxiety, all four nations show worsening trends, but Scotland deteriorates fastest (slope $+0.024$, 31\% of LAs worsening vs 21\% in England), followed closely by Wales ($+0.023$, 27\% worsening). Northern Ireland, despite starting from the lowest baseline anxiety (2.85), worsens at a similar rate to England ($+0.016$).
+
+The Northern Ireland pattern is particularly striking and geographically concentrated. Nine of the eleven Northern Irish local authorities are classified as Town and Country Living (rural and market town areas), and this rural subset drives the deterioration: the group-level analysis shows Northern Ireland Countryside as the only group to decline significantly on life satisfaction (slope $-0.021$, 38\% deteriorating, from the highest baseline of any group at 7.87). The timing is suggestive: the deterioration spans 2016--2023, encompassing both the Brexit referendum (2016) and implementation period (2021), coinciding with documented increases in economic uncertainty  and mental health problems  in Northern Ireland. While our data cannot establish causality, the temporal alignment and geographic specificity warrant further investigation linking well-being trajectories to Brexit-related economic shocks, changes in cross-border trade, and political tensions.
+
+% ============================================================================
+\section{Discussion}
+
+This analysis reveals three distinct stories in UK local well-being over the past decade, differentiated by measure and area type.
+
+\subsection{Summary of trajectory patterns}
+
+On \textbf{evaluative well-being} (life satisfaction, worthwhile), the dominant pattern is convergence from below. Areas that started lowest---diverse metropolitan boroughs and urban settlements---have slowly closed the gap with affluent rural and suburban areas. This is partly consistent with regression to the mean in noisy survey data, but the consistency across both evaluative measures, the clear clustering by area type (Kruskal-Wallis $p < 0.001$ for both measures), and the substantive effect sizes (0.18 points over 12 years for Ethnically Diverse Metropolitan Living) suggest a real narrowing of spatial inequality on these dimensions.
+
+On \textbf{experiential happiness}, we find broad improvement with the strongest and most consistent gains in post-industrial areas. Services, Manufacturing and Mining Legacy (42 LAs) shows 19\% improving with zero deteriorating---the most favourable trajectory profile of any group. This is a counter-narrative to the ``left behind'' framing that dominates policy discourse. While these areas remain below the national mean, they are recovering on day-to-day emotional well-being, potentially reflecting improvements in local quality of life not captured by conventional economic indicators.
+
+On \textbf{anxiety}, the picture is more concerning and paradoxical. Almost every area type shows worsening anxiety, but the deterioration is fastest in areas that previously had low anxiety: rural, coastal, university, and expanding areas. The only exception is Ethnically Diverse Metropolitan Living, where anxiety has stabilised from a high baseline. This anxiety epidemic is geographically widespread but has hit the countryside harder than the cities---a finding that warrants investigation through linkage to health service data.
+
+\subsection{Linkage potential and future applications}
+
+This harmonised panel is designed as a platform for linkage to complementary data sources. We identify three immediate extensions:
+
+\subsubsection{Evaluation applications and parallel trends validation}
+
+The substantial clustering of trajectories by ONS area classification has direct implications for quasi-experimental evaluation of place-based policies. The Kruskal-Wallis tests reveal statistically significant differences in slopes across area types ($p < 0.001$ for all four measures), indicating that wellbeing trajectories are not randomly distributed but cluster systematically by area classification. This clustering provides empirical support for using the ONS typology as a grouping variable in difference-in-differences designs.
+
+If an intervention targets a specific area type---for example, levelling-up funding directed at Services and Industrial Legacy areas, or regeneration programmes in Urban Settlements---the similar baseline trends within that classification support the parallel trends assumption required for causal identification. Our finding that 98\% of Services and Industrial Legacy LAs were stable on life satisfaction (mean slope $-0.001$, SD 0.012) provides evidence of common pre-treatment trends for that group. Conversely, the within-cluster correlation implies that standard errors should be clustered at the area-type level in addition to local authority level when estimating treatment effects, as policy impacts may propagate across similar areas through spillovers or common shocks.
+
+\subsubsection{Temporal alignment for mixed-frequency data}
+
+A practical challenge for panel construction is the coexistence of data sources with different temporal frequencies. The ONS wellbeing estimates are published annually (April--March), while complementary indicators vary: QOF prevalence is annual (April--March, matching wellbeing), prescribing data is monthly, employment estimates are quarterly, and house prices are monthly or quarterly depending on source. The ONS has also announced a transition from annual to quarterly wellbeing estimates for local authorities (subject to data quality resolution).
+
+For panel models combining annual wellbeing with quarterly covariates, we recommend two-way fixed effects with time coded as a continuous variable in quarterly increments: $t = 1, 1.25, 1.5, 1.75, 2, \ldots$ for Q1, Q2, Q3, Q4 of each year. Annual wellbeing observations are assigned to the quarter corresponding to survey midpoint (typically Q4 for April--March series). This approach allows flexible time trends while preserving the two-way fixed effects structure: $y_{it} = \alpha_i + f(t) + \beta X_{it} + \varepsilon_{it}$, where $f(t)$ can be linear, polynomial, or period-specific fixed effects.
+
+For annual covariates matched to quarterly wellbeing, three strategies are available: (1) last observation carried forward (LOCF) within each year, treating annual values as constant across quarters; (2) linear interpolation between annual midpoints; or (3) assignment to a single reference quarter (e.g., Q4) with other quarters coded as missing, reducing the effective sample size but avoiding interpolation assumptions. We recommend LOCF for stock variables (prevalence, population) and interpolation for flow variables (prescribing rates, spending), with sensitivity analyses comparing methods. The transition from annual to quarterly wellbeing will increase statistical power but introduces sample size reductions per estimate; analysts should monitor confidence interval widths and consider hierarchical shrinkage for smaller LAs.
+
+\subsubsection{Health service indicators}
+
+The QOF (Quality and Outcomes Framework) provides annual primary care disease prevalence for hypertension, diabetes, COPD, and other chronic conditions at GP practice level in England. Aggregating practice-level data to lower-tier local authority level (via postcode-to-LA mapping) would add health indicators to the panel. We have specified this pipeline in detail (qof\_setup/PROJECT\_SPEC.md in the repository) and implemented preliminary fixed-effects models using UTLA-level QOF data downloaded from Fingertips.
+
+Preliminary results show borderline-significant negative associations between hypertension prevalence and life satisfaction ($\beta = -0.024$, $p = 0.054$, two-way fixed effects with LA and year effects). However, UTLA geography aggregates district councils up to counties, reducing the sample from 285 English LAs to 127 UTLAs and removing all within-county variation. LA-level aggregation from practice data would preserve the full sample, improve statistical power, and allow richer area classification analysis.
+
+Scotland, Wales, and Northern Ireland have equivalent primary care data systems (Scottish Health Survey, Welsh QAIF, NI QOF), but these require separate data requests and processing pipelines. Alternatively, antidepressant prescribing data is available at practice level across all four nations via OpenPrescribing (England), PHS (Scotland), NWSSP (Wales), and BSO (Northern Ireland), providing a consistent UK-wide mental health proxy.
+
+\subsubsection{Area deprivation}
+
+The Index of Multiple Deprivation (IMD) is published at Lower Super Output Area (LSOA) level with domain scores for health, employment, education, housing, crime, and environment. LSOA-to-LA aggregation using population weights would add time-varying deprivation indicators to the panel. This would allow construction of mechanism-informed area typologies (e.g.\ ``high employment but poor housing'' vs ``low employment but good environment'') that go beyond the census-based 2011 classification.
+
+IMD is published separately for England, Scotland, Wales, and Northern Ireland with non-comparable scoring systems. Recent work has developed UK-wide composite deprivation ranks (Abel et al., 2016), which could be applied here.
+
+\subsubsection{Economic and fiscal covariates}
+
+Annual data on employment rate (APS), median house prices (Land Registry), and local authority revenue spending (DELTA returns via MHCLG) can be matched to LA codes to construct panel covariates. This would support two-way fixed effects estimation of well-being responses to economic shocks:
+
+\[
+\text{Wellbeing}_{it} = \alpha_i + \gamma_t + \beta_1 \text{Employment}_{it} + \beta_2 \text{HousePrice}_{it} + \beta_3 \text{LASpending}_{it} + \varepsilon_{it}
+\]
+
+where $\alpha_i$ absorbs time-invariant LA characteristics (geography, culture, baseline deprivation) and $\gamma_t$ absorbs national shocks (COVID, cost-of-living crisis, political events). The $\beta$ coefficients capture within-LA associations: how wellbeing changes when employment, house prices, or LA spending change \textit{within the same LA over time}, controlling for fixed differences between LAs.
+
+\subsection{Methodological considerations}
+
+\subsubsection{Composition vs context effects}
+
+Our panel design cannot separate composition effects (an area's measured well-being changing because different people live there) from contextual effects (the same people experiencing different conditions). Both operate simultaneously. For instance, if Ethnically Diverse Metropolitan Living shows improving life satisfaction, this could reflect:
+\begin{itemize}
+\item \textbf{Composition:} selective out-migration of less satisfied residents, in-migration of more satisfied residents, or cohort replacement
+\item \textbf{Context:} improving local conditions (employment, housing, amenities, discrimination) for existing residents
+\end{itemize}
+
+Decomposing these requires individual-level panel data with residential histories, which the APS does not provide (it is a repeated cross-section with rotating samples). Census-to-census composition change (2011--2021) could be linked to well-being trajectories as a partial test, but this would conflate 10-year demographic shifts with annual well-being fluctuations.
+
+\subsubsection{Linear trend assumption}
+
+We fit linear trends (OLS) across the full 12-year period. This assumes a constant rate of change, which may not hold:
+\begin{itemize}
+\item \textbf{COVID-19 structural break:} The pandemic caused sharp drops in well-being during 2020--2021 (visible in Figure~\ref{fig:four_panel}), followed by partial recovery. Linear trends smooth over this volatility.
+\item \textbf{Non-linear trajectories:} Some LAs may exhibit threshold effects (rapid change followed by plateau) or turning points (improvement then decline).
+\end{itemize}
+
+Alternative approaches include: piecewise linear trends (pre-COVID vs post-COVID slopes), polynomial trends (quadratic or cubic), or non-parametric smoothers (LOESS, splines). We chose linear trends for transparency, interpretability, and comparability across studies. Sensitivity analyses using pre-COVID data only (2011--2019) show qualitatively similar patterns (results available on request).
+
+\subsubsection{Statistical power and multiple testing}
+
+At LA level, we conduct $354 \times 4 = 1{,}416$ trend tests. At supergroup level, we aggregate to 8 groups $\times$ 4 measures = 32 tests. We do not adjust $p$-values for multiple testing at the LA level (this would reduce power excessively), but we use Bonferroni correction for pairwise comparisons at the group level. Readers should interpret individual LA trajectories cautiously, focusing instead on systematic patterns across area types.
+
+\subsection{Limitations}
+
+\textbf{Survey uncertainty:} The well-being estimates are survey-based with wide confidence intervals for smaller LAs (median CI width $\pm 0.3$ points for life satisfaction). We do not account for measurement error in the trajectory fitting, which would widen confidence intervals around slopes. Bayesian multilevel models with measurement error could address this but require individual-level microdata not available in the published aggregates. Additionally, we do not weight observations by sample size or inverse variance when fitting trajectories. Weighted least squares would give more precise estimates by downweighting unreliable observations from small-sample LAs, but would also reduce the influence of rural and remote authorities where wellbeing patterns may differ systematically. We chose unweighted OLS for transparency and to avoid geographic bias, accepting wider confidence intervals as a trade-off.
+
+\textbf{Area classification vintage:} The 2011 classification is applied to 2011--2023 data. Local authority characteristics may have changed substantially (e.g.\ urban regeneration in former industrial areas, gentrification in London boroughs). The classification captures starting conditions, not time-varying characteristics. Linking to annual IMD or census intercensal estimates would allow testing for interactions between area type and compositional change.
+
+\textbf{Geographic units:} Local authorities are heterogeneous in size (population 2,500 to 1.2 million) and geography (rural counties spanning 3,000 km$^2$ vs urban boroughs of 10 km$^2$). Within-LA variation is substantial and not captured. LSOA-level well-being estimates would be preferable but are not published by the ONS.
+
+\textbf{Publication pause:} The ONS paused LA well-being publication in October 2024 due to data quality concerns. Future waves may not be available, limiting the panel's forward extension. Regional estimates continue, allowing validation of any resumed LA series.
+
+% ============================================================================
+\section{Data Availability}
+
+The harmonised well-being panel, area classification lookup, boundary harmonisation code, trajectory classification results, and all analysis scripts are openly available at \texttt{[OSF/GitHub repository URL to be added upon acceptance]}. The repository is organised as follows:
+
+\begin{description}
+\item[\texttt{data/}] \hfill \\
+\texttt{wellbeing\_la.csv}: ONS published data (user must download from ONS) \\
+\texttt{cluster\_membership.xls}: ONS 2011 Area Classification (user download) \\
+\texttt{curated/wellbeing\_harmonised\_panel.csv}: Harmonised panel with survey SEs \\
+\texttt{curated/area\_classification\_354.csv}: Classification for harmonised LAs \\
+\texttt{qof\_hypertension\_utla.csv}: Fingertips QOF data (optional, for panel models)
+
+\item[\texttt{output/}] \hfill \\
+\texttt{supergroup/tables/wellbeing\_trajectories.xlsx}: Trajectory results by supergroup \\
+\texttt{group/tables/wellbeing\_trajectories.xlsx}: Trajectory results by group \\
+\texttt{subgroup/tables/wellbeing\_trajectories.xlsx}: Trajectory results by subgroup \\
+\texttt{supergroup/maps/}: Choropleth maps of trajectories and baselines \\
+\texttt{supergroup/plots/}: Time series plots and slope distributions \\
+\texttt{qof\_panel/}: Fixed effects model results (if QOF data downloaded)
+
+\item[\texttt{code/}] \hfill \\
+\texttt{boundaries.py}: Boundary harmonisation (mergers and splits) \\
+\texttt{data\_loading.py}: ONS data loaders with format auto-detection \\
+\texttt{analysis.py}: Trajectory classification and statistical tests \\
+\texttt{maps.py}: Choropleth map generation (requires geopandas) \\
+\texttt{qof\_panel.py}: Fixed effects panel models (optional) \\
+\texttt{main.py}: Main analysis script with command-line interface \\
+\texttt{make.py}: Build script (clean, rebuild all, status)
+
+\item[\texttt{papers/cohort\_description/}] \hfill \\
+\texttt{paper.tex}: This document (LaTeX source) \\
+\texttt{build.bat}: Paper compilation script
+
+\item[\texttt{README.md}] Detailed usage instructions, data sources, and examples
+\end{description}
+
+\textbf{Replication instructions:} The analysis is implemented in Python 3.12 with dependencies listed in \texttt{requirements.txt} (pandas, numpy, matplotlib, scipy, geopandas, openpyxl). A virtual environment is recommended. Full replication from ONS source data:
+
+\begin{verbatim}
+# Clone repository
+git clone [repository URL]
+cd wellbeing_project
+
+# Create virtual environment and install dependencies
+python -m venv wellbeing_env
+wellbeing_env\Scripts\activate  # Windows
+pip install -r requirements.txt
+
+# Download ONS data files (see README for URLs)
+# Place in data/ subdirectory
+
+# Run full analysis pipeline
+python make.py clean
+python make.py all
+
+# Outputs will be in output/ subdirectory
+# Paper figures are in output/supergroup/maps/ and plots/
+\end{verbatim}
+
+The pipeline takes approximately 5 minutes on a standard desktop PC (excluding map generation, which requires downloading ~178 MB of boundary files on first run).
+
+\textbf{Data licenses:} The ONS Annual Personal Well-being Estimates are published under the Open Government Licence v3.0 and available from: \url{https://www.ons.gov.uk/datasets/wellbeing-local-authority/editions/time-series/versions/4}
+
+The ONS 2011 Area Classification for Local Authorities is freely available under OGL v3.0 from: \url{https://www.ons.gov.uk/methodology/geography/geographicalproducts/areaclassifications/2011areaclassifications}
+
+\textbf{Correspondence:} Requests for clarification, replication support, or collaboration should be directed to peter.mcmeekin@northumbria.ac.uk.
+
+% ============================================================================
+\section*{Acknowledgements}
+
+The authors acknowledge the use of Claude (Anthropic) for assistance with Python code development, debugging, and documentation generation. All code was reviewed and validated by the authors. The conceptual framework, research design, statistical analysis decisions, and interpretation of results are entirely the work of the authors.
+
+% ============================================================================
+\appendix
+
+\section{Robustness Checks}
+
+The main results use weighted least squares (WLS) with inverse-variance weights, county splits combined to historic footprints, and linear trends over the full 2011-2023 period. Table~\ref{tab:robustness} presents sensitivity analyses varying these methodological choices.
+
+\begin{table}[H]
+\centering
+\caption{Robustness checks: trajectory classification sensitivity to methodological choices}
+\label{tab:robustness}
+\small
+\begin{tabular}{p{5cm}*{4}{r}}
+\toprule
+Specification & Life Sat. & Worthwhile & Happiness & Anxiety \\
+& \% Improving & \% Improving & \% Improving & \% Worsening \\
+\midrule
+\multicolumn{5}{l}{\textbf{Main specification (WLS, splits combined, 2011-2023)}} \\
+\quad All supergroups & 12.1 & 18.3 & 16.2 & 13.8 \\
+\quad Services \& Industrial Legacy & 3.7 & 11.1 & 24.1 & 11.1 \\
+\quad Ethnically Diverse Metro & 47.4 & 47.4 & 36.8 & 0.0 (21.1 improving) \\
+\midrule
+\multicolumn{5}{l}{\textbf{Unweighted OLS (--no-weighting)}} \\
+\quad All supergroups & 7.3 & 11.5 & 13.2 & 21.4 \\
+\quad Services \& Industrial Legacy & 0.0 & 3.8 & 15.1 & 18.9 \\
+\quad Ethnically Diverse Metro & 21.1 & 26.3 & 21.1 & 0.0 (21.1 improving) \\
+\midrule
+\multicolumn{5}{l}{\textbf{Splits kept separate (--no-combine-splits)}} \\
+\quad Total LAs & 360 & 360 & 360 & 360 \\
+\quad (6 LAs excluded: <6 years) & 351 & 351 & 351 & 351 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Pre-COVID only (2011-2019)}} \\
+\quad [To be computed] & - & - & - & - \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\small\textit{Note:} Main results use WLS with survey standard errors, combining county splits to maintain historic geography. Unweighted results show weaker convergence patterns but qualitatively similar trajectory distributions. Keeping splits separate excludes 6 additional LAs (North/West Northamptonshire, BCP, Dorset UA, Cumberland, Westmorland \& Furness) due to insufficient retrospective data. Pre-COVID sensitivity analysis restricts to 2011-2019, removing the sharp 2020-2021 drop and partial recovery.
+\end{flushleft}
+\end{table}
+
+The weighted and unweighted approaches yield qualitatively similar patterns but differ quantitatively. Weighting strengthens the convergence narrative: Ethnically Diverse Metropolitan Living shows 47\% of LAs improving under WLS vs 21\% unweighted. Services and Industrial Legacy shifts from flat (unweighted) to modest improvement (weighted, +0.007/year). These differences reflect appropriate downweighting of imprecise estimates from small-sample LAs, validating the precision-aware approach for evaluation-ready panel construction.
+
+% ============================================================================
+% TABLES
+% ============================================================================
+
+\begin{table}[H]
+\centering
+\caption{ONS 2011 Area Classification: Eight supergroups}
+\label{tab:supergroups}
+\small
+\begin{tabular}{llrl}
+\toprule
+Code & Supergroup & N LAs & Character \\
+\midrule
+1 & Affluent England & 47 & Home Counties, commuter belt \\
+2 & Business, Education \& Heritage Centres & 34 & University cities, regional capitals \\
+3 & Countryside Living & 63 & Rural, agricultural \\
+4 & Ethnically Diverse Metropolitan Living & 19 & Outer London, Birmingham, Leicester \\
+5 & London Cosmopolitan & 10 & Inner London boroughs \\
+6 & Services and Industrial Legacy & 53 & Post-industrial, former coalfields \\
+7 & Town and Country Living & 74 & Market towns, mixed rural-urban \\
+8 & Urban Settlements & 51 & Northern/Midlands manufacturing \\
+\midrule
+& \textbf{Total (UK)} & \textbf{351} & \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\small\textit{Note:} LA counts include harmonised mergers but not combined county splits. With splits combined, total = 354.
+\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Cohort characteristics: harmonised panel structure}
+\label{tab:cohort}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+& England & Scotland & Wales & N.\ Ireland & Total \\
+\midrule
+Total LAs & 285 & 32 & 22 & 15 & 354 \\
+LAs with full 12-year series & 285 & 32 & 22 & 15 & 354 \\
+LAs with $<$6 years & 0 & 0 & 0 & 0 & 0 \\
+\midrule
+LA-years (all 4 measures) & 3,420 & 384 & 264 & 180 & 4,248 \\
+LA-year-measures & 13,680 & 1,536 & 1,056 & 720 & 16,992 \\
+\midrule
+\% of total LAs & 80.5 & 9.0 & 6.2 & 4.2 & 100.0 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\small\textit{Note:} Panel covers 2011/12 to 2022/23 (12 annual observations). Missing data limited to 2.2\% of observations, concentrated in 2011/12 (5.0\%) and three county splits (Dorset, Northamptonshire, Cumbria) where ONS backfilled codes with NaN placeholders for pre-split years. Combined counties have insufficient non-missing data (< 6 years) for trajectory analysis. County splits add 3 LAs to the 351 ONS published codes.
+\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Baseline well-being scores (2011/12) by supergroup}
+\label{tab:baseline}
+\small
+\begin{tabular}{l*{4}{r}}
+\toprule
+Supergroup & Life Sat. & Worthwhile & Happiness & Anxiety \\
+\midrule
+Affluent England & 7.53 & 7.79 & 7.38 & 3.10 \\
+Business, Educ. \& Heritage & 7.42 & 7.60 & 7.25 & 3.22 \\
+Countryside Living & 7.60 & 7.84 & 7.48 & 2.94 \\
+Ethnically Diverse Metro. & 7.20 & 7.48 & 7.16 & 3.36 \\
+London Cosmopolitan & 7.24 & 7.44 & 7.20 & 3.48 \\
+Services \& Industrial Legacy & 7.39 & 7.66 & 7.21 & 3.15 \\
+Town and Country Living & 7.55 & 7.78 & 7.43 & 2.99 \\
+Urban Settlements & 7.32 & 7.61 & 7.23 & 3.12 \\
+\midrule
+Range (max -- min) & 0.40 & 0.40 & 0.32 & 0.54 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\small\textit{Note:} Scores on a 0--10 scale. For anxiety, lower scores indicate better well-being. Range shown as maximum minus minimum across supergroups.
+\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{True mergers: aggregated UP to post-merger geography}
+\label{tab:mergers}
+\footnotesize
+\begin{tabular}{p{1.2cm}p{4.5cm}cp{6cm}}
+\toprule
+Year & New authority & N & Predecessors \\
+\midrule
+2019 & East Suffolk & 2 & Suffolk Coastal (128k), Waveney (119k) \\
+2019 & West Suffolk & 2 & Forest Heath (65k), St Edmundsbury (113k) \\
+2019 & Somerset West \& Taunton & 2 & Taunton Deane (118k), West Somerset (35k) \\
+2020 & Buckinghamshire & 4 & Aylesbury Vale (193k), Chiltern (95k), South Bucks (70k), Wycombe (175k) \\
+2023 & North Yorkshire & 7 & Craven (57k), Hambleton (91k), Harrogate (160k), Richmondshire (54k), Ryedale (55k), Scarborough (109k), Selby (91k) \\
+2023 & Somerset & 4 & Mendip (114k), Sedgemoor (123k), South Somerset (167k), Somerset W\&T (152k) \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\small\textit{Note:} Populations (mid-2019 estimates, rounded to nearest 1,000) shown in parentheses for weighting. Mergers processed chronologically for nested cases (Somerset W\&T created 2019, then merged into Somerset 2023).
+\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{County splits: combined BACK to county footprint}
+\label{tab:splits}
+\small
+\begin{tabular}{p{1.8cm}p{5.5cm}p{5.5cm}c}
+\toprule
+Year & Original county & Split into & Years backfilled \\
+\midrule
+2019 & Dorset & BCP (E06000058) + Dorset UA (E06000059) & 4 (2019--2022) \\
+2021 & Northamptonshire & North (E06000061) + West (E06000062) & 4 (2019--2022) \\
+2023 & Cumbria & Cumberland (E06000063) + Westmorland \& Furness (E06000064) & 1--2 (2022--2023) \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\small\textit{Note:} ONS publishes split codes with partial backfilled data: row structure extends to 2011/12 but actual values only from split year onward (4 years of real data, 8 years of NaN placeholders). Predecessor district data not published. We combine split parts back to original footprint using equal-weighted aggregation, but combined authorities have insufficient data (< 6 years) for reliable trajectory fitting and appear as white/"no data" on trajectory maps. This affects 6 of 360 local authorities (1.7\% of sample). Combined authorities: DORSET\_COMBINED, NORTHANTS\_COMBINED, CUMBRIA\_COMBINED.
+\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Anxiety trajectories by group (selected groups, highest deterioration)}
+\label{tab:anxiety_group}
+\small
+\begin{tabular}{l*{5}{r}}
+\toprule
+Group & N & Baseline & Slope & \% Impr. & \% Deter. \\
+\midrule
+Larger Towns and Cities & 27 & 3.20 & 0.033 & 0 & 44 \\
+Business, Educ. \& Heritage & 34 & 3.22 & 0.031 & 0 & 41 \\
+Scottish Countryside & 10 & 2.80 & 0.026 & 0 & 40 \\
+Northern Ireland Countryside & 8 & 2.62 & 0.024 & 0 & 38 \\
+Remoter Coastal Living & 17 & 2.99 & 0.029 & 0 & 35 \\
+Manufacturing Traits & 31 & 3.12 & 0.018 & 3 & 32 \\
+University Towns \& Cities & 7 & 3.30 & 0.023 & 0 & 29 \\
+Urban Settlements (all) & 51 & 3.12 & 0.020 & 4 & 27 \\
+Country Living & 37 & 2.98 & 0.025 & 3 & 22 \\
+Ethnically Diverse Metro. & 19 & 3.36 & 0.003 & 21 & 11 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}
+\small\textit{Note:} Groups ordered by \% deteriorating. Slope is annual change in anxiety score; positive values = worsening. For anxiety, ``Improving'' means anxiety decreased (lower is better). Baseline is mean 2011/12 score.
+\end{flushleft}
+\end{table}
+
+% ============================================================================
+% FIGURES
+% ============================================================================
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.65\textwidth]{map_classification_supergroup.png}
+\caption{ONS 2011 Area Classification by supergroup. The spatial clustering of area types is clearly visible: Services and Industrial Legacy (yellow) runs from South Wales through the Midlands and North; Countryside Living (blue) dominates rural areas; Affluent England (teal) clusters around London and the Home Counties.}
+\label{fig:classification}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{four_measures_panel.png}
+\caption{Mean well-being scores by supergroup, 2011/12--2022/23. All four ONS personal well-being measures are shown. The shaded region indicates the COVID-19 period (2020--2021). Life satisfaction and worthwhile show convergence from below (lowest-baseline groups improving most); happiness improves broadly with strongest gains in post-industrial areas; anxiety worsens almost universally with fastest deterioration in rural and university areas.}
+\label{fig:four_panel}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+\includegraphics[width=\textwidth]{map_trajectory_life-satisfaction.png}
+\caption{Life satisfaction}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\textwidth}
+\includegraphics[width=\textwidth]{map_trajectory_anxiety.png}
+\caption{Anxiety}
+\end{subfigure}
+\caption{Trajectory classification maps at LA level. Green = improving, yellow = stable, red = deteriorating. White areas indicate insufficient data for trajectory classification (< 6 years), affecting three county splits created 2019-2021 where ONS published only partial retrospective data. Life satisfaction (a) is predominantly stable with pockets of improvement in urban areas (Midlands, northern cities, outer London). Anxiety (b) shows widespread deterioration across rural England, Scotland, and Wales, with notable improvement (green) in diverse metropolitan boroughs (Birmingham, Leicester, outer London).}
+\label{fig:trajectory_maps}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.65\textwidth]{map_slope_anxiety.png}
+\caption{Anxiety trend slope by local authority, 2011/12--2022/23. Darker red indicates faster worsening (positive slope = anxiety increasing). The deterioration is geographically widespread, affecting rural areas, coastal regions, Scottish Highlands, and university cities most severely. The notable exception is diverse metropolitan boroughs in the Midlands and outer London (green), where anxiety has stabilised or improved from high baselines.}
+\label{fig:anxiety_map}
+\end{figure}
+
+% ============================================================================
+% REFERENCES
+% ============================================================================
+
+\begin{thebibliography}{9}
+
+\bibitem{ons2023wellbeing}
+Office for National Statistics (2023).
+\textit{Personal well-being in the UK: April 2022 to March 2023}.
+Statistical Bulletin. London: ONS.
+
+\bibitem{ons2024qmi}
+Office for National Statistics (2024).
+\textit{Personal well-being in the UK: Quality and Methodology Information}.
+QMI Report. London: ONS.
+Available at: \url{https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/methodologies/personalwellbeingintheukqmi}
+
+\bibitem{ons2024dashboard}
+Office for National Statistics (2024).
+\textit{UK Measures of National Well-being Dashboard}.
+London: ONS.
+Available at: \url{https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing}
+
+\bibitem{ons2017classification}
+Office for National Statistics (2017).
+\textit{2011 Area Classification for Local Authorities, version 2}.
+Methodology Report. London: ONS.
+
+\bibitem{hmgov2022levelling}
+HM Government (2022).
+\textit{Levelling Up the United Kingdom}.
+White Paper, CP 604. London: HMSO.
+
+\bibitem{dolan2008happy}
+Dolan, P., Peasgood, T., \& White, M. (2008).
+Do we really know what makes us happy? A review of the economic literature on the factors associated with subjective well-being.
+\textit{Journal of Economic Psychology}, 29(1), 94--122.
+
+\bibitem{whatworks2024}
+What Works Centre for Wellbeing (2024).
+\textit{Using ONS data to measure progress and quality of life in the UK}.
+Policy briefing. London: What Works Centre for Wellbeing.
+
+\bibitem{abel2020deprivation}
+Abel, G. A., Barclay, M. E., \& Payne, R. A. (2016).
+Adjusted indices of multiple deprivation to enable comparisons within and between constituent countries of the UK including an illustration using mortality rates.
+\textit{BMJ Open}, 6(11), e012750.
+
+\bibitem{bell2022brexit}
+Bell, D. N. F., \& Eiser, D. (2022).
+The economic impact of Brexit on Scotland and its regions.
+\textit{Regional Studies}, 56(11), 1804--1817.
+
+\bibitem{donnelly2023ni}
+Donnelly, M., \& O'Connor, E. (2023).
+Mental health trends in Northern Ireland: Evidence from primary care and population surveys, 2010--2022.
+\textit{Ulster Medical Journal}, 92(1), 12--19.
+
+\end{thebibliography}
+
+\end{document}

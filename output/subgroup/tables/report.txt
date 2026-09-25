@@ -1,0 +1,141 @@
+LONGITUDINAL ANALYSIS OF ONS PERSONAL WELL-BEING
+BY ONS 2011 AREA CLASSIFICATION — SUBGROUP LEVEL
+Scope: UK
+County splits combined to historic footprints
+
+Boundary mergers applied (population-weighted means):
+  Bournemouth, Christchurch and Poole: 3 predecessors [2019]
+  Dorset: 5 predecessors [2019]
+  East Suffolk: 2 predecessors [2019]
+  West Suffolk: 2 predecessors [2019]
+  Somerset West and Taunton: 2 predecessors [2019]
+  Buckinghamshire: 4 predecessors [2020]
+  North Northamptonshire: 4 predecessors [2021]
+  West Northamptonshire: 3 predecessors [2021]
+  Cumberland: 3 predecessors [2023]
+  Westmorland and Furness: 3 predecessors [2023]
+  North Yorkshire: 7 predecessors [2023]
+  Somerset: 4 predecessors [2023]
+
+County splits combined (equal-weighted means):
+  Dorset (combined): 2 parts [2019]
+  Northamptonshire (combined): 2 parts [2021]
+  Cumbria (combined): 2 parts [2023]
+
+
+LIFE SATISFACTION
+--------------------------------------------------
+                                         n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+subgroup                                                                                                                                                     
+Affluent rural                              11          7.561      -0.002         0.003      0.015        0.149          0.000              0.000     100.000
+Ageing Coastal Living                       13          7.621       0.001         0.004      0.009       -0.100          0.000              0.000     100.000
+City Periphery                              12          7.372       0.018         0.014      0.014        0.087         16.667              0.000      83.333
+Country Living                              37          7.552       0.003         0.004      0.015        0.003          8.108              8.108      83.784
+Ethnically Diverse Metropolitan  Living     19          7.201       0.026         0.027      0.015        0.175         52.632              0.000      47.368
+Expanding Areas                              8          7.382       0.012         0.009      0.013       -0.065         12.500              0.000      87.500
+Industrial and Multi-ethnic                 16          7.218       0.020         0.018      0.017        0.097         25.000              0.000      75.000
+Larger Towns and Cities                     28          7.428       0.002         0.006      0.015       -0.070          0.000              7.143      92.857
+London Cosmopolitan                         10          7.237       0.010         0.017      0.024        0.066         10.000             10.000      80.000
+Manufacturing Legacy                        20          7.435       0.006         0.004      0.012        0.036          5.000              0.000      95.000
+Mining Legacy                               13          7.322       0.011         0.013      0.011        0.041          7.692              0.000      92.308
+Northern Ireland Countryside                 8          7.868      -0.019        -0.017      0.019       -0.111          0.000             50.000      50.000
+Older Farming Communities                   14          7.654       0.004        -0.003      0.028       -0.034         14.286              7.143      78.571
+Prosperous Semi-rural                        7          7.540       0.016         0.008      0.022        0.087         42.857              0.000      57.143
+Prosperous Towns                            22          7.446       0.014         0.012      0.017        0.051         13.636              0.000      86.364
+Rural Growth Areas                          21          7.552       0.007         0.006      0.011        0.059          9.524              0.000      90.476
+Rural-Urban Fringe                          15          7.469       0.006         0.001      0.027        0.037         33.333             13.333      53.333
+Scottish Countryside                        11          7.684       0.008         0.010      0.013        0.026          9.091              0.000      90.909
+Scottish Industrial Legacy                  13          7.449       0.001         0.003      0.013       -0.055          0.000             15.385      84.615
+Seaside Living                               5          7.380       0.013         0.016      0.028        0.186         20.000              0.000      80.000
+Service Economy                              9          7.308       0.011         0.015      0.011        0.119          0.000              0.000     100.000
+Sparse English and Welsh Countryside        20          7.542       0.013         0.013      0.011        0.071         20.000              0.000      80.000
+University Towns and Cities                  7          7.356       0.010         0.015      0.013       -0.089          0.000              0.000     100.000
+Urban Living                                15          7.335       0.019         0.016      0.020       -0.022         26.667              0.000      73.333
+
+WORTHWHILE
+--------------------------------------------------
+                                         n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+subgroup                                                                                                                                                     
+Affluent rural                              11          7.806       0.006         0.007      0.008        0.170          9.091              0.000      90.909
+Ageing Coastal Living                       13          7.908      -0.002        -0.007      0.015       -0.105          7.692              0.000      92.308
+City Periphery                              12          7.667       0.023         0.022      0.020        0.219         41.667              0.000      58.333
+Country Living                              37          7.768       0.008         0.009      0.015        0.089         13.514              5.405      81.081
+Ethnically Diverse Metropolitan  Living     19          7.479       0.024         0.025      0.015        0.217         47.368              0.000      52.632
+Expanding Areas                              8          7.621       0.016         0.019      0.012        0.037         25.000              0.000      75.000
+Industrial and Multi-ethnic                 16          7.532       0.022         0.025      0.013        0.170         56.250              0.000      43.750
+Larger Towns and Cities                     28          7.601       0.005         0.006      0.013        0.023          3.571              3.571      92.857
+London Cosmopolitan                         10          7.438       0.008         0.013      0.020        0.032         30.000             10.000      60.000
+Manufacturing Legacy                        20          7.704       0.012         0.008      0.016        0.057         20.000              0.000      80.000
+Mining Legacy                               13          7.626       0.012         0.010      0.009        0.126         15.385              0.000      84.615
+Northern Ireland Countryside                 8          8.025      -0.004        -0.003      0.017        0.049          0.000             12.500      87.500
+Older Farming Communities                   14          7.854       0.007         0.004      0.024        0.025         21.429              7.143      71.429
+Prosperous Semi-rural                        7          7.847       0.020         0.023      0.016        0.101         42.857              0.000      57.143
+Prosperous Towns                            22          7.693       0.020         0.014      0.022        0.077         27.273              0.000      72.727
+Rural Growth Areas                          21          7.798       0.005         0.003      0.010        0.030          0.000              0.000     100.000
+Rural-Urban Fringe                          15          7.771       0.007         0.010      0.020       -0.163         13.333              0.000      86.667
+Scottish Countryside                        11          7.847       0.013         0.012      0.012        0.099         27.273              0.000      72.727
+Scottish Industrial Legacy                  13          7.645       0.009         0.010      0.013        0.045          0.000              7.692      92.308
+Seaside Living                               5          7.692       0.009        -0.008      0.026        0.168         20.000              0.000      80.000
+Service Economy                              9          7.607       0.013         0.014      0.006        0.061         11.111              0.000      88.889
+Sparse English and Welsh Countryside        20          7.813       0.013         0.012      0.009        0.046         20.000              0.000      80.000
+University Towns and Cities                  7          7.579       0.014         0.009      0.011        0.016         14.286              0.000      85.714
+Urban Living                                15          7.629       0.012         0.012      0.014       -0.026         20.000              0.000      80.000
+
+HAPPINESS
+--------------------------------------------------
+                                         n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+subgroup                                                                                                                                                     
+Affluent rural                              11          7.403       0.001        -0.001      0.019        0.072          9.091              0.000      90.909
+Ageing Coastal Living                       13          7.551       0.002         0.004      0.016       -0.118         15.385              7.692      76.923
+City Periphery                              12          7.280       0.019         0.023      0.024        0.146         41.667              0.000      58.333
+Country Living                              37          7.426       0.006         0.004      0.016        0.091         16.216              0.000      83.784
+Ethnically Diverse Metropolitan  Living     19          7.164       0.027         0.026      0.020        0.217         42.105              0.000      57.895
+Expanding Areas                              8          7.208       0.014         0.013      0.006        0.016          0.000              0.000     100.000
+Industrial and Multi-ethnic                 16          7.166       0.018         0.012      0.019        0.152         43.750              0.000      56.250
+Larger Towns and Cities                     28          7.255       0.010         0.009      0.017        0.049         14.286              0.000      85.714
+London Cosmopolitan                         10          7.201       0.004         0.008      0.023        0.042         10.000             10.000      80.000
+Manufacturing Legacy                        20          7.237       0.014         0.015      0.016        0.156         15.000              0.000      85.000
+Mining Legacy                               13          7.175       0.018         0.020      0.013        0.202         46.154              0.000      53.846
+Northern Ireland Countryside                 8          7.775      -0.014        -0.015      0.025       -0.049         12.500             50.000      37.500
+Older Farming Communities                   14          7.515       0.009         0.004      0.033        0.079         21.429              7.143      71.429
+Prosperous Semi-rural                        7          7.466       0.024         0.021      0.017        0.126         42.857              0.000      57.143
+Prosperous Towns                            22          7.286       0.014         0.012      0.018        0.020         22.727              0.000      77.273
+Rural Growth Areas                          21          7.436       0.010         0.010      0.017        0.093         19.048              0.000      80.952
+Rural-Urban Fringe                          15          7.295       0.011         0.010      0.025        0.075         20.000              6.667      73.333
+Scottish Countryside                        11          7.536       0.013         0.015      0.013        0.119         27.273              0.000      72.727
+Scottish Industrial Legacy                  13          7.241       0.009         0.010      0.013        0.088         15.385              0.000      84.615
+Seaside Living                               5          7.282       0.019         0.026      0.016        0.302         60.000              0.000      40.000
+Service Economy                              9          7.128       0.019         0.020      0.008        0.237         33.333              0.000      66.667
+Sparse English and Welsh Countryside        20          7.421       0.015         0.015      0.008        0.095         15.000              0.000      85.000
+University Towns and Cities                  7          7.201       0.011         0.009      0.019       -0.006         28.571              0.000      71.429
+Urban Living                                15          7.265       0.015         0.013      0.011        0.071         20.000              0.000      80.000
+
+ANXIETY
+--------------------------------------------------
+                                         n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+subgroup                                                                                                                                                     
+Affluent rural                              11          3.134       0.035         0.029      0.022        0.112          0.000             36.364      63.636
+Ageing Coastal Living                       13          2.929       0.027         0.022      0.024        0.271          0.000             46.154      53.846
+City Periphery                              12          3.133      -0.006        -0.000      0.028        0.192         16.667              8.333      75.000
+Country Living                              37          2.978       0.020         0.022      0.029        0.101          5.405             35.135      59.459
+Ethnically Diverse Metropolitan  Living     19          3.357      -0.008        -0.004      0.032       -0.120         26.316              5.263      68.421
+Expanding Areas                              8          3.135       0.027         0.028      0.030        0.411          0.000             37.500      62.500
+Industrial and Multi-ethnic                 16          3.150       0.008         0.006      0.032        0.134          6.250             25.000      68.750
+Larger Towns and Cities                     28          3.204       0.025         0.024      0.025        0.198          0.000             35.714      64.286
+London Cosmopolitan                         10          3.484       0.006         0.012      0.037       -0.024         10.000             30.000      60.000
+Manufacturing Legacy                        20          3.070       0.012         0.007      0.024        0.061          0.000             10.000      90.000
+Mining Legacy                               13          3.253       0.001         0.003      0.024        0.139         15.385             23.077      61.538
+Northern Ireland Countryside                 8          2.617       0.026         0.019      0.049        0.089          0.000             50.000      50.000
+Older Farming Communities                   14          2.885       0.014         0.023      0.032        0.174         14.286             14.286      71.429
+Prosperous Semi-rural                        7          2.933       0.001        -0.001      0.012        0.341          0.000              0.000     100.000
+Prosperous Towns                            22          3.146       0.005         0.002      0.033        0.090          4.545             18.182      77.273
+Rural Growth Areas                          21          2.990       0.010         0.009      0.032        0.112          4.762             28.571      66.667
+Rural-Urban Fringe                          15          3.215       0.002         0.000      0.037        0.143          6.667             20.000      73.333
+Scottish Countryside                        11          2.822       0.014         0.009      0.028        0.117          0.000             27.273      72.727
+Scottish Industrial Legacy                  13          3.146       0.007         0.004      0.021        0.057          7.692             15.385      76.923
+Seaside Living                               5          3.148       0.005         0.014      0.026       -0.150          0.000             20.000      80.000
+Service Economy                              9          3.174       0.021         0.019      0.018        0.176          0.000             33.333      66.667
+Sparse English and Welsh Countryside        20          3.021       0.006         0.010      0.018       -0.031          5.000             10.000      85.000
+University Towns and Cities                  7          3.299       0.017         0.008      0.023        0.034          0.000             28.571      71.429
+Urban Living                                15          3.085       0.004         0.014      0.038        0.257         13.333              6.667      80.000
+

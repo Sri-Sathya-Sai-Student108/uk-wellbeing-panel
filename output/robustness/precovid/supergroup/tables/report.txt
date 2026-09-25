@@ -1,0 +1,77 @@
+LONGITUDINAL ANALYSIS OF ONS PERSONAL WELL-BEING
+BY ONS 2011 AREA CLASSIFICATION — SUPERGROUP LEVEL
+Scope: UK
+County splits combined to historic footprints
+
+Boundary mergers applied (population-weighted means):
+  Bournemouth, Christchurch and Poole: 3 predecessors [2019]
+  Dorset: 5 predecessors [2019]
+  East Suffolk: 2 predecessors [2019]
+  West Suffolk: 2 predecessors [2019]
+  Somerset West and Taunton: 2 predecessors [2019]
+  Buckinghamshire: 4 predecessors [2020]
+  North Northamptonshire: 4 predecessors [2021]
+  West Northamptonshire: 3 predecessors [2021]
+  Cumberland: 3 predecessors [2023]
+  Westmorland and Furness: 3 predecessors [2023]
+  North Yorkshire: 7 predecessors [2023]
+  Somerset: 4 predecessors [2023]
+
+County splits combined (equal-weighted means):
+  Dorset (combined): 2 parts [2019]
+  Northamptonshire (combined): 2 parts [2021]
+  Cumbria (combined): 2 parts [2023]
+
+
+LIFE SATISFACTION
+--------------------------------------------------
+                                          n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+supergroup                                                                                                                                                    
+Affluent England                             47          7.527       0.032         0.036      0.021        0.220         59.574              2.128      38.298
+Business, Education and Heritage Centres     34          7.410       0.027         0.030      0.019        0.164         58.824              0.000      41.176
+Countryside Living                           65          7.596       0.033         0.034      0.020        0.214         69.231              0.000      30.769
+Ethnically Diverse Metropolitan Living       19          7.201       0.052         0.049      0.022        0.355         89.474              0.000      10.526
+London Cosmopolitan                          10          7.237       0.032         0.038      0.032        0.225         80.000             10.000      10.000
+Services and Industrial Legacy               54          7.385       0.037         0.040      0.022        0.221         77.778              0.000      22.222
+Town and Country Living                      74          7.554       0.034         0.035      0.025        0.231         66.216              2.703      31.081
+Urban Settlements                            51          7.315       0.047         0.044      0.018        0.320         90.196              0.000       9.804
+
+WORTHWHILE
+--------------------------------------------------
+                                          n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+supergroup                                                                                                                                                    
+Affluent England                             47          7.791       0.024         0.024      0.023        0.169         46.809              2.128      51.064
+Business, Education and Heritage Centres     34          7.590       0.022         0.022      0.019        0.139         47.059              2.941      50.000
+Countryside Living                           65          7.838       0.023         0.023      0.021        0.164         49.231              1.538      49.231
+Ethnically Diverse Metropolitan Living       19          7.479       0.042         0.041      0.018        0.315         78.947              0.000      21.053
+London Cosmopolitan                          10          7.438       0.021         0.029      0.025        0.192         70.000             10.000      20.000
+Services and Industrial Legacy               54          7.652       0.032         0.031      0.022        0.192         70.370              1.852      27.778
+Town and Country Living                      74          7.781       0.032         0.031      0.026        0.218         58.108              1.351      40.541
+Urban Settlements                            51          7.606       0.038         0.039      0.020        0.258         80.392              0.000      19.608
+
+HAPPINESS
+--------------------------------------------------
+                                          n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+supergroup                                                                                                                                                    
+Affluent England                             47          7.383       0.032         0.029      0.027        0.200         53.191              0.000      46.809
+Business, Education and Heritage Centres     34          7.239       0.027         0.026      0.022        0.161         58.824              0.000      41.176
+Countryside Living                           65          7.477       0.026         0.027      0.024        0.122         53.846              3.077      43.077
+Ethnically Diverse Metropolitan Living       19          7.164       0.051         0.045      0.024        0.306         84.211              0.000      15.789
+London Cosmopolitan                          10          7.201       0.017         0.025      0.031        0.024         60.000             10.000      30.000
+Services and Industrial Legacy               54          7.200       0.033         0.034      0.021        0.204         70.370              0.000      29.630
+Town and Country Living                      74          7.426       0.026         0.026      0.031        0.137         44.595              4.054      51.351
+Urban Settlements                            51          7.229       0.036         0.030      0.022        0.217         70.588              0.000      29.412
+
+ANXIETY
+--------------------------------------------------
+                                          n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+supergroup                                                                                                                                                    
+Affluent England                             47          3.096      -0.015        -0.011      0.052       -0.069         29.787             12.766      57.447
+Business, Education and Heritage Centres     34          3.232      -0.003         0.002      0.032        0.005         20.588             11.765      67.647
+Countryside Living                           65          2.946      -0.014        -0.014      0.031        0.017         24.615              6.154      69.231
+Ethnically Diverse Metropolitan Living       19          3.357      -0.035        -0.038      0.034       -0.241         57.895              0.000      42.105
+London Cosmopolitan                          10          3.484      -0.010        -0.005      0.058       -0.217         40.000             20.000      40.000
+Services and Industrial Legacy               54          3.153      -0.017        -0.020      0.033       -0.087         37.037              3.704      59.259
+Town and Country Living                      74          2.985      -0.012        -0.015      0.046       -0.041         25.676             12.162      62.162
+Urban Settlements                            51          3.124      -0.024        -0.021      0.036       -0.171         39.216              1.961      58.824
+

@@ -1,0 +1,38 @@
+# QOF Practice-Level Data Downloads
+# ==================================
+#
+# Save all files into: data/qof_practice/
+# Run download_qof.py to open each page in your browser.
+#
+# From each QOF publication page, download the file labelled:
+#   "Prevalence, achievement and exceptions, CARDIOVASCULAR group, GP practice level"
+# It will be a CSV or XLSX file. Save with the name shown below.
+#
+# ---- QOF Publication Pages ----
+# Navigate to each URL, find the cardiovascular practice-level download.
+
+2012-13 | qof_cardio_2012.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/quality-and-outcomes-framework-qof-2012-13
+2013-14 | qof_cardio_2013.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/quality-and-outcomes-framework-qof-2013-14
+2014-15 | qof_cardio_2014.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/quality-and-outcomes-framework-qof-2014-15
+2015-16 | qof_cardio_2015.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/quality-and-outcomes-framework-qof-2015-16
+2016-17 | qof_cardio_2016.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/quality-and-outcomes-framework-qof-2016-17
+2017-18 | qof_cardio_2017.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/quality-and-outcomes-framework-qof-2017-18
+2018-19 | qof_cardio_2018.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/quality-and-outcomes-framework-qof-2018-19
+2019-20 | qof_cardio_2019.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2019-20
+2020-21 | qof_cardio_2020.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2020-21
+2021-22 | qof_cardio_2021.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2021-22
+2022-23 | qof_cardio_2022.csv | https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2022-23
+
+# ---- GP Practice Registry (epraccur) ----
+# Contains practice code, name, postcode, status
+# The old CSV downloads were retired Sept 2025. Now via DSE:
+epraccur | epraccur.csv | https://digital.nhs.uk/services/organisation-data-service/data-search-and-export/csv-downloads/gp-and-gp-practice-related-data
+# If auto-download doesn't work, use DSE directly:
+#   https://www.odsdatasearchandexport.nhs.uk/
+#   Search for "epraccur" predefined report
+
+# ---- ONS Postcode Lookup (NSPL) ----
+# Maps postcode to lower-tier LA code (large file ~178MB zip)
+nspl | nspl.csv | https://www.data.gov.uk/dataset/7ec10db7-c8f4-4a40-8d82-8921935b4865/national-statistics-postcode-lookup-uk
+# Also available from: https://geoportal.statistics.gov.uk (search "NSPL")
+# Extract the main CSV from the Data folder in the zip

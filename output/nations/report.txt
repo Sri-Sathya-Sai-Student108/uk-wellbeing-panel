@@ -1,0 +1,43 @@
+Loading wellbeing data from data\wellbeing_la.csv...
+  Extracted standard errors from CIs (17680 valid)
+  17904 obs, 373 LAs, years 2011-2022
+
+Harmonising LA boundaries...
+  Bournemouth, Christchurch and Poole: +0 aggregated, -0 predecessor rows
+  Dorset: +0 aggregated, -0 predecessor rows
+  East Suffolk: +0 aggregated, -0 predecessor rows
+  West Suffolk: +0 aggregated, -0 predecessor rows
+  Somerset West and Taunton: +0 aggregated, -0 predecessor rows
+  Buckinghamshire: +0 aggregated, -0 predecessor rows
+  North Northamptonshire: +0 aggregated, -0 predecessor rows
+  West Northamptonshire: +0 aggregated, -0 predecessor rows
+  Cumberland: +48 aggregated, -144 predecessor rows
+  Westmorland and Furness: +48 aggregated, -144 predecessor rows
+  North Yorkshire: +48 aggregated, -336 predecessor rows
+  Somerset: +48 aggregated, -192 predecessor rows
+  Total rows added: 192
+  Final: 360 LAs, 17280 observations
+
+Combining county splits to maintain balanced panel...
+  Dorset (combined): +48 combined rows, -96 split part rows
+  Northamptonshire (combined): +48 combined rows, -96 split part rows
+  Cumbria (combined): +48 combined rows, -96 split part rows
+  Total rows added: 144
+  Final: 357 LAs
+
+Loading area classification from data\cluster_membership.xls...
+  Sheets available: ['Sheet6', 'Cluster Codes and Names', 'Local Authorities by Subgroup', 'Clusters by Local Authority']
+  Using sheet='Clusters by Local Authority', skiprows=8 (389 LA codes found)
+
+
+ERRORS:
+Traceback (most recent call last):
+  File "C:\Users\mcpj6\dev\NHealth\v0\compare_nations.py", line 17, in <module>
+    class_df = load_area_classification()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mcpj6\dev\NHealth\v0\data_loading.py", line 178, in load_area_classification
+    print("  Columns unnamed ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â\x9d using first data row as header...")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x9d' in position 35: character maps to <undefined>

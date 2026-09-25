@@ -1,0 +1,23 @@
+# Core data handling
+pandas
+numpy
+openpyxl
+xlrd
+
+# Statistics and econometrics
+scipy
+linearmodels
+statsmodels
+
+# Geospatial
+geopandas
+shapely
+
+# Visualisation
+matplotlib
+
+# HTTP requests (Nomis API, ONS boundaries)
+requests
+
+# Note: fingertips_py removed — QOF pipeline dropped from this codebase
+# Note: difflib is Python standard library — no install needed

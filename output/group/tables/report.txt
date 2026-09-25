@@ -1,0 +1,109 @@
+LONGITUDINAL ANALYSIS OF ONS PERSONAL WELL-BEING
+BY ONS 2011 AREA CLASSIFICATION — GROUP LEVEL
+Scope: UK
+County splits combined to historic footprints
+
+Boundary mergers applied (population-weighted means):
+  Bournemouth, Christchurch and Poole: 3 predecessors [2019]
+  Dorset: 5 predecessors [2019]
+  East Suffolk: 2 predecessors [2019]
+  West Suffolk: 2 predecessors [2019]
+  Somerset West and Taunton: 2 predecessors [2019]
+  Buckinghamshire: 4 predecessors [2020]
+  North Northamptonshire: 4 predecessors [2021]
+  West Northamptonshire: 3 predecessors [2021]
+  Cumberland: 3 predecessors [2023]
+  Westmorland and Furness: 3 predecessors [2023]
+  North Yorkshire: 7 predecessors [2023]
+  Somerset: 4 predecessors [2023]
+
+County splits combined (equal-weighted means):
+  Dorset (combined): 2 parts [2019]
+  Northamptonshire (combined): 2 parts [2021]
+  Cumbria (combined): 2 parts [2023]
+
+
+LIFE SATISFACTION
+--------------------------------------------------
+                                           n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+group                                                                                                                                                          
+Country Living                                37          7.552       0.003         0.004      0.015        0.003          8.108              8.108      83.784
+English and Welsh Countryside                 36          7.590       0.009         0.008      0.019        0.029         16.667              2.778      80.556
+Ethnically Diverse Metropolitan  Living       19          7.201       0.026         0.027      0.015        0.175         52.632              0.000      47.368
+Larger Towns and Cities                       27          7.424       0.002         0.006      0.015       -0.074          0.000              7.407      92.593
+London Cosmopolitan                           10          7.237       0.010         0.017      0.024        0.066         10.000             10.000      80.000
+Manufacturing Traits                          31          7.275       0.019         0.018      0.018        0.040         25.806              0.000      74.194
+Northern Ireland Countryside                   8          7.868      -0.019        -0.017      0.019       -0.111          0.000             50.000      50.000
+Remoter Coastal Living                        18          7.554       0.004         0.005      0.017       -0.021          5.556              0.000      94.444
+Rural-Urban Fringe                            15          7.469       0.006         0.001      0.027        0.037         33.333             13.333      53.333
+Scottish Countryside                          11          7.684       0.008         0.010      0.013        0.026          9.091              0.000      90.909
+Scottish Industrial Heritage                  13          7.449       0.001         0.003      0.013       -0.055          0.000             15.385      84.615
+Services, Manufacturing and Mining Legacy     41          7.365       0.009         0.010      0.011        0.055          4.878              0.000      95.122
+Suburban Traits                               20          7.376       0.015         0.013      0.013        0.026         15.000              0.000      85.000
+Thriving Rural                                32          7.555       0.004         0.005      0.013        0.090          6.250              0.000      93.750
+Town Living                                   29          7.469       0.014         0.011      0.018        0.060         20.690              0.000      79.310
+University Towns and Cities                    7          7.356       0.010         0.015      0.013       -0.089          0.000              0.000     100.000
+
+WORTHWHILE
+--------------------------------------------------
+                                           n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+group                                                                                                                                                          
+Country Living                                37          7.768       0.008         0.009      0.015        0.089         13.514              5.405      81.081
+English and Welsh Countryside                 36          7.830       0.010         0.011      0.016        0.037         19.444              2.778      77.778
+Ethnically Diverse Metropolitan  Living       19          7.479       0.024         0.025      0.015        0.217         47.368              0.000      52.632
+Larger Towns and Cities                       27          7.593       0.005         0.006      0.013        0.024          3.704              3.704      92.593
+London Cosmopolitan                           10          7.438       0.008         0.013      0.020        0.032         30.000             10.000      60.000
+Manufacturing Traits                          31          7.579       0.017         0.020      0.014        0.075         38.710              0.000      61.290
+Northern Ireland Countryside                   8          8.025      -0.004        -0.003      0.017        0.049          0.000             12.500      87.500
+Remoter Coastal Living                        18          7.848       0.001        -0.007      0.018       -0.029         11.111              0.000      88.889
+Rural-Urban Fringe                            15          7.771       0.007         0.010      0.020       -0.163         13.333              0.000      86.667
+Scottish Countryside                          11          7.847       0.013         0.012      0.012        0.099         27.273              0.000      72.727
+Scottish Industrial Heritage                  13          7.645       0.009         0.010      0.013        0.045          0.000              7.692      92.308
+Services, Manufacturing and Mining Legacy     41          7.654       0.013         0.010      0.012        0.079         17.073              0.000      82.927
+Suburban Traits                               20          7.648       0.020         0.019      0.017        0.146         35.000              0.000      65.000
+Thriving Rural                                32          7.801       0.005         0.004      0.009        0.078          3.125              0.000      96.875
+Town Living                                   29          7.730       0.020         0.017      0.021        0.083         31.034              0.000      68.966
+University Towns and Cities                    7          7.579       0.014         0.009      0.011        0.016         14.286              0.000      85.714
+
+HAPPINESS
+--------------------------------------------------
+                                           n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+group                                                                                                                                                          
+Country Living                                37          7.426       0.006         0.004      0.016        0.091         16.216              0.000      83.784
+English and Welsh Countryside                 36          7.460       0.012         0.011      0.022        0.086         16.667              2.778      80.556
+Ethnically Diverse Metropolitan  Living       19          7.164       0.027         0.026      0.020        0.217         42.105              0.000      57.895
+Larger Towns and Cities                       27          7.249       0.010         0.008      0.017        0.048         14.815              0.000      85.185
+London Cosmopolitan                           10          7.201       0.004         0.008      0.023        0.042         10.000             10.000      80.000
+Manufacturing Traits                          31          7.214       0.016         0.013      0.015        0.113         32.258              0.000      67.742
+Northern Ireland Countryside                   8          7.775      -0.014        -0.015      0.025       -0.049         12.500             50.000      37.500
+Remoter Coastal Living                        18          7.476       0.007         0.004      0.017       -0.001         27.778              5.556      66.667
+Rural-Urban Fringe                            15          7.295       0.011         0.010      0.025        0.075         20.000              6.667      73.333
+Scottish Countryside                          11          7.536       0.013         0.015      0.013        0.119         27.273              0.000      72.727
+Scottish Industrial Heritage                  13          7.241       0.009         0.010      0.013        0.088         15.385              0.000      84.615
+Services, Manufacturing and Mining Legacy     41          7.187       0.016         0.017      0.014        0.192         29.268              0.000      70.732
+Suburban Traits                               20          7.251       0.017         0.016      0.019        0.094         25.000              0.000      75.000
+Thriving Rural                                32          7.424       0.007         0.005      0.018        0.086         15.625              0.000      84.375
+Town Living                                   29          7.329       0.017         0.015      0.018        0.046         27.586              0.000      72.414
+University Towns and Cities                    7          7.201       0.011         0.009      0.019       -0.006         28.571              0.000      71.429
+
+ANXIETY
+--------------------------------------------------
+                                           n_las  mean_baseline  mean_slope  median_slope  std_slope  mean_change  pct_improving  pct_deteriorating  pct_stable
+group                                                                                                                                                          
+Country Living                                37          2.978       0.020         0.022      0.029        0.101          5.405             35.135      59.459
+English and Welsh Countryside                 36          2.961       0.010         0.014      0.024        0.065          8.333             11.111      80.556
+Ethnically Diverse Metropolitan  Living       19          3.357      -0.008        -0.004      0.032       -0.120         26.316              5.263      68.421
+Larger Towns and Cities                       27          3.214       0.025         0.026      0.025        0.203          0.000             37.037      62.963
+London Cosmopolitan                           10          3.484       0.006         0.012      0.037       -0.024         10.000             30.000      60.000
+Manufacturing Traits                          31          3.118       0.006         0.007      0.035        0.194          9.677             16.129      74.194
+Northern Ireland Countryside                   8          2.617       0.026         0.019      0.049        0.089          0.000             50.000      50.000
+Remoter Coastal Living                        18          2.990       0.021         0.016      0.026        0.154          0.000             38.889      61.111
+Rural-Urban Fringe                            15          3.215       0.002         0.000      0.037        0.143          6.667             20.000      73.333
+Scottish Countryside                          11          2.822       0.014         0.009      0.028        0.117          0.000             27.273      72.727
+Scottish Industrial Heritage                  13          3.146       0.007         0.004      0.021        0.057          7.692             15.385      76.923
+Services, Manufacturing and Mining Legacy     41          3.155       0.010         0.007      0.023        0.101          4.878             19.512      75.610
+Suburban Traits                               20          3.134       0.007         0.004      0.033        0.280         10.000             20.000      70.000
+Thriving Rural                                32          3.039       0.018         0.022      0.031        0.112          3.125             31.250      65.625
+Town Living                                   29          3.095       0.004         0.002      0.029        0.151          3.448             13.793      82.759
+University Towns and Cities                    7          3.299       0.017         0.008      0.023        0.034          0.000             28.571      71.429
+

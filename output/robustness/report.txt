@@ -1,0 +1,35 @@
+======================================================================
+ROBUSTNESS CHECKS SUMMARY
+======================================================================
+
+Specifications tested (supergroup level):
+1. WLS+HAC (main) - Weighted with autocorrelation-robust SEs
+2. WLS (no HAC) - Weighted without HAC adjustment
+3. OLS+HAC - Unweighted with autocorrelation-robust SEs
+4. OLS (no clustering) - Plain unweighted OLS
+5. WLS+HAC pre-COVID - Main spec on 2011-2019 data only
+
+----------------------------------------------------------------------
+RESULTS LOCATIONS
+----------------------------------------------------------------------
+
+WLS+HAC (main)                 | output\robustness\main\supergroup\tables\report.txt
+WLS (no HAC)                   | output\robustness\wls\supergroup\tables\report.txt
+OLS+HAC                        | output\robustness\ols_hac\supergroup\tables\report.txt
+OLS (no cluster)               | output\robustness\ols\supergroup\tables\report.txt
+WLS+HAC pre-COVID              | output\robustness\precovid\supergroup\tables\report.txt
+
+----------------------------------------------------------------------
+COMPARISON NOTES
+----------------------------------------------------------------------
+
+Compare reports to assess:
+1. Do trajectory classifications change with/without COVID?
+2. Are patterns robust to weighting and clustering?
+3. Is convergence real or COVID recovery artifact?
+4. Which supergroups most sensitive to specification?
+
+For the paper Appendix:
+- Extract % improving for key supergroups
+- Show pre-COVID validates main findings
+- Note qualitative similarity across specs

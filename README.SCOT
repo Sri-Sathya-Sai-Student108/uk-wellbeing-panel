@@ -1,0 +1,383 @@
+# Scotland Panel — Methodology Notes
+
+This note documents the decisions and diagnostics behind the Scotland
+extension to the LA-level retail/social care panel, kept separate from
+the main README so the England pipeline's documentation stays untouched.
+Companion to the existing RETAIL_METHODOLOGY_NOTE.md pattern used
+elsewhere in this project.
+
+**Status as of this note:** specification settled and validated
+(29-council sample, unweighted, F=26.63). `scotland_panel.py` built and
+run successfully. Main IV results obtained (Section 7). Sub-sector
+"reasons" descriptive finding added (Section 8).
+
+---
+
+## 1. Vacancy data source
+
+**Chosen source:** "Staff vacancies in care services" — annual joint
+report, Care Inspectorate and Scottish Social Services Council (SSSC).
+Matches what `panel_data.py`'s docstring already anticipated.
+
+**Explicitly NOT used:** the SSSC "Social worker filled posts and
+vacancies six-monthly survey" — a different, narrower series covering
+only local-authority-employed social workers, with incomplete coverage
+each wave (23–31 of 32 councils respond, varies by round). Easy to
+confuse with the correct source; do not substitute one for the other.
+
+**Scope limitation (documented, not fixed):** the chosen report covers
+**all social services** — children, young people, adults, and older
+people combined (only childminders excluded). England's Skills for Care
+data, by contrast, is **adult social care only**. This is a genuine,
+unavoidable scope mismatch, not a methodological choice — the LA-level
+tables in the SSSC report have no age-group breakdown at all (age-group
+splits — e.g. "Care homes: Adults" vs "Care homes: Older people" — only
+exist at *national* level; the LA-level cross-tabs split only by
+ownership sector (Private/Public/Voluntary), never by age group). It is
+structurally impossible to get an adult-only LA-level series from this
+source. Decision: accept the all-ages scope for Scotland, document the
+mismatch plainly wherever Scotland is compared to England in the paper.
+Consequence: the "aging population" framing (`pop_65plus` as a demand
+driver) is weaker for Scotland's outcome variable specifically, though
+`pop_65plus` remains a legitimate control/regressor regardless.
+
+**Usable table:** Table 1j ("Percentage of whole time equivalent (WTE)
+vacancies as a proportion of the total WTE workforce by local authority
+area") — gives `vacancy_rate` directly, LA name (not code), by year.
+
+**No raw count equivalent available.** Table 1e gives "number of
+services reporting a vacancy" (an establishment headcount), not a count
+of vacant posts. There is no LA-level WTE vacancy *count* analogous to
+England's `vacant_posts` in this report. Deriving one would require
+sourcing total WTE workforce by LA separately (the SSSC's annual
+Workforce Data Report, a different publication) and back-calculating
+`vacancy_rate × total_workforce` — not yet done, decision pending.
+
+**Year coverage — better than first assumed.** Initially thought limited
+to 2021–2023 (one report vintage). Turns out the 2022-vintage report is
+published as a PDF with its LA-level tables embedded directly in the
+text (no separate spreadsheet before the 2023 vintage — confirmed only
+2023 and 2024 reports have a "supporting tables" companion file; 2022
+and earlier are PDF-only). Extracting Table 1j directly from the 2022
+PDF's text gives 2020/2021/2022 without needing any further sourcing.
+
+Combining all three available sources (2022 PDF, 2023 supporting
+tables, 2024 supporting tables) gives **2020–2024, five years**, with
+every overlapping year cross-checked byte-for-byte across vintages:
+
+| Year | Source(s) | Cross-checked across vintages? |
+|---|---|---|
+| 2020 | 2022 PDF only | No (no other vintage covers it) |
+| 2021 | 2022 PDF + 2023 file | Yes — exact match |
+| 2022 | 2022 PDF + 2023 file + 2024 file | Yes — exact match across all three |
+| 2023 | 2023 file + 2024 file | Yes — exact match |
+| 2024 | 2024 file only | No (no other vintage covers it yet) |
+
+No revisions detected between vintages for any spot-checked LA/year —
+SSSC's published figures appear stable once released, so the "prefer
+the most recent vintage" rule barely matters in practice, but is still
+followed for principled consistency.
+
+**Decision: use 2020–2023 (4 years) for this analysis**, per the
+2016–2023 window decision — matches the pattern below more precisely
+than the originally-assumed 3-year window. **2024 is available and
+held in reserve for the separate extension thread**, not used here.
+
+**Reaching further back (2016–2019)** would require sourcing the
+2019/2020/2021-vintage report PDFs and manually extracting their
+Table 1j the same way as done for 2022 (each is PDF-only, same rolling
+3-year-window pattern). Confirmed feasible, not pursued now — explicitly
+deferred, "they are there but not really needed for this set of
+analyses."
+
+**No sector split.** Per explicit decision: use the aggregate,
+whole-sector `vacancy_rate` per LA per year. Do not attempt the kind of
+service-type/job-role disaggregation Skills for Care allowed for
+England.
+
+---
+
+## 2. Retail chain classification
+
+**Co-op already handled correctly** in `retail_panel.py`'s
+`INCUMBENTS_SCOTLAND` set — all major regional Co-op societies (The
+Co-operative Group, Scottish Midland Co-operative, The Southern
+Co-operative, Central England Co-operative, Midcounties Co-operative,
+East of England Co-operative, Lincolnshire Co-operative) are counted as
+incumbents, with the documented rationale that Co-op has ~31.8% of
+Scottish major retail footprint vs. ~22% in England. Waitrose is
+correctly excluded for Scotland (only 6 stores — negligible) and
+included for England. This was already built and documented before this
+session; raised as a concern, checked, confirmed correct, no code
+change needed.
+
+---
+
+## 3. Bartik instrument — Scotland-only construction
+
+**Leave-one-out pool: Scotland-only (Option A), not pooled with
+England.** Decided explicitly to avoid touching England's already-
+validated instrument and results. `construct_bartik()` from
+`bartik_check.py` is fully generic (only needs `la_code`/`year`/
+`tot`/`tot_new`/`tot_old`) and requires no modification — feeding it a
+Scotland-only dataframe automatically produces a Scotland-only
+leave-one-out pool.
+
+**No geographic density control in the first stage — deliberate,
+not an oversight.** Considered whether retail chains growing in
+geographic clusters (agglomeration effects) warranted a density control.
+Rejected: density risks being a "bad control" — itself partly a
+*consequence* of the expansion process being instrumented, rather than a
+predetermined characteristic. Controlling for it would mean controlling
+for part of the treatment itself, biasing the estimate. Left out of the
+causal specification entirely; could only ever be examined as a
+separate descriptive diagnostic, never folded into the main design.
+
+**Finding: Scotland's 2016 baseline discount-share distribution is
+structurally narrower than England's.**
+
+| | England | Scotland (32 councils) |
+|---|---|---|
+| Mean | 0.161 | 0.128 |
+| Median | 0.168 | 0.136 |
+| Min | 0.000 | 0.000 |
+| Max | 0.370 | 0.207 |
+
+This is a real, structural difference in retail composition across
+Scottish vs. English councils — not a sample-size artefact.
+
+**First-stage diagnostic (`check_scotland_bartik.py`), 2020–2023:**
+
+| Sample | F-statistic | Verdict |
+|---|---|---|
+| All 32 councils | 7.52 | WEAK (<10) |
+| 29 councils (3 islands excluded) | **26.63** | STRONG (>16.38 Stock-Yogo) |
+| England, 148 LAs (reference) | 30.84 | STRONG |
+
+**Island exclusion — decided on structural grounds, before seeing this
+result.** Orkney Islands, Shetland Islands, and Na h-Eileanan Siar
+(Western Isles) excluded on the same *kind* of justification as
+England's City of London/Isles of Scilly exclusion: remote archipelago
+geography, populations in the low 20-thousands — decided on what these
+councils *are*, independent of how they performed in the growth data.
+Excluding on the basis of observed weak growth instead would be
+selecting on the outcome and would invalidate the exercise; this is
+explicitly not that. The criterion was fixed before running the
+diagnostic that confirmed its effect.
+
+**Mechanism confirmed:** two of the three excluded islands had *exactly
+zero* discount-chain (Aldi/Lidl) presence in the 2016 baseline —
+Na h-Eileanan Siar (7 total stores, 0 discount) and Shetland Islands (3
+total stores, 0 discount). A zero baseline share is not just an outlier;
+the Bartik instrument cannot be meaningfully computed as a proportion
+for a unit with no discount presence at all in the baseline year. Orkney
+was not among the lowest-share councils (some discount presence
+existed) but was excluded on the same structural (remote island) basis
+as the other two, for consistency.
+
+**Specification, as settled:**
+- 29 councils (islands excluded from both instrument construction and
+  regression sample)
+- Unweighted (OLS/2SLS with cluster-robust SEs, same as England)
+- 2016 baseline shares + Scotland-only leave-one-out growth
+- No region/density controls beyond population (`pop_total`,
+  `pop_65plus`)
+
+---
+
+## 4. Population weighting — considered and explicitly rejected
+
+Raised as an alternative to island exclusion (down-weight small councils
+rather than drop them). Not pursued, for three reasons:
+
+1. **Different target quantity, not a fix.** Weighting by population
+   shifts the estimate toward the effect experienced by the average
+   *person* (Glasgow/Edinburgh-dominated) rather than the average
+   *council* — a substantive change in what's being estimated, not a
+   technical patch for weak identification.
+2. **Uncertain direction of effect.** Whether weighting would even
+   improve the F-stat depends on which councils anchor the low end of
+   the baseline-share distribution; untested and not assumed.
+3. **Unresolved technical complexity, never checked against a proper
+   reference.** Combining population weights with cluster-robust
+   standard errors requires adjusting the sandwich estimator's score
+   contributions — not a simple bolt-on, and doing it from memory
+   without checking a source (e.g. Cameron & Miller's clustering guide,
+   or how `reghdfe`/`ivreg2` implement `aweight`+`cluster()` together)
+   risks confidently-wrong SEs. Also raised: no clear way to interpret a
+   second stage mixing a *rate* outcome (vacancy_rate) against a *count*
+   outcome (benefit claimants) consistently under population weights.
+
+Since island exclusion alone resolved the instrument-strength problem
+(F=7.52 → 26.63) without any of this complexity, and keeps Scotland
+methodologically identical to England's unweighted approach throughout,
+weighting was dropped as unnecessary. If revisited later, do the
+literature check first — do not improvise weighted-clustered SE code.
+
+---
+
+## 5. Window — deliberately held at 2016–2023
+
+Explicit decision: publish the current England (2016–2023) analysis
+first, since it underpins a PhD student's work that has already been
+picked up by policymakers. Extending the window (England's 2024/25
+Skills for Care refresh — confirmed to already exist, per the
+"State of the adult social care sector... 2025" report showing full
+2024/25 figures — plus Geolytix v47+, plus any further Scotland SSSC
+report years) is real, current, and worth doing, but explicitly
+**deferred to a separate thread**, kept apart from this validation/
+publication effort so scope creep doesn't destabilize what's about to
+be submitted.
+
+---
+
+## 6. Main IV results (`check_scotland_iv.py`), 2020-2023
+
+29 councils, islands excluded, same `run_iv()` machinery as England.
+
+| Outcome | Scotland | England (benchmark) |
+|---|---|---|
+| Vacancy rate | β=0.085, p=0.422 | β=0.131, p=0.257 (both null) |
+| Benefit rate (Dec) | β=−0.052, p=0.846 | β=−1.057, p=0.001 |
+| Benefit rate (annual) | β=0.086, p=0.648 | β=+0.632, p<0.001 |
+
+First-stage F=26.63 (2020-2023 window specifically), same solid
+instrument as the earlier diagnostic -- these are trustworthy nulls,
+not artefacts of a broken first stage (unlike several of the weak/
+degenerate results seen during today's regional-level England work).
+
+**Interpretation:**
+- **Vacancies replicate across both nations** -- retail expansion
+  doesn't appear to hurt social care staffing capacity in either
+  country. Genuine cross-national agreement, not just two separate
+  nulls.
+- **Benefits do NOT replicate.** England's benefit-claims effect is
+  large and significant in both specifications; Scotland's point
+  estimates are close to zero (not just imprecise -- the coefficient
+  itself is ~20x smaller, e.g. -0.052 vs -1.057 for December), which
+  looks like a genuine divergence rather than an underpowered version
+  of England's finding.
+- **Candidate explanation, tentative:** Scotland's retail incumbent
+  base is dominated by regional Co-op societies (~31.8% of major
+  retail footprint vs ~22% in England -- see Section 2) rather than a
+  few large national chains. A structurally different competitive
+  landscape could plausibly mean Scottish retail expansion doesn't
+  displace workers into new roles the same way England's does. This
+  is a hypothesis for the discussion section, not a proven mechanism.
+
+---
+
+## 7. Sub-sector descriptive evidence: "reasons vacancies are hard to
+fill" by service type
+
+Verified directly against the structured `Tables3e-3j` sheet (not the
+garbled PDF-extracted text) in both the 2023 and 2024 supporting-tables
+files. Table 3e gives "Competition from other types of work" -- the
+category directly capturing loss of candidates to alternative
+employment (e.g. retail) -- broken down by Care Inspectorate service
+type, 2021-2023.
+
+| Service type | Competition from other work (2023/2022/2021) | vs. national average |
+|---|---|---|
+| National average | 31% / 28% / 23% | -- |
+| Care at home | 51% / 50% / 48% | Much higher |
+| Housing support | 52% / 52% / 45% | Much higher |
+| Care homes: Adults | 46% / 44% / 36% | Higher |
+| Care homes: Older people | 39% / 36% / 31% | Higher |
+| Nurse agency (skilled/higher-wage) | 21% / 26% / 19% | Below/near average |
+| Fostering (professionally qualified) | 13% / 13% / 13% | Much lower |
+| Daycare of children | 17% / 16% / 15% | Lower |
+
+**Reading:** the lowest-paid, least-qualified roles -- care at home and
+housing support specifically, arguably the closest in pay/skill level
+to retail work -- report losing candidates to "other types of work" at
+roughly double the sector average, rising each year. More skilled/
+professional roles (nursing, fostering) show the opposite pattern. A
+plausible, concrete sub-sector mechanism consistent with a retail-
+competition story sitting underneath the aggregate null vacancy_rate
+result in Section 7.
+
+**Limitation -- worth being explicit about, unprompted:** this table is
+**national-level by service type only**. Confirmed no LA-level cross-
+tab exists for this breakdown, same structural gap as the vacancy_rate
+tables (Section 1) -- SSSC's LA-level tables only cross with ownership
+*sector* (private/public/voluntary), never with service *type* (age
+group/role). So this cannot feed into the quantitative regression (no
+way to build an LA-level "share of low-wage roles" variable from it) --
+it stands as **descriptive/qualitative evidence for the discussion
+section only**, not something the IV design can test directly. That
+this table genuinely can't be crossed with geography is a real
+constraint of the published data, not a choice.
+
+---
+
+## 8. Open items / next steps
+
+- [x] ~~Build `scotland_panel.py`~~ -- done, tested (256 rows, 32
+      councils x 8 years, vacancy_rate correctly restricted to 128 rows
+      = 2020-2023)
+- [x] ~~Name-match SSSC's LA names against S12000 codes~~ -- done, 6
+      explicit mappings (Aberdeen/Dundee/Edinburgh/Glasgow/Orkney/
+      Shetland), remaining 26 match exactly, verified consistent
+- [x] ~~Locate the 2024-vintage SSSC "supporting tables" file~~ --
+      found and confirmed
+- [x] ~~Run main IV outcomes~~ -- done, see Section 6
+- [ ] Decide whether to source total WTE workforce by LA (separate SSSC
+      publication) to derive a `vacant_posts`-equivalent count, or
+      proceed with `vacancy_rate` only (not pursued -- vacancy_rate
+      alone was sufficient to get a clean result)
+- [ ] 2019/2020/2021-vintage report PDFs, for extending back to 2016 --
+      confirmed they exist and the extraction approach works (proven on
+      the 2022 PDF), explicitly deferred as not needed for this set of
+      analyses
+- [ ] Write up the Section 6/7 findings for the paper: vacancy null
+      replicates across nations; benefit-claims effect does NOT
+      replicate in Scotland (genuine divergence, not underpowered);
+      Co-op market-structure hypothesis as tentative explanation;
+      sub-sector "competition from other work" pattern as supporting
+      discussion-section evidence (not a regression result)
+
+---
+
+## 9. Closing reflection: identification vs. data granularity
+
+Worth recording as the takeaway from this whole session, separate from
+any specific result, because it's a paper-worthy point in its own
+right, not just a project note.
+
+Section 3 (LA level) has a strong, valid instrument (F=30.84, well
+above Stock-Yogo). That's real internal validity -- the estimated
+effect of retail expansion on care outcomes and benefit claims for
+that specification is credible. But the moment the question shifts
+from "what is the effect" to "does the effect depend on overseas
+recruitment access" -- a *mechanism* question -- the only data that
+exists to test it (PAYE nationality breakdown) is published at just 9
+English regions. No amount of instrument validity at LA level carries
+over to that question, because the mechanism variable itself doesn't
+exist at LA level. Tried multiple reasonable specifications at
+regional level today (binary split, continuous interaction, fixed
+2016 baseline, contemporaneous) -- every one returns an honest null or
+an unidentifiable estimate, not because the design is wrong, but
+because 9 regions cannot support the level of precision the underlying
+policy question actually requires.
+
+**The general point, worth a paper section:** having a valid instrument
+answers "is this LATE credible," not "can I answer any question I'd
+like to ask of this treatment." The two are routinely conflated in
+applied policy debate -- a well-identified headline effect gets treated
+as license to speculate about mechanism, heterogeneity, or policy
+interaction, when the data that would actually test those secondary
+questions may not exist at a usable resolution, however good the
+primary instrument is. This isn't a flaw in this analysis specifically;
+it's a structural feature of most publicly available administrative
+data, and arguably a quiet contributor to why policy debates about
+mechanism (e.g. "does immigration policy offset labour market
+disruption from X") often talk past each other -- the aggregate data
+that would settle it doesn't exist at the level the argument is being
+had.
+
+**Follow-on work:** a second PhD project (using RAPID data) is planned
+to pursue the granular version of this question that the current data
+structurally cannot answer. This session's regional-level null results
+are the direct motivation for why that more granular approach is
+needed, not a competing or redundant effort.
